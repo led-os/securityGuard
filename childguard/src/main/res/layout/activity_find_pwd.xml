@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/title_bar"
+        layout="@layout/title_bar_back"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/account"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/reg_et_bg"
+            android:hint="@string/input_account_to_find_pwd"
+            android:imeOptions="actionNext"
+            android:inputType="phone"
+            android:padding="6dp"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textColorHint="@color/grey"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/verification_code"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/reg_et_bg"
+                android:hint="@string/input_sms_verification_code"
+                android:imeOptions="actionNext"
+                android:inputType="number"
+                android:padding="6dp"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textColorHint="@color/grey"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/get_vercode"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/selector_green_btn"
+                android:padding="8dp"
+                android:text="@string/get_verification_code"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/new_pwd"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/reg_et_bg"
+            android:hint="@string/input_new_pwd"
+            android:imeOptions="actionNext"
+            android:padding="6dp"
+            android:password="true"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textColorHint="@color/grey"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/re_pwd"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/reg_et_bg"
+            android:hint="@string/input_re_pwd"
+            android:imeOptions="actionDone"
+            android:padding="6dp"
+            android:password="true"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textColorHint="@color/grey"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/selector_green_btn"
+            android:padding="10dp"
+            android:text="@string/done"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>

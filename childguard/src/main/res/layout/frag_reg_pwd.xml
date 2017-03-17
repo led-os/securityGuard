@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/pwd"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/reg_et_bg"
+            android:hint="@string/input_pwd"
+            android:imeOptions="actionNext"
+            android:inputType="textPassword"
+            android:maxLength="11"
+            android:padding="8dp"
+            android:singleLine="true"
+            android:textColorHint="@color/grey"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/re_pwd"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/reg_et_bg"
+            android:hint="@string/input_re_pwd"
+            android:imeOptions="actionDone"
+            android:inputType="textPassword"
+            android:padding="8dp"
+            android:singleLine="true"
+            android:textColorHint="@color/grey"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/done"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/selector_green_btn"
+            android:padding="12dp"
+            android:text="@string/done"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/backword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="5dp"
+            android:text="@string/backword"
+            android:textColor="@color/selector_txt_white_green" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jivesoftware.smack412.test" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="11" />
+
+    <instrumentation
+        android:name="android.test.InstrumentationTestRunner"
+        android:functionalTest="false"
+        android:handleProfiling="false"
+        android:label="Tests for com.jivesoftware.smack412.test"
+        android:targetPackage="com.jivesoftware.smack412.test" />
+
+    <application android:allowBackup="true" >
+        <uses-library android:name="android.test.runner" />
+    </application>
+
+</manifest>

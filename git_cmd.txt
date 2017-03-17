@@ -1,0 +1,23 @@
+git�ͻ������أ�https://git-scm.com/downloads/
+
+Զ�ֿ̲��ַ��
+��׿��   https://git.oschina.net/devillived/telephone-android.git
+IOS��    https://git.oschina.net/devillived/telephone-ios.git
+
+��git_bash����C:\Program Files (x86)\GitĿ¼�£������ô��������
+
+��Ҫ�ϴ���code�ŵ�һ��Ŀ¼�£���׿�������Ƿ���󣬽�����ѹ���ŵ�һ��git����Ŀ¼����ϴ�һ��ѹ���ļ�����С�������ޣ��޸�Ϊ����Ŀ¼�ϴ���C:\Users\MacBook\StudioProjects\v_telephone��
+
+�ڴ�Ŀ¼��ִ���������
+
+git init
+
+git remote add origin https://git.oschina.net/devillived/telephone-android.git   ----�˴�ios��Ҫʹ���Լ��ĵ�ַ��
+
+git status      --------��ʱ���г���Щ�ļ��Ķ��ˣ���ɫ��ǣ�����Ҫ�ϴ����ļ�������ͨ��add���룻
+
+git add    ------git add . ���� git add --all  ���������ļ���
+
+git commit -m "change reason"        ------------ �����ڲ�˵���˴θĶ���ԭ��
+
+git push -f -u origin master       -----------�ύ���룬�ᵯ����ʾ���������û��������루�û���  343315623@qq.com  ���룺343315623���ȴ��ϴ���ϣ�

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/if_phone_already_registered"
+            android:textColor="@color/grey"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/to_login"
+            android:textColor="@color/selector_txt_green_white"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:text="@string/or"
+            android:textColor="@color/grey"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/find_pwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/find_pwd"
+            android:textColor="@color/selector_txt_green_white"
+            android:textSize="12sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/after_sign_up"
+            android:textColor="@color/grey"
+            android:layout_marginRight="5dp"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/the_same_user"
+            android:textColor="@color/selector_txt_green_white"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="@string/login"
+            android:textColor="@color/grey"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/account"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/reg_et_bg"
+            android:hint="@string/input_account"
+            android:inputType="phone"
+            android:maxLength="11"
+            android:padding="8dp"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textColorHint="@color/grey"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/vercode"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/reg_et_bg"
+                android:hint="@string/input_vercode"
+                android:padding="8dp"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textColorHint="@color/grey"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/get_vercode"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/selector_green_btn"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:text="@string/get_verification_code"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/disclaimer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:text="@string/reg_agree_disclaimer"
+            android:textColor="@color/selector_txt_green_white"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/selector_green_btn"
+            android:padding="12dp"
+            android:text="@string/next_step"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>

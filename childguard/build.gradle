@@ -1,0 +1,121 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "23.0.2"
+
+    productFlavors {
+        official {
+            manifestPlaceholders = [CHANNEL_NAME: "OFFICIAL"]
+        }
+        google {
+            manifestPlaceholders = [CHANNEL_NAME: "GOOGLE"]
+        }
+        samsung {
+            manifestPlaceholders = [CHANNEL_NAME: "SAMSUNG"]
+        }
+        yingyongbao {
+            manifestPlaceholders = [CHANNEL_NAME: "YINGYONGBAO"]
+        }
+        baidu {
+            manifestPlaceholders = [CHANNEL_NAME: "BAIDU"]
+        }
+        qihu360 {
+            manifestPlaceholders = [CHANNEL_NAME: "QIHU360"]
+        }
+        xiaomi {
+            manifestPlaceholders = [CHANNEL_NAME: "XIAOMI"]
+        }
+        ali {
+            manifestPlaceholders = [CHANNEL_NAME: "ALI"]
+        }
+        huawei {
+            manifestPlaceholders = [CHANNEL_NAME: "HUAWEI"]
+        }
+        lenovo {
+            manifestPlaceholders = [CHANNEL_NAME: "LENOVO"]
+        }
+        leshi {
+            manifestPlaceholders = [CHANNEL_NAME: "LESHI"]
+        }
+
+        anzhi {
+            manifestPlaceholders = [CHANNEL_NAME: "ANZHI"]
+        }
+        oppo {
+            manifestPlaceholders = [CHANNEL_NAME: "OPPO"]
+        }
+        meizu {
+            manifestPlaceholders = [CHANNEL_NAME: "MEIZU"]
+        }
+        mumayi {
+            manifestPlaceholders = [CHANNEL_NAME: "MUMAYI"]
+        }
+        nduo {
+            manifestPlaceholders = [CHANNEL_NAME: "NDUO"]
+        }
+        jifeng {
+            manifestPlaceholders = [CHANNEL_NAME: "JIFENG"]
+        }
+    }
+
+    android.applicationVariants.all { variant ->
+        variant.outputs.each { output ->
+            def file = output.outputFile
+            output.outputFile = new File(file.parent, file.name.replace("childguard-ali-debug.apk", "childguard-debug.apk"))
+        }
+    }
+
+    packagingOptions {
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
+
+    defaultConfig {
+        applicationId "com.vidmt.child"
+        minSdkVersion 11
+        targetSdkVersion 22
+        //targetSdkVersion 14
+        manifestPlaceholders = [CHANNEL_NAME: "OFFICIAL"]
+        compileOptions {
+            sourceCompatibility JavaVersion.VERSION_1_7
+            targetCompatibility JavaVersion.VERSION_1_7
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+            debuggable false
+            jniDebuggable false
+            renderscriptDebuggable false
+        }
+    }
+}
+
+dependencies {
+    compile project(':umeng')
+    compile project(':xmpp_lib_new')
+    //豌豆荚
+    compile project(':wdj_sdk')
+    compile project(':xUtils')
+    compile files('libs/alipaySdk-20151112.jar')
+    //compile files('libs/baidumapapi_v3_5_0.jar')
+    compile files('libs/fastjson-1.1.32.jar')
+    //微信支付
+    compile files('libs/libammsdk.jar')
+    // compile files('libs/locSDK_6.03.jar')
+    //个推推送
+    compile files('libs/GetuiSDK2.8.1.0.jar')
+    compile files('libs/GetuiExt-2.0.3.jar')
+    compile project(':sMSSDK2001')
+    compile files('libs/BaiduLBS_Android.jar')
+}

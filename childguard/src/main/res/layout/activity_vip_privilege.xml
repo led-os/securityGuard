@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_grey"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/title_bar"
+        layout="@layout/title_bar_back"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+
+    <LinearLayout
+        android:id="@+id/vip_type_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_below="@id/title_bar"
+        android:background="@color/semi_theme_green"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/vip_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="----"
+            android:textColor="@color/dark_green"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/gv"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/vip_type_layout"
+        android:layout_marginBottom="50dp"
+        android:horizontalSpacing="1dp"
+        android:listSelector="@drawable/selector_white_green"
+        android:numColumns="2"
+        android:verticalSpacing="1dp" >
+    </GridView>
+
+    <Button
+        android:id="@+id/be_vip"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/selector_green_btn"
+        android:text="@string/be_vip"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+</RelativeLayout>

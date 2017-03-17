@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <include
+        android:id="@+id/title_bar"
+        layout="@layout/title_bar_back_right"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+
+    <LinearLayout
+        android:id="@+id/bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/dark_grey" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="52dp"
+            android:background="@drawable/shape_bottom_bar_bg"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/voice_btn"
+                android:layout_width="27dp"
+                android:layout_height="28dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="4dp"
+                android:background="@drawable/selector_record_voice" />
+
+            <TableRow
+                android:id="@+id/normal_mode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:visibility="visible" >
+
+                <Button
+                    android:id="@+id/face_btn"
+                    android:layout_width="27dp"
+                    android:layout_height="28dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/selector_show_face" />
+
+                <EditText
+                    android:id="@+id/content"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_chat_et_bg"
+                    android:hint="@string/please_input_content"
+                    android:padding="5dp"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/send_btn"
+                    android:layout_width="40dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:background="@drawable/selector_send_btn"
+                    android:text="@string/send"
+                    android:textColor="@color/darker_grey"
+                    android:textSize="14sp"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/plus_btn"
+                    android:layout_width="29dp"
+                    android:layout_height="29dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="9dp"
+                    android:background="@drawable/selector_plus"
+                    android:padding="1dp" />
+            </TableRow>
+
+            <Button
+                android:id="@+id/record_btn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/shape_chat_record_bg"
+                android:text="@string/press_and_say"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <include
+            android:id="@+id/more_widgets"
+            layout="@layout/chat_plus_widgets"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/face_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/face_pager"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:id="@+id/face_points"
+                android:layout_width="fill_parent"
+                android:layout_height="10dp"
+                android:layout_margin="5dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.vidmt.child.ui.views.DropDownToRefreshListView
+        android:id="@+id/chat_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/bottom"
+        android:layout_below="@id/title_bar"
+        android:divider="@null"
+        android:fadeScrollbars="true"
+        android:listSelector="@null"
+        android:paddingBottom="8dp"
+        android:scrollingCache="true"
+        android:stackFromBottom="true"
+        android:transcriptMode="normal" />
+
+</RelativeLayout>

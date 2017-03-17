@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="red">#ff0000</color>
+    <color name="semi_white">#eeffffff</color>
+    <color name="trans_white">#88ffffff</color>
+    <color name="green">#00ff00</color>
+    <color name="light_green">#06f1d1</color>
+    <color name="blue">#0000ff</color>
+    <color name="light_yellow">#ffefcf</color>
+    <color name="semi_light_black">#88000000</color>
+    <color name="semi_dark_black">#D6000000</color>
+    <color name="light_grey">#f8f8f8</color>
+    <color name="grey_bg">#f0f0f0</color>
+    <color name="grey">#dcdcdc</color>
+    <color name="dark_grey">#c8c7c7</color>
+    <color name="darker_grey">#bbbbbb</color>
+    <color name="black_grey">#4F5050</color>
+    <color name="pink">#fa7eb2</color>
+    <color name="purple">#6b059a</color>
+    <color name="theme_green">#05d9bc</color>
+    <color name="semi_theme_green">#6605d9bc</color>
+    <color name="dark_green">#00c1a7</color>
+    <color name="light_red">#fd7765</color>
+    
+    <color name="efence_item_color_1_stroke">#f586a8</color>
+    <color name="efence_item_color_1_solid">#f8aac2</color>
+    <color name="efence_item_color_2_stroke">#7fd48f</color>
+    <color name="efence_item_color_2_solid">#a5e1b0</color>
+    <color name="efence_item_color_3_stroke">#7fd1d4</color>
+    <color name="efence_item_color_3_solid">#8bc5c7</color>
+</resources>

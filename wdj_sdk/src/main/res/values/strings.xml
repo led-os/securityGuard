@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="install">Install</string>
+    <string name="cancel">Cancel</string>
+    <string name="installed">Installed</string>
+    <string name="downloading">Downloading</string>
+    <string name="download_failed">Download failed</string>
+    <string name="download_failed_toast">Download failed, please retry later.</string>
+    <string name="install_format">%s install</string>
+
+    <string name="notification_waiting_for_download">Wait for download</string>
+    <string name="notification_touch_to_retry">Download failed. Click to retry.</string>
+
+    <string name="start_download">Start downloading</string>
+    <string name="wait_wifi">Will start download after wlan connected</string>
+
+    <string name="app_wall_action_bar_title">Apps!</string>
+</resources>

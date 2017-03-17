@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/head"
+    android:layout_width="70dp"
+    android:layout_height="92dp"
+    android:background="@drawable/pin_bg"
+    android:paddingBottom="26dp"
+    android:paddingLeft="7dp"
+    android:paddingRight="7dp"
+    android:paddingTop="8dp"
+    android:scaleType="fitCenter"
+    android:src="@drawable/def_child" />

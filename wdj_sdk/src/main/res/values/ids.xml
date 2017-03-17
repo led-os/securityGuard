@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="wdj_ad_icon" type="id"/>
+    <item name="wdj_ad_title" type="id"/>
+    <item name="wdj_ad_sub_title" type="id"/>
+    <item name="wdj_ad_description" type="id"/>
+    <item name="wdj_ad_install" type="id"/>
+    <item name="wdj_ad_close" type="id"/>
+    <item name="wdj_ad_cancel" type="id"/>
+
+    <item name="wdj_ad_size" type="id"/>
+    <item name="wdj_ad_install_count" type="id"/>
+
+    <item name="wdj_ad_editor_comment" type="id"/>
+    <item name="wdj_ad_editor_comment_container" type="id"/>
+
+    <item name="wdj_ad_screen_shot_container" type="id"/>
+
+    <item name="wdj_ad_interstitial_banner" type="id"/>
+    <item name="wdj_ad_interstitial_banner_img" type="id"/>
+    <item name="wdj_ad_interstitial_non_banner" type="id"/>
+
+    <item name="wdj_ad_notification_root" type="id"/>
+    <item name="wdj_ad_notification_progress_bar" type="id"/>
+</resources>

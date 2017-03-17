@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">儿童定位</string>
+    <string name="app_name_en">childguard</string>
+
+    <!-- App -->
+    <string name="warn">警告</string>
+    <string name="unauthorized_app_notify">您安装的"儿童定位"软件是盗版的，请下载正式版！</string>
+    <string name="net_go_wrong_please_check">网络出问题了，检查一下吧~_~</string>
+    <string name="seconds_later_reconnect">秒后开始重连</string>
+    <string name="reconnecting">正在重连...</string>
+    <string name="reconnect_fail_and_reconnecting">尝试重连...</string>
+    <string name="reconnect_success">重连成功！</string>
+    <string name="same_account_logined">同一账号已在另一地方登录，自动下线！</string>
+
+    <!-- SplashActivity -->
+    <string name="open">打开</string>
+    <string name="will_open_network">网络连接不可用，是否打开网络连接？</string>
+
+    <!-- Login/RegisterActivity -->
+    <string name="input_account">请输入手机号</string>
+    <string name="input_pwd">请输入密码</string>
+    <string name="input_re_pwd">请再次输入密码</string>
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="no_account">还没账号?</string>
+    <string name="to_register">手机号快速注册 ></string>
+    <string name="phone_format_err">请输入正确的手机号</string>
+    <string name="account_format_error">账号格式不正确</string>
+    <string name="pwd_len_err">密码长度最少6位</string>
+    <string name="second_pwd_not_equal">两次输入密码不一致</string>
+    <string name="pwd_format_err">密码中有特殊字符</string>
+    <string name="congratulation_reg_success">恭喜，注册成功~</string>
+    <string name="reg_dlg_content1">&#160;&#160;&#160;&#160;宝宝账号是：</string>
+    <string name="reg_dlg_content2">&#160;&#160;&#160;&#160;密码和您的一样,请发送软件下载地址到宝宝端,并帮他安装登录。</string>
+    <string name="confirm">确定</string>
+    <string name="do_later">以后再说</string>
+    <string name="loading">加载中...</string>
+    <string name="share_apk_url">家长卫士-软件下载地址：</string>
+    <string name="account_error">用户名或密码错误</string>
+    <string name="net_error">网络错误</string>
+    <string name="error_unknown">未知错误</string>
+    <string name="remote_server_error">远程服务器异常</string>
+    <string name="timeout">连接超时</string>
+    <string name="account_exist">此账号已经注册</string>
+    <string name="next_step">下一步</string>
+    <string name="nation_and_area">国家和地区</string>
+    <string name="choose_country_area_code">选择国家和地区代码</string>
+    <string name="china">中国</string>
+    <string name="login_parent">父母端</string>
+    <string name="login_baby">儿童端</string>
+
+    <!-- MainActivity -->
+    <string name="child_fence">宝宝围栏</string>
+    <string name="chat_parent">和父母聊天</string>
+    <string name="setting">设置</string>
+    <string name="long_press_set_avatar">点击设置头像</string>
+    <string name="set_efence">设置宝贝围栏</string>
+    <string name="input_efence_name">请输入宝贝围栏名称:</string>
+    <string name="input_efence_name_notify">请输入宝贝围栏名称</string>
+    <string name="efence_radius_set">设置半径:</string>
+    <string name="efence_name_samples">家 学校 公园 等...</string>
+    <string name="efence_center_set">设置中心点</string>
+    <string name="cancel">取消</string>
+    <string name="_km">%s km</string>
+    <string name="one_km">1千米</string>
+    <string name="two_km">2千米</string>
+    <string name="three_km">3千米</string>
+    <string name="four_km">4千米</string>
+    <string name="five_km">5千米</string>
+    <string name="no_efence_name">您还没有输入宝宝围栏名称!</string>
+    <string name="exit_toast">再按一次返回键关闭程序</string>
+    <string name="locating">定位中...</string>
+    <string name="location_notice">打开定位权限获取当前位置？</string>
+    <string name="no_get_baby_location">未获取到宝贝位置</string>
+    <string name="baby_beyond_efence">宝贝离开了围栏</string>
+    <string name="baby_enter_efence">宝贝进入围栏</string>
+    <string name="exit">退出</string>
+    <string name="exit_but_receive_msg">退出后仍接收消息吗？</string>
+    <string name="not_login">未登录！</string>
+    <string name="baby_not_login">宝贝未登录！</string>
+    <string name="baidu_app_not_support">您尚未安装百度地图app或app版本过低，点击确认安装？</string>
+    <string name="trace">足迹</string>
+    <string name="no_trace_data">还没有足迹数据！</string>
+    <string name="fence_already_exists_please_rename">此围栏已存在，请重新命名！</string>
+
+    <!-- EfenceActivity -->
+    <string name="add_efence">添加围栏</string>
+    <string name="delete_efence">删除围栏</string>
+    <string name="no_permission_for_more_fence">您没有权限创建围栏，要想创建围栏，请到会员中心充值！</string>
+    <string name="fence_num_limited">您创建的围栏已达上限！</string>
+
+    <!-- ChattingActivity -->
+    <string name="chat_child">和宝贝聊天</string>
+    <string name="image">图片</string>
+    <string name="short_video">小视频</string>
+    <string name="take_pic">拍照</string>
+    <string name="choose_from_album">从相册中选择</string>
+    <string name="warm_prompt">温馨提示</string>
+    <string name="will_cancel_voice">您要取消此段录音吗？</string>
+    <string name="send">发送</string>
+    <string name="startup">启动</string>
+    <string name="will_start_remote_record">您确定要对宝贝紧急录音吗？</string>
+    <string name="will_receive_remote_record">秒后，您将收到宝贝的紧急录音</string>
+    <string name="please_input_content">请输入内容</string>
+    <string name="press_and_say">按住说话</string>
+    <string name="release_to_end">松开结束</string>
+    <string name="please_check_record_permission_wether_opened">请检查[录音权限]是否打开</string>
+    <string name="record_time_too_short">录音时长太短，至少%s秒！</string>
+    <string name="connection_crack_off">连接已断开！</string>
+    <string name="no_more_hist_record">没有更多历史记录了</string>
+    <string name="move_to_this_to_cancel_voice">移动到此处可取消此语音</string>
+    <string name="release_to_delete_this_voice">松手删除此条语音消息</string>
+
+    <!-- ChatListAdapter -->
+    <string name="today">今天</string>
+    <string name="yesterday">昨天</string>
+    <string name="before_y">前天</string>
+    <string name="voice_deleted">此录音文件已删</string>
+
+    <!-- SettingActivity -->
+    <string name="avatar_set">头像设置</string>
+    <string name="qq_group_support">QQ群支持</string>
+    <string name="problem_feedback">问题反馈</string>
+    <string name="software_introduction">软件介绍</string>
+    <string name="check_update">检查更新</string>
+    <string name="replace_user">切换账号</string>
+    <string name="version_update">版本更新</string>
+    <string name="vip_center">会员中心</string>
+    <string name="lookup_movement">查看运动数据</string>
+    <string name="baby_account">宝宝信息</string>
+    <string name="change_user">您确定要切换账号吗？</string>
+    <string name="change">切换</string>
+    <string name="please_add_qq_group">请添加儿童定位QQ群：209131823</string>
+
+    <!-- UpdateActivity -->
+    <string name="software_update">软件更新</string>
+    <string name="update">更新</string>
+    <string name="update_force">必须升级版本，给以更佳体验！</string>
+    <string name="will_update">发现新版本，是否立即更新?</string>
+    <string name="already_newest_version">已是最新版本！</string>
+    <string name="stop">停止</string>
+    <string name="download_app">下载</string>
+    <string name="pause">暂停</string>
+    <string name="resume">继续</string>
+    <string name="retry">重试</string>
+    <string name="install_app">安装</string>
+    <string name="download_waiting">等待...</string>
+    <string name="download_started">准备...</string>
+    <string name="download_cancelled">下载暂停</string>
+    <string name="download_success">下载完成</string>
+    <string name="download_failure">下载失败</string>
+    <string name="download_error">下载出错</string>
+    <string name="updating">正在更新 %s</string>
+
+    <!-- AlarmActivity -->
+    <string name="alarm_notify">接到宝宝发来的警报\n请及时提供帮助 </string>
+    <string name="alarm_send_notify">秒后,将发送警报给父母</string>
+
+    <!-- VipCenterActivity -->
+    <string name="vip">会员</string>
+    <string name="vip_bronze">铜牌会员</string>
+    <string name="vip_silver">银牌会员</string>
+    <string name="vip_gold">金牌会员</string>
+    <string name="vip_platina">白金会员</string>
+    <string name="vip_remote_record">紧急录音</string>
+    <string name="vip_remote_record_notify">父母端可远程开启宝贝端录音</string>
+    <string name="vip_fence">围栏</string>
+    <string name="vip_fence_notify">可建%s个电子围栏</string>
+    <string name="vip_nav_to_baby">导航到宝贝</string>
+    <string name="vip_nav_to_baby_notify">可带着父母找到宝贝</string>
+    <string name="vip_alarm">启动警报</string>
+    <string name="vip_alarm_notify">紧急情况宝贝可向父母求助</string>
+    <string name="vip_trace">查看孩子足迹</string>
+    <string name="vip_trace_notify">查看孩子行程轨迹%s天</string>
+    <string name="vip_hide_child_icon">隐藏图标</string>
+    <string name="vip_hide_child_icon_notify">父母端可远程控制隐藏孩子端的图标</string>
+    <string name="vip_lookup_child_movement">查看孩子运动数据</string>
+    <string name="vip_lookup_child_movement_notify">父母端可查看孩子每天的运动量</string>
+    <string name="vip_remove_ads">去广告</string>
+    <string name="vip_remove_ads_notify">广告将不再出现了</string>
+    <string name="be_vip">立即成为会员</string>
+    <string name="day">天</string>
+    <string name="month">月</string>
+    <string name="half_year">半年</string>
+    <string name="year">年</string>
+    <string name="rmb">元</string>
+    <string name="choose_pay_type">请选择支付方式</string>
+    <string name="alipay_pay">支付宝支付</string>
+    <string name="wechat_pay">微信钱包支付</string>
+    <string name="phone_pay">话费支付 (仅限铜牌会员)</string>
+    <string name="confirm_pay">确认付款</string>
+    <string name="pay">购买</string>
+    <string name="not_vip">您还不是会员，无法进行此项操作，请先充值成会员！</string>
+    <string name="not_gold_vip">您好！此功能只有会员才可以操作。
+        \n\n升级为会员后可以享受精确定位，远程录音，历史轨迹，电子围栏，隐藏图标等多种会员服务，让您的孩子安全无忧，建议您开通试用！</string>
+    <string name="no_permission">您没有权限进行此操作，请到会员中心充值升级！</string>
+    <string name="expired">您会员已过期，请到会员中心充值续费！</string>
+    <string name="recharge">开通</string>
+    <string name="vip_upgrade">升级</string>
+    <string name="renewal">续费</string>
+    <string name="left">剩余</string>
+
+    <!-- SportsActivity -->
+    <string name="calorie">卡路里</string>
+    <string name="energy_equal">大约消耗了一个茶叶蛋</string>
+    <string name="walk">行走</string>
+    <string name="sports_amount">运动量</string>
+    <string name="step">步</string>
+    <string name="calories">大卡</string>
+
+    <!-- DropDownToRefreshListView -->
+    <string name="pulltorefresh">提示...</string>
+    <string name="lastupdate">最近更新</string>
+    <string name="drop_down_to_refresh_list_pull_tips">下拉可以更新</string>
+    <string name="drop_down_to_refresh_list_release_tips">松开即可更新</string>
+    <string name="drop_down_to_refresh_list_refreshing_tips">正在更新中...</string>
+    <string name="drop_down_to_refresh_list_refresh_view_tips">查看更多消息</string>
+    <string name="pull_to_refresh">下拉可以刷新</string>
+    <string name="release_to_refresh">释放立即刷新</string>
+    <string name="refreshing">正在刷新…</string>
+    <string name="not_updated_yet">暂未更新过</string>
+    <string name="updated_at">上次更新于%1$s前</string>
+    <string name="updated_just_now">刚刚更新</string>
+    <string name="time_error">时间有问题</string>
+
+    <!-- SmsVerifyActivity -->
+    <string name="verify_code_have_sent">验证码已经发送</string>
+    <string name="verify_code_have_sent_to">验证码已经发送到</string>
+    <string name="verify_phone">验证手机</string>
+    <string name="resend_verify_code">重发验证码</string>
+    <string name="verify_code_cant_empty">验证码不能为空</string>
+    <string name="verification_code_wrong">验证码输入不正确</string>
+
+    <!-- FindPwdActivity -->
+    <string name="find_pwd">找回密码</string>
+    <string name="forget_pwd">忘记密码 ></string>
+    <string name="input_account_to_find_pwd">请输入要找回密码的账号(手机号)</string>
+    <string name="submit">提交</string>
+    <string name="input_new_pwd">请输入新密码</string>
+    <string name="input_vercode">请输入验证码</string>
+    <string name="input_sms_verification_code">请输入短信验证码</string>
+    <string name="get_verification_code">获取验证码</string>
+    <string name="verification_code_have_sent_to_phone">验证码已发送到手机</string>
+    <string name="resetting_pwd">正在重置密码...</string>
+    <string name="pwd_reset_success">密码重置成功！</string>
+
+    <!-- IntroductionActivity -->
+    <string name="introduce_title">&#160;&#160;&#160;&#160;&#160;&#160;儿童定位软件是一款专业打造的家长对宝贝保护的亲情软件，软件通过wifi，GPS，和基站等定位方式实时看护自己孩子，功能主要有：</string>
+    <string name="introduce_1">1. 实时定位宝贝位置：软件通过wifi，GPS，和基站定位方式实时定位到自己孩子。</string>
+    <string name="introduce_2">2. 电子围栏保护：父母可通过创建家，学校等电子围栏来将孩子设定在安全的围栏内，防止孩子走失或发生其他意外等；</string>
+    <string name="introduce_3">3. 沟通感情：孩子可以和父母进行温馨聊天，主要由文字，语音，和发送图片等功能；</string>
+    <string name="introduce_4">4. 导航到宝贝，父母可通过导航功能及时找到自己孩子，无论孩子身处何方，都可以及时将您快速导航到宝贝身边。</string>
+    <string name="introduce_5">5. 运动轨迹：父母端可以看到孩子过去的运动轨迹，及时了解孩子之前的活动情况。</string>
+    <string name="introduce_6">6. 远程警报：当孩子处在危险环境中时，孩子可通过一键警报功能，及时通知父母自己遇到了危险，让父母及时帮助自己。</string>
+    <string name="introduce_7">7. 紧急录音：当孩子处在危险之中时，父母可通过紧急录音功能，获取孩子周围的音频环境，及时进行相应的处理。</string>
+    <string name="introduce_8">8. 隐藏图标：为防止孩子乱点导致话费消耗过多，您还可以设置孩子端桌面图标不显示的方式，避免乱点导致的消费，同时隐藏后也不会引起坏人注意，更加保护了孩子安全！</string>
+
+    <!-- DisclaimerActivity -->
+    <string name="reg_agree_disclaimer">注册即同意免责声明</string>
+    <string name="disclaimer">儿童定位免责声明</string>
+    <string name="disclaimer_context_1">1 联网服务</string>
+    <string name="disclaimer_context_1_1">1.1由于用户（指最终用户）将个人密码告知他人或与他人共享注册帐户，由此导致的任何个人资料泄露，北京维艾德科技有限公司（以下简称：维艾德）不负任何责任；</string>
+    <string name="disclaimer_context_1_2">1.2用户明确同意其使用维艾德服务所存在的风险将完全由其自己承担。因其使用这些服务而产生的一切后果也由其自己承担，维艾德对此不承担任何责任；</string>
+    <string name="disclaimer_context_1_3">1.3本软件为免费产品，用户若通过移动设备及其他设备访问产生的相关费用，维艾德不负任何责任；</string>
+    <string name="disclaimer_context_1_4">1.4当政府司法机关依照法定程序要求维艾德披露个人资料时，维艾德将根据执法单位之要求或为公共安全之目的提供个人资料。在此情况下之任何披露，维艾德均得免责；</string>
+    <string name="disclaimer_context_1_5">1.5若因线路及维艾德控制范围外的硬件故障或其它不可抗力而导致暂停服务，于暂停服务期间造成的一切不便与损失，维艾德不负任何责任；</string>
+    <string name="disclaimer_context_1_6">1.6任何由于黑客攻击、计算机病毒侵入或发作、因政府管制而造成的暂时性关闭等影响网络正常经营的不可抗力而造成的个人资料泄露、丢失、被盗用或被窜改等，维艾德均得免责。 </string>
+    <string name="disclaimer_context_2">2 关于GPS，Wifi，基站定位服务</string>
+    <string name="disclaimer_context_2_1">2.1 用户位于定位盲区或全球定位卫星系统无效时, 由此造成的一切不便与损失，维艾德不负任何责任；</string>
+    <string name="disclaimer_context_2_2">2.2 本软件提供的定位服务有一定偏差，由此造成的一切不便与损失，维艾德不负任何责任；</string>
+    <string name="disclaimer_context_2_3">2.3 注册本软件即表示同意开放自己位置。</string>
+    <string name="disclaimer_context_3">3 关于第三方提供的内容</string>
+    <string name="disclaimer_context_3_1">本软件发布的地图和反馈均由第三方提供。对由这些第三方提供的资料的准确性、真实性、完整性或质量，维艾德不作任何声明或保证。对于因使用任何第三方的资料或网址而引起的或与之有关的任何直接或间接的损害赔偿, 维艾德概不承担责任。</string>
+    <string name="disclaimer_context_4">4 关于法律责任</string>
+    <string name="disclaimer_context_4_1">4.1本软件用户因为违反本声明的规定而触犯中华人民共和国法律的，一切后果自己负责，维艾德不承担任何责任；</string>
+    <string name="disclaimer_context_4_2">4.2凡以任何方式登陆本软件或直接、间接使用本软件资料者，视为自愿接受本声明的约束；</string>
+    <string name="disclaimer_context_4_3">4.3本声明未涉及的问题参见国家有关法律法规，当本声明与国家法律法规冲突时，以国家法律法规为准。 </string>
+
+    <!-- VideoCaptureActivity -->
+    <string name="release_to_cancel">松开取消</string>
+    <string name="moveup_to_cancel">↑上移取消</string>
+    <string name="video_too_short">视频录制时间太短</string>
+    <string name="press_to_capture_video">按住拍</string>
+    <string name="touch_to_exit">轻触退出</string>
+    <string name="child_record_no_permission">宝贝端没有开启录音权限</string>
+
+    <!-- other -->
+    <string name="please_confirm_cur_phone_no">请确认当前手机号</string>
+    <string name="please_choose_login_mode">请选择登录</string>
+    <string name="i_am_baby">我是宝贝</string>
+    <string name="i_am_parent">我是家长</string>
+    <string name="close">关闭</string>
+    <string name="if_phone_already_registered">如果该手机号码已经注册，</string>
+    <string name="after_sign_up">注册完成后，父母端和儿童端使用</string>
+    <string name="the_same_user">同一账号</string>
+    <string name="to_login">立即登录</string>
+    <string name="or">或</string>
+    <string name="done">完成</string>
+    <string name="backword">上一步 ></string>
+    <string name="start_time">开始时间：</string>
+    <string name="end_time">结束时间：</string>
+    <string name="mile">公里</string>
+    <string name="none">无</string>
+    <string name="save">保存</string>
+    <string name="pay_num">购买数量</string>
+    <string name="total">总计</string>
+    <string name="pay_success">支付成功！</string>
+    <string name="op_canceled">操作取消！</string>
+    <string name="icon_hide_after_10_seconds">儿童定位图标将在10秒后隐藏！</string>
+    <string name="icon_show_after_10_seconds">儿童定位图标将在10秒后显示！</string>
+    <string name="vip_charge_success">会员缴费成功！</string>
+    <string name="parent_not_login">父母未登录！</string>
+    <string name="error_occur_please_try_again">出错了，请重试！</string>
+    <string name="wechat_not_installed">请先安装/升级微信！</string>
+
+</resources>
