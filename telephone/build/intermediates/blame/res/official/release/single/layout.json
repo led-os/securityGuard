@@ -1,0 +1,362 @@
+[
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\activity_login.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\view_first_enter.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\view_first_enter.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\dlg_gender_set.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\dlg_gender_set.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\country_list_item.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\country_list_item.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\vip_info_gv_item.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\vip_info_gv_item.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\common_search_layout.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\common_search_layout.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\umeng_fb_list_item.xml",
+        "source": "D:\\projects\\v_telephone\\umeng\\build\\intermediates\\bundles\\default\\res\\layout\\umeng_fb_list_item.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\dlg_loading.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\dlg_loading.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\frag_setting.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\frag_setting.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\chat_he_item.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\chat_he_item.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\title_bar_back_right.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\title_bar_back_right.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\frag_friends.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\frag_friends.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\title_bar_page_home.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\title_bar_page_home.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\dlg_country_list.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\dlg_country_list.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\activity_contacts.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\activity_contacts.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\introduce_page3.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\introduce_page3.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\title_bar_page_find.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\title_bar_page_find.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\search_list_item.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\search_list_item.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\img_viewer.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\img_viewer.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\activity_main.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\activity_sms_verify.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\activity_sms_verify.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\footerview_load_more.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\footerview_load_more.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\friend_item_popview.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\friend_item_popview.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\efence_top_view.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\efence_top_view.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\umeng_fb_activity_conversation.xml",
+        "source": "D:\\projects\\v_telephone\\umeng\\build\\intermediates\\bundles\\default\\res\\layout\\umeng_fb_activity_conversation.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\efence_show_bar.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\efence_show_bar.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\activity_map.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\activity_map.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\age_set_list_item.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\age_set_list_item.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\frag_home.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\frag_home.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\introduce_page2.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\introduce_page2.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\map_top_widgets.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\map_top_widgets.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\view_loading.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\view_loading.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\activity_register.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\chat_me_item.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\chat_me_item.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\download_list.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\download_list.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\frag_msgs.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\frag_msgs.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\friend_list_item.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\friend_list_item.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\activity_alarm.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\activity_alarm.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\activity_vip_info.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\activity_vip_info.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\umeng_fb_activity_contact.xml",
+        "source": "D:\\projects\\v_telephone\\umeng\\build\\intermediates\\bundles\\default\\res\\layout\\umeng_fb_activity_contact.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\dialog_logout.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\dialog_logout.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\dialog_choose_pic.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\dialog_choose_pic.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\msg_header_view.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\msg_header_view.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\contacts_list_item.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\contacts_list_item.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\title_bar_page_setting.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\title_bar_page_setting.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\view_reconnect.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\view_reconnect.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\activity_nearby.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\activity_nearby.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\activity_disclaimer.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\activity_disclaimer.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\title_bar_none.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\title_bar_none.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\activity_friends_request.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\activity_friends_request.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\activity_filter_nearby.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\activity_filter_nearby.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\download_item.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\download_item.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\main_bottom_bar.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\main_bottom_bar.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\drop_down_to_refresh_list_header.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\drop_down_to_refresh_list_header.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\title_bar_page_msg.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\title_bar_page_msg.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\friend_pin_view.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\friend_pin_view.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\activity_wx_pay_result.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\activity_wx_pay_result.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\dlg_msg.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\dlg_msg.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\umeng_fb_new_reply_alert_dialog.xml",
+        "source": "D:\\projects\\v_telephone\\umeng\\build\\intermediates\\bundles\\default\\res\\layout\\umeng_fb_new_reply_alert_dialog.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\activity_setting.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\activity_setting.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\chat_plus_widgets.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\chat_plus_widgets.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\map_bottom_widgets.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\map_bottom_widgets.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\msg_list_item.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\msg_list_item.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\locate_friend_list_item.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\locate_friend_list_item.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\activity_add_friend.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\activity_add_friend.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\activity_search.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\activity_search.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\activity_account_set.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\activity_account_set.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\dlg_input.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\dlg_input.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\friends_request_item.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\friends_request_item.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\frag_find.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\frag_find.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\activity_personinfo.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\activity_personinfo.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\introduce_page4.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\introduce_page4.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\notification_msg.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\notification_msg.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\title_bar_back.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\title_bar_back.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\frag_msg_friend.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\frag_msg_friend.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\dlg_filter_age.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\dlg_filter_age.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\nearby_list_item.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\nearby_list_item.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\introduce_enter.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\introduce_enter.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\activity_vip_center.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\activity_vip_center.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\my_pin_view.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\my_pin_view.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\umeng_fb_list_header.xml",
+        "source": "D:\\projects\\v_telephone\\umeng\\build\\intermediates\\bundles\\default\\res\\layout\\umeng_fb_list_header.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\activity_pay.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\activity_pay.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\activity_splash.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\dlg_age_set.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\dlg_age_set.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\activity_find_pwd.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\activity_find_pwd.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\activity_chat.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\activity_chat.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\dlg_remote_time.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\dlg_remote_time.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\introduce_page1.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\introduce_page1.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\voice_record_window.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\voice_record_window.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\official\\release\\layout\\trace_show_bar.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\layout\\trace_show_bar.xml"
+    }
+]

@@ -1,0 +1,4 @@
+#Fri Jul 21 11:07:50 CST 2017
+base.0=D\:\\projects\\v_telephone\\telephone\\build\\intermediates\\transforms\\dex\\anzhi\\release\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=D\:\\projects\\v_telephone\\telephone\\build\\intermediates\\transforms\\dex\\anzhi\\release\\folders\\1000\\1f\\main\\classes.dex

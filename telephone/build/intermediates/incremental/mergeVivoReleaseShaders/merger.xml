@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="D:\projects\v_telephone\telephone\src\main\shaders"/></dataSet><dataSet config="vivo"><source path="D:\projects\v_telephone\telephone\src\vivo\shaders"/></dataSet><dataSet config="release"><source path="D:\projects\v_telephone\telephone\src\release\shaders"/></dataSet><dataSet config="vivoRelease"><source path="D:\projects\v_telephone\telephone\src\vivoRelease\shaders"/></dataSet></merger>

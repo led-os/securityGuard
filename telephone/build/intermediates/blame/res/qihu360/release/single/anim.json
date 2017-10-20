@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\qihu360\\release\\anim\\act_close_from_top.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\anim\\act_close_from_top.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\qihu360\\release\\anim\\progress_loading_rotate.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\anim\\progress_loading_rotate.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\qihu360\\release\\anim\\shrink_to_topcenter.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\anim\\shrink_to_topcenter.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\qihu360\\release\\anim\\grow_from_topcenter.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\anim\\grow_from_topcenter.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\qihu360\\release\\anim\\umeng_fb_slide_in_from_right.xml",
+        "source": "D:\\projects\\v_telephone\\umeng\\build\\intermediates\\bundles\\default\\res\\anim\\umeng_fb_slide_in_from_right.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\qihu360\\release\\anim\\act_open_from_bottom.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\anim\\act_open_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\qihu360\\release\\anim\\umeng_fb_slide_out_from_right.xml",
+        "source": "D:\\projects\\v_telephone\\umeng\\build\\intermediates\\bundles\\default\\res\\anim\\umeng_fb_slide_out_from_right.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\qihu360\\release\\anim\\dialog_exit.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\anim\\dialog_exit.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\qihu360\\release\\anim\\me_voice_playing.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\anim\\me_voice_playing.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\qihu360\\release\\anim\\act_alpha_in.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\anim\\act_alpha_in.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\qihu360\\release\\anim\\act_alpha_out.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\anim\\act_alpha_out.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\qihu360\\release\\anim\\dialog_enter.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\anim\\dialog_enter.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\qihu360\\release\\anim\\act_bg_fake.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\anim\\act_bg_fake.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\qihu360\\release\\anim\\umeng_fb_slide_in_from_left.xml",
+        "source": "D:\\projects\\v_telephone\\umeng\\build\\intermediates\\bundles\\default\\res\\anim\\umeng_fb_slide_in_from_left.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\qihu360\\release\\anim\\umeng_fb_slide_out_from_left.xml",
+        "source": "D:\\projects\\v_telephone\\umeng\\build\\intermediates\\bundles\\default\\res\\anim\\umeng_fb_slide_out_from_left.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\qihu360\\release\\anim\\he_voice_playing.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\anim\\he_voice_playing.xml"
+    }
+]

@@ -1,0 +1,790 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="output$Generated" generated="true"><source path="C:\Users\lihuichao\.android\build-cache\02da6c254e3224d4eff279912eee148b376362b7\output\res"/></dataSet><dataSet config="default$Generated" generated="true"><source path="D:\projects\v_telephone\sMSSDK2001\build\intermediates\bundles\default\res"/></dataSet><dataSet config="default$Generated" generated="true"><source path="D:\projects\v_telephone\xUtils\build\intermediates\bundles\default\res"/></dataSet><dataSet config="default$Generated" generated="true"><source path="D:\projects\v_telephone\anSmack\build\intermediates\bundles\default\res"/></dataSet><dataSet config="default$Generated" generated="true"><source path="D:\projects\v_telephone\androidTpl\build\intermediates\bundles\default\res"/></dataSet><dataSet config="default$Generated" generated="true"><source path="D:\projects\v_telephone\xmpp_lib_new\build\intermediates\bundles\default\res"/></dataSet><dataSet config="default$Generated" generated="true"><source path="D:\projects\v_telephone\umeng\build\intermediates\bundles\default\res"/></dataSet><dataSet config="main$Generated" generated="true"><source path="D:\projects\v_telephone\telephone\src\main\res"/><source path="D:\projects\v_telephone\telephone\build\generated\res\rs\jifeng\release"/><source path="D:\projects\v_telephone\telephone\build\generated\res\resValues\jifeng\release"/></dataSet><dataSet config="jifeng$Generated" generated="true"><source path="D:\projects\v_telephone\telephone\src\jifeng\res"/></dataSet><dataSet config="release$Generated" generated="true"><source path="D:\projects\v_telephone\telephone\src\release\res"/></dataSet><dataSet config="jifengRelease$Generated" generated="true"><source path="D:\projects\v_telephone\telephone\src\jifengRelease\res"/></dataSet><dataSet config="output" from-dependency="true" generated-set="output$Generated"><source path="C:\Users\lihuichao\.android\build-cache\02da6c254e3224d4eff279912eee148b376362b7\output\res"/></dataSet><dataSet config="default" from-dependency="true" generated-set="default$Generated"><source path="D:\projects\v_telephone\sMSSDK2001\build\intermediates\bundles\default\res"><file name="libs" path="D:\projects\v_telephone\sMSSDK2001\build\intermediates\bundles\default\res\raw\libs" qualifiers="" type="raw"/><file path="D:\projects\v_telephone\sMSSDK2001\build\intermediates\bundles\default\res\values\values.xml" qualifiers=""><string name="smssdk_error_desc_455">签名无效</string><string name="smssdk_error_desc_454">数据格式错误</string><string name="smssdk_error_desc_457">非法手机号</string><string name="smssdk_error_desc_456">手机号码错误</string><string name="smssdk_error_desc_451">User-Agent为空</string><string name="smssdk_error_desc_450">权限不足</string><string name="smssdk_error_desc_453">解密错误</string><string name="smssdk_error_desc_452">User-Agent格式错误</string><string name="smssdk_error_desc_602">无法发送此地区短信</string><string name="smssdk_error_desc_601">短信发送受限</string><string name="smssdk_error_desc_604">当前服务暂不支持此国家，请选择其它国家</string><string name="smssdk_error_desc_603">请填写正确的手机号码</string><string name="smssdk_error_desc_600">API使用受限制</string><string name="smssdk_error_detail_419">appKey_token对应的duid不存在</string><string name="smssdk_error_detail_418">内部接口调用失败。</string><string-array name="smssdk_country_group_z">
+		<item>赞比亚,260,92,64502|64501|64503</item>
+		<item>泽西,44,18,</item>
+		<item>乍得,235,70,62201|62203</item>
+		<item>直布罗陀,350,105,26606|26609|26601</item>
+		<item>智利,56,29,73008|73006|73004|73002|73013|73003|73014|73011|73012|73001</item>
+		<item>中非共和国,236,71,62301|62302|62303|62304</item>
+		<item>中国,86,42,46006|46007|46005|46002|46003|46000|46001</item>
+    </string-array><string-array name="smssdk_country_group_y">
+		<item>牙买加,1876,216,338180|338020|338110</item>
+		<item>亚美尼亚,374,119,28301|28310|28305|28304</item>
+		<item>也门,967,181,42101|42102|42103</item>
+		<item>伊拉克,964,178,41805|41840|41820|41830|41845</item>
+		<item>伊朗,98,49,43235|43214|43220|43200|43211|43219</item>
+		<item>以色列,972,185,42577|42516|42505|42506|42507|RESTRICTED-IL|42519|42508|42501|42512|42523|42502|42503|42514|42515</item>
+		<item>意大利,39,13,22206|22207|22208|22210|22243|22288|22244|22299|22233|22201|22235|22204|22248|22205|22230</item>
+		<item>印度,91,44,405893|405892|405895|405894|405897|405896|405899|405898|40501|40506|40505|405891|405890|40503|405889|405882|405881|405883|405886|405885|405888|405887|405880|405879|405878|405871|405750|405870|405873|405752|405872|405751|405875|405754|405874|405753|405877|405756|405876|405755|405868|405867|405869|405860|405862|405861|405864|405863|405866|405865|405856|405859|405858|40494|40493|40492|40491|40498|40497|40496|40495|40490|40483|40482|40481|40480|40487|40486|40485|405799|40484|40489|40488|40472|40471|40470|40476|40475|40474|40473|40479|40478|40477|40460|405930|405811|40462|405810|405931|40469|40468|40467|40466|405809|405802|405923|405801|405922|405804|405925|405803|405924|405806|405927|405805|405926|405808|405929|405807|405928|40450|40570|40454|40453|40452|405800|405921|40451|405920|40458|40457|40456|40455|40459|405919|405912|405914|405913|405916|405915|405918|405917|40443|40442|40441|40567|40446|40566|40449|405901|405900|405903|405902|405905|405904|405907|405906|40553|40552|40431|40551|40430|40436|40556|40435|40555|40434|40554|40433|40438|40437|405851|405850|40421|405853|40420|405852|405855|405854|40425|40424|40422|40429|40428|40427|40419|405846|405845|405848|405847|405849|405046|405045|405840|405047|40410|405842|405841|405843|40413|40412|405040|40411|40418|405042|40417|405041|40416|405044|40415|405043|40409|405835|405834|405837|405836|405839|405838|405035|405034|405037|405036|40520|405039|405831|405038|405830|405833|405832|40524|40403|40402|40523|40522|40401|40521|40400|40407|405031|40406|405030|40405|405033|40404|405032|40519|40518|405824|405823|405825|405828|405827|405829|405026|405025|405820|405027|405822|405029|405821|40513|40512|40511|40510|40517|40515|40514|40509|40508|40507|405813|405812|405815|405814|405817|405816|405819|405818</item>
+		<item>印度尼西亚,62,34,51010|51021|51089|51001|51011|51027|51007|51028|51009|51008</item>
+		<item>英国,44,17,23427|23428|23407|23409|23420|23400|23401|23423|23500|23424|23402|23403|23425|23426|23416|23417|23418|23419|23430|23431|23476|23410|23433|23455|23411|23478|23434|23458|23414|23415|23450|23451</item>
+		<item>约旦,962,176,41601|41677|41603</item>
+		<item>越南,84,41,45204|45205|45202|45201|45207</item>
+    </string-array><string-array name="smssdk_country_group_v">
+	    
+	</string-array><string-array name="smssdk_country_group_u">
+	    
+	</string-array><string-array name="smssdk_country_group_x">
+		<item>西班牙,34,11,21402|21401|21423|21411|21422|21410|21421|21432|21420|21409|21408|21419|21407|21418|21417|21406|21405|21427|21416|21404|21415|21425|21403</item>
+		<item>希腊,30,7,20203|20202|20201|20210|20209|20207|20205</item>
+		<item>香港,852,168,45413|45412|45401|45404|45403|45414|45400|45411|45409|45406|45405|45416|45408|45419|45429|45407</item>
+		<item>新加坡,65,37,52502|52503|52512|52501|52505</item>
+		<item>新喀里多尼亚,687,164,54601</item>
+		<item>新西兰,64,36,53001|53004|53005|53024|53002|53006</item>
+		<item>匈牙利,36,12,21630|21670|21601</item>
+		<item>叙利亚,963,177,41701|41702</item>
+    </string-array><string-array name="smssdk_country_group_w">
+		<item>瓦努阿图,678,158,54101|54105</item>
+		<item>危地马拉,502,135,70402|70401|70403</item>
+		<item>维尔京群岛（美属）,1284,201,311470</item>
+		<item>维尔京群岛（英属）,1340,202,348570|348170</item>
+		<item>委内瑞拉,58,31,73406|73404|73401</item>
+		<item>文莱,673,154,52811|52802</item>
+		<item>乌干达,256,89,64111|64133|64166|64122|64110|64101|64114</item>
+		<item>乌克兰,380,124,25507|25506|25521|25501|25503|25502|25505|25504</item>
+		<item>乌拉圭,598,151,74803|74802|74801|74800|74810|74807</item>
+		<item>乌兹别克斯坦,998,196,43401|43402|43407|43403|43404|43405|43406</item>
+    </string-array><string-array name="smssdk_country_group_r">
+		<item>日本,81,39,44027|44026|44029|44028|44023|44144|44022|44143|44025|44024|44145|44140|44021|44142|44141|44020|44016|44015|44018|44017|44012|44011|44099|44014|44013|44019|44090|44096|44095|44010|44098|44097|44092|44091|44094|44093|44004|44007|44006|44001|44089|44000|44088|44003|44002|44009|44008|44087|44199|44078|44198|44077|44079|44074|44194|44073|44076|44075|44191|44070|44190|44193|44072|44192|44071|44067|44066|44069|44068|44063|44062|44065|44064|44061|44060|44056|44055|44058|44052|44051|44054|44053|44050|44170|44049|44048|44045|44044|44165|44047|44046|44041|44162|44040|44161|44043|44164|44042|44163|44038|44037|44039|44034|44033|44036|44035|44030|44032|44031</item>
+		<item>瑞典,46,20,24035|24013|24036|24014|24037|24015|24038|24016|24039|24017|24018|24019|24030|24031|24010|24032|24033|24012|24034|24002|24003|24026|24027|24028|24006|24029|24007|24008|24040|24020|24043|24022|24000|24044|24023|24001|24045</item>
+		<item>瑞士,41,15,22812|22801|22802|22803|22805|22809|22851|22853|22854</item>
+    </string-array><string-array name="smssdk_country_group_q">
+	</string-array><string-array name="smssdk_country_group_t">
+		<item>塔吉克斯坦,992,191,43605|43601|43602|43603|43604</item>
+		<item>台湾,886,173,46602|46668|46603|46688|46699|46601|46689|46656|46697|46610|46609|46606|46607|46605|46693|46692</item>
+		<item>泰国,66,38,52000|52099|52020|52003|52004|52015|52001|52023|52002|52018|52005</item>
+		<item>坦桑尼亚,255,88,64011|64003|64002|64005|64004|64007|64006|64009|64008</item>
+		<item>汤加,676,156,53901</item>
+		<item>特克斯和凯科斯群岛,1649,206,376352|376350</item>
+		<item>特立尼达，多巴哥,1868,214,374130|37412</item>
+		<item>突尼斯,216,53,60503|60502|60501</item>
+		<item>土耳其,90,43,28602|28603|28601|28604</item>
+		<item>土库曼斯坦,993,192,43801|43802</item>
+    </string-array><string-array name="smssdk_country_group_s">
+		<item>萨尔瓦多,503,136,70602|70601|70604|70603|70605</item>
+		<item>萨摩亚,685,162,54900</item>
+		<item>塞尔维亚,381,125,29341|22001|22003|22005</item>
+		<item>塞拉利昂,232,67,61902|61903|61904|61905|61906|61909|61901</item>
+		<item>塞内加尔,221,56,60801|60803|60802</item>
+		<item>塞浦路斯,357,112,28022|28001|28020|28010</item>
+		<item>塞舌尔,248,81,63310|63301|63302</item>
+		<item>沙特阿拉伯,966,180,42003|42004|42001|42006</item>
+		<item>圣多美和普林西比,239,74,62601</item>
+		<item>圣基茨和尼维斯,1869,215,356110|356070</item>
+		<item>圣卢西亚,1758,209,358110</item>
+		<item>圣马力诺,378,123,29201</item>
+		<item>圣皮埃尔和密克隆岛,508,141,30801</item>
+		<item>圣文森特和格林纳丁斯,1784,211,360110</item>
+		<item>斯里兰卡,94,47,41301|41305|41302|41308</item>
+		<item>斯洛伐克,421,132,23199|23101|23102|23106</item>
+		<item>斯洛文尼亚,386,128,29364|29341|29340|29370</item>
+		<item>斯威士兰,268,100,65310|65301</item>
+		<item>苏丹,249,82,63401|63402|63407</item>
+		<item>苏里南,597,150,74604|74603|74602</item>
+		<item>所罗门群岛,677,157,54010</item>
+		<item>索马里,252,85,63782|63760|63730|63701|63725|63704</item>
+    </string-array><string name="smssdk_error_desc_471">请求IP错误</string><string name="smssdk_error_desc_470">账户余额不足</string><string name="smssdk_error_desc_477">当前手机号发送短信的数量超过限额</string><string name="smssdk_error_desc_476">当前appkey发送短信的数量超过限额</string><string name="smssdk_error_desc_478">当前手机号在当前应用内发送超过限额</string><string name="smssdk_error_desc_473">服务端根据duid获取平台错误 </string><string name="smssdk_error_desc_472">获取客户端平台错误</string><string name="smssdk_error_desc_475">appKey的应用信息不存在</string><string name="smssdk_error_desc_474">没有打开服务端验证开关</string><string name="smssdk_error_detail_408">无效的请求参数。</string><string name="smssdk_error_detail_407">请求提交的数据缺少必要的数据。</string><string name="smssdk_error_detail_404">请求Header中的hash非法。</string><string name="smssdk_error_desc_469">未开启web发送短信</string><string name="smssdk_error_detail_403">请求Header中的hash为空。</string><string name="smssdk_error_detail_406">请求的AppKey不存在。</string><string name="smssdk_error_detail_405">请求的AppKey为空。</string><string name="smssdk_error_desc_460">无权限发送短信</string><string name="smssdk_error_desc_466">校验的验证码为空</string><string name="smssdk_error_detail_400">客户端请求不能被识别。</string><string name="smssdk_error_desc_465">号码在App中每天发送短信的次数超限</string><string name="smssdk_error_desc_468">需要校验的验证码错误</string><string name="smssdk_error_detail_402">请求的token不存在。</string><string name="smssdk_error_desc_467">校验验证码请求频繁</string><string name="smssdk_error_desc_500">服务器内部错误</string><string name="smssdk_error_detail_401">请求的token为空。</string><string name="smssdk_error_desc_462">每分钟发送次数超限</string><string name="smssdk_error_desc_461">不支持该地区发送短信</string><string name="smssdk_error_desc_464">每台手机每天发送次数超限</string><string name="smssdk_error_desc_463">手机号码每天发送次数超限</string><string name="smssdk_error_desc_459">无appKey的控制数据</string><string name="smssdk_error_desc_458">手机号码在黑名单中</string><string name="smssdk_error_detail_471">通过服务端发送或验证短信的IP错误</string><string name="smssdk_error_detail_470">账户的短信余额不足。</string><string name="smssdk_error_detail_477">当前手机号码每天最多可发送短信10条，包括客户端发送和WebApi发送</string><string name="smssdk_error_detail_476">如果当前appkey对应的包名没有通过审核，每天次appkey+包名最多可以发送20条短信</string><string name="smssdk_error_detail_478">当前手机号码在当前应用下12小时内最多可发送文本验证码5条</string><string name="smssdk_error_detail_473">服务端根据duid获取平台错误 </string><string name="smssdk_error_detail_472">服务端根据duid获取平台错误。</string><string name="smssdk_error_detail_475">appKey的应用信息不存在</string><string name="smssdk_error_detail_474">没有打开服务端验证开关</string><string name="smssdk_error_desc_408">无效的参数</string><string name="smssdk_error_desc_407">缺少数据</string><string name="smssdk_error_desc_404">CRC32非法</string><string name="smssdk_error_desc_403">CRC32为空</string><string name="smssdk_error_detail_469">没有打开通过网页端发送短信的开关。</string><string name="smssdk_error_desc_406">AppKey错误</string><string name="smssdk_error_desc_405">AppKey为空</string><string name="smssdk_error_detail_460">没有打开客户端发送短信的开关。</string><string name="smssdk_error_desc_400">无效请求</string><string name="smssdk_error_detail_466">提交的校验验证码为空。</string><string name="smssdk_error_detail_465">手机号码在APP中每天发送短信的数量超限。</string><string name="smssdk_error_desc_402">token不存在</string><string name="smssdk_error_detail_468">用户提交校验的验证码错误。</string><string name="smssdk_error_desc_401">token为空</string><string name="smssdk_error_detail_467">验证失败3次，验证码失效，请重新请求</string><string name="smssdk_error_detail_500">服务端程序报错。</string><string name="smssdk_error_detail_462">每分钟发送短信的数量超过限制。</string><string name="smssdk_error_detail_461">没有开通给当前地区发送短信的功能。</string><string name="smssdk_error_detail_464">每台手机每天发送短信的次数超限。</string><string name="smssdk_error_detail_463">手机号码每天发送短信的次数超出限制。</string><string name="smssdk_error_detail_459">获取appKey控制发送短信的数据失败。</string><string name="smssdk_error_detail_458">手机号码在发送黑名单中。</string><string-array name="smssdk_country_group_n">
+		<item>纳米比亚,264,96,64902|64901|64903</item>
+		<item>南非,27,6,65510|65512|65501|65502|65507|65519</item>
+		<item>南苏丹,211,50,65995</item>
+		<item>尼泊尔,977,190,42901|42902</item>
+		<item>尼加拉瓜,505,138,71021|71030</item>
+		<item>尼日尔,227,62,61401|61402|61403|61404</item>
+		<item>尼日利亚,234,69,62150|62140|62130|62120|62125|23455-NG|62160</item>
+		<item>挪威,47,21,24208|24209|24220|24221|24222|24201|24223|24202|24224|24204|24205|24206</item>
+    </string-array><string-array name="smssdk_country_group_m">
+		<item>马达加斯加,261,93,64601|64602|64604</item>
+		<item>马尔代夫,960,174,47201|47202</item>
+		<item>马耳他,356,111,27821|27877|27801</item>
+		<item>马拉维,265,97,65010|65001</item>
+		<item>马来西亚,60,32,50220|50211|50213|502150|50212|502151|502152|50217|50216|50219|50218</item>
+		<item>马里,223,58,61002|61001</item>
+		<item>马其顿,389,130,29402|29401|29403</item>
+		<item>马提尼克,596,149,34003|34002|34001|34020</item>
+		<item>毛里求斯,230,65,61710|61701|61702</item>
+		<item>毛里塔尼亚,222,57,60910|60902</item>
+		<item>美国,1,2,311090|310080|311050|311370|310160|31150|311010|310680|310120|310560|311650|310880|310760|31190|310320|310630|310710|310090|310290|316993|310170|310050|31060|311580|310690|311020|311340|310570|311660|310450|310011|310770|316995|310012|316994|311730|310004|311610|310840|310005|310600|31100|311190|310180|31050|310060|316883|311150|310380|311030|310260|311230|310020|310340|311991|311430|316885|310660|310100|316884|310540|310023|310980|311740|310410|31016|310610|310016|31130|31011|31611|310190|311040|316011|310150|310790|310990|310870|310420|310300|310740|311710</item>
+		<item>蒙古,976,189,42898|42888|42899|42801</item>
+		<item>蒙特塞拉特岛,1664,207,354860</item>
+		<item>孟加拉国,880,172,47007|47005|47006|47003|47004|47001|47002</item>
+		<item>秘鲁,51,24,71610|71606|71617|71607|71615</item>
+		<item>密克罗尼西亚,691,166,55001</item>
+		<item>缅甸,95,48,41401|41406|41405</item>
+		<item>摩尔多瓦,373,118,25903|25902|25904|25901</item>
+		<item>摩洛哥,212,51,60405|60402|60401|60400</item>
+		<item>摩纳哥,377,122,21201</item>
+		<item>莫桑比克,258,91,64301|64304|64303</item>
+		<item>墨西哥,52,25,33402|33403|33401|33450|33406|334090|33404|33405</item>
+    </string-array><string-array name="smssdk_country_group_p">
+		<item>帕劳,680,160,55201|55280</item>
+		<item>葡萄牙,351,106,26804|26806|26801|26803</item>
+    </string-array><string-array name="smssdk_country_group_o">
+	    
+	</string-array><string-array name="smssdk_country_group_j">
+		<item>基里巴斯,686,163,54509</item>
+		<item>吉布提,253,86,63801</item>
+		<item>吉尔吉斯斯坦,996,195,43705|43701</item>
+		<item>几内亚,224,59,61105|61104|61103|61102|61101</item>
+		<item>几内亚比绍,245,80,63202|63203</item>
+		<item>加拿大,1,1,302657|302656|302710|302655|302500|302610|302720|302702|302270|302490|302880|302220|302680|302360|302690|302510|302653|302861|302222|302640|302651|302530|302221|302320</item>
+		<item>加纳,233,68,62001|62002|62003|62004|62006|62007</item>
+		<item>加蓬,241,76,62804|62801|62802|62803</item>
+		<item>柬埔寨,855,170,45602|45601|45608|45618|45609|45604|45603|45606|45605|23455-KH</item>
+		<item>捷克共和国,420,131,23001|23002|23003|23004|23005|23008</item>
+		<item>津巴布韦,263,95,64801|64803|64804</item>
+    </string-array><string-array name="smssdk_country_group_i">
+	    
+	</string-array><string-array name="smssdk_country_group_l">
+		<item>拉脱维亚,371,116,24703|24706|24705|24708|24707|24709|24702|24701</item>
+		<item>莱索托,266,98,65101|65102</item>
+		<item>老挝,856,171,45701|45708|45703|45702</item>
+		<item>黎巴嫩,961,175,41503|41501</item>
+		<item>立陶宛,370,115,24601|24603|24602</item>
+		<item>利比里亚,231,66,61804|61807|61801|61802</item>
+		<item>利比亚,218,54,60603|60601|60600</item>
+		<item>列支敦士登,423,133,29501|29577|29505|29502</item>
+		<item>法属留尼汪岛,262,94,64710|64702</item>
+		<item>卢森堡,352,107,27099|27077|27001</item>
+		<item>卢旺达,250,83,63510|63512|63513|63514</item>
+		<item>罗马尼亚,40,14,22603|22604|22605|22610|22601</item>
+    </string-array><string-array name="smssdk_country_group_k">
+		<item>喀麦隆,237,72,62401|62402|62404</item>
+		<item>卡塔尔,974,187,42701|42702</item>
+		<item>开曼群岛,1345,203,346140</item>
+		<item>科摩罗,269,101,65401</item>
+		<item>科特迪瓦,225,60,61205|61204|61203|61202</item>
+		<item>科威特,965,179,41904|41903|41902</item>
+		<item>克罗地亚,385,127,21902|21901|21912|21910</item>
+		<item>肯尼亚,254,87,63905|63907|63903|63902</item>
+		<item>库克群岛,682,161,54801</item>
+    </string-array><string-array name="smssdk_country_group_f">
+		<item>法国,33,10,20816|20804|20826|20815|20825|20813|20802|20823|20801|20811|20822|20888|20810|20821|20831|20820|20809|20808|20817</item>
+		<item>法罗群岛,298,103,28801|28802|28803</item>
+		<item>菲律宾,63,35,51518|51502|51501|51503|51505</item>
+		<item>斐济,679,159,54202|54201</item>
+		<item>芬兰,358,113,24409|24432|24410|24421|24412|24411|24414|24403|24413|24405|24426|24404|24491</item>
+		<item>佛得角,238,73,62501|62502</item>
+    </string-array><string name="smssdk_error_detail_455">签名检验。</string><string-array name="smssdk_country_group_e">
+		<item>俄罗斯,7,3,25020|25099|25035|25002|25012|25001|25003|25039|25005|25007</item>
+		<item>厄瓜多尔,593,146,74002|74001|74000</item>
+    </string-array><string name="smssdk_error_detail_454">请求传递的数据格式错误，服务器无法转换为JSON格式的数据。</string><string-array name="smssdk_country_group_h">
+		<item>哈萨克斯坦,7,4,40102|40101|40177|40108|40107</item>
+		<item>海地,509,142,37201|37202</item>
+		<item>韩国,82,40,45006|45005|45008|45002|45004</item>
+		<item>荷兰,31,8,20423|20412|20410|20465|20420|20462|20409|20408|20407|20418|20406|20417|20428|20416|20405|20415|20404|20414|20469|20403|20468|20424|20402</item>
+		<item>荷属安的列斯群岛,599,152,36269|36202|36201|36251|36294|36282|36281</item>
+		<item>黑山共和国,382,126,29703|29702|29701</item>
+		<item>洪都拉斯,504,137,70830|70840|70802|70801</item>
+    </string-array><string name="smssdk_error_detail_457">提交的手机号格式不正确（包括手机的区号）。</string><string-array name="smssdk_country_group_g">
+		<item>冈比亚,220,55,60702|60701|60704|60703</item>
+		<item>刚果共和国,242,77,62907|62910|62901</item>
+		<item>刚果民主共和国,243,78,63086|63001|63089|63002|63005</item>
+		<item>哥伦比亚,57,30,732130|732020|732154|732111|732123|732101</item>
+		<item>哥斯达黎加,506,139,71204|71203|71201</item>
+		<item>格林纳达,1473,205,352110</item>
+		<item>格陵兰岛,299,104,29001</item>
+		<item>格鲁吉亚,995,194,28202|28201|28204|28205</item>
+		<item>古巴,53,26,36801</item>
+		<item>瓜德罗普岛,590,143,34008|34003|34002|34001|34020</item>
+		<item>关岛,1671,208,310400|310140|310470|310110</item>
+		<item>圭亚那,592,145,73802|73801</item>
+		<item>圭亚那（法属）,594,147,74201|74220</item>
+    </string-array><string name="smssdk_error_detail_456">提交的手机号码或者区号为空。</string><string-array name="smssdk_country_group_b">
+		<item>巴巴多斯,1246,198,342600</item>
+		<item>巴布亚新几内亚,675,155,53701|53702|53703</item>
+		<item>巴哈马群岛,1242,197,364390|36439</item>
+		<item>巴基斯坦,92,45,</item>
+		<item>巴拉圭,595,148,74404|74403|74402|74401</item>
+		<item>巴勒斯坦领土,970,183,42506-PS|42505-PS</item>
+		<item>巴林,973,186,42604|42605|42601|42602</item>
+		<item>巴拿马,507,140,71404|71402|71403|71401</item>
+		<item>巴西,55,28,72416|72405|72439|72406|72403|72415|72437|72404|72434|72423|72402|72432|72410|72433|72400|72411|72430|72431|72407</item>
+		<item>白俄罗斯,375,120,25704|25701|25702</item>
+		<item>百慕大群岛,1441,204,350000</item>
+		<item>保加利亚,359,114,28401|28405|28403</item>
+		<item>贝宁,229,64,61605|61601|61602|61603|61604</item>
+		<item>比利时,32,9,20610|20620|20640|20606|20605|20601</item>
+		<item>冰岛,354,109,27409|27411|27404|27401|27402|27407</item>
+		<item>波多黎各,1787,212,310970</item>
+		<item>波兰,48,22,26016|26038|26004|26018|26017|26006|26009|26019|26008|26010|26032|26001|26034|26012|26011|26003|26036|26014|26002|26013|26035</item>
+		<item>波利尼西亚（法属）,689,165,54720</item>
+		<item>波斯尼亚和黑塞哥维那,387,129,21890|21805|21803</item>
+		<item>玻利维亚,591,144,73603|73602|73601</item>
+		<item>伯利兹,501,134,70267</item>
+		<item>博茨瓦纳,267,99,65202|65201|65204</item>
+		<item>不丹,975,188,40211|40277</item>
+		<item>布基纳法索,226,61,61301|61302|61303</item>
+		<item>布隆迪,257,90,64201|64203|64202|64207|64282</item>
+    </string-array><string name="smssdk_error_detail_451">所有访问服务器的接口，在请求的头部必须加入指定格式的User-Agent。</string><string-array name="smssdk_country_group_a">
+		<item>阿尔巴尼亚,355,110,27601|27602|27603|27604</item>
+		<item>阿尔及利亚,213,52,60303|60302|60301</item>
+		<item>阿富汗,93,46,41220|41230|41240|41250|41201</item>
+		<item>阿根廷,54,27,722070|72207|72236|722020|72201|72234|72202|722320|722310|722010|722340|722330|722341</item>
+		<item>阿拉伯联合酋长国,971,184,42402|42403</item>
+		<item>阿鲁巴岛,297,102,36301|36302</item>
+		<item>阿曼,968,182,42202|42203</item>
+		<item>阿塞拜疆,994,193,40002|40001|40004</item>
+		<item>埃及,20,5,60203|60202|60201</item>
+		<item>埃塞俄比亚,251,84,63601</item>
+		<item>爱尔兰,353,108,27201|27213|27202|27211|27205|27203|27209</item>
+		<item>爱沙尼亚,372,117,24803|24802|24801</item>
+		<item>安道尔,376,121,21303</item>
+		<item>安哥拉,244,79,63102|63104</item>
+		<item>安圭拉岛,1264,199,365840</item>
+		<item>安提瓜和巴布达,1268,200,338050|344030|344920</item>
+		<item>奥地利,43,16,23207|23209|23210|23211|23201|23212|23202|23214|23203|23204|23215|23205|23206</item>
+		<item>澳大利亚,61,33,50507|50506|50519|50590|50572|50571|50530|50501|50512|50511|50503|50502|505060|50538|50516|505061|50526</item>
+		<item>澳门,853,169,45501|45500|45503|45502|45505|45504</item>
+    </string-array><string name="smssdk_error_detail_450">无权执行该操作。</string><string-array name="smssdk_country_group_d">
+		<item>丹麦,45,19,23801|23812|23802|23813|23803|23806|23828|23807|23808|23830|23820|23810|23866|23877</item>
+		<item>德国,49,23,26203|26202|26205|26216|26204|26207|26217|26206|26209|26208|26243|26276|26220|26242|26212|26201|26211|26277</item>
+		<item>东帝汶,670,153,51401|51402</item>
+		<item>多哥,228,63,61501|61503</item>
+		<item>多米尼加共和国,1809,213,37001|37002|37003|37004</item>
+		<item>多米尼克,1767,210,366110</item>
+    </string-array><string name="smssdk_error_detail_453">解密请求数据错误。</string><string-array name="smssdk_country_group_c">
+		<item>朝鲜,850,167,46703</item>
+		<item>赤道几内亚,240,75,62701|62703</item>
+    </string-array><string name="smssdk_error_detail_452">请求头中的User-Agent格式错误。</string><string name="smssdk_error_detail_602">无法发送此地区短信</string><string name="smssdk_error_detail_601">短信发送受限</string><string name="smssdk_error_detail_604">当前服务暂不支持此国家，请选择其它国家</string><string name="smssdk_error_desc_server_busy">服务器繁忙</string><string name="smssdk_error_detail_603">请填写正确的手机号码</string><string name="smssdk_error_detail_600">API使用受限制</string><string name="smssdk_error_desc_419">duid对应的token不存在</string><string name="smssdk_error_desc_418">内部接口调用失败</string></file><file path="D:\projects\v_telephone\sMSSDK2001\build\intermediates\bundles\default\res\values-en\values-en.xml" qualifiers="en"><string-array name="smssdk_country_group_r">
+		<item>Republic Of The Congo,242,77,62907|62910|62901</item>
+		<item>Réunion Island,262,94,64710|64702</item>
+		<item>Romania,40,14,22603|22604|22605|22610|22601</item>
+		<item>Russia,7,3,25020|25099|25035|25002|25012|25001|25003|25039|25005|25007</item>
+		<item>Rwanda,250,83,63510|63512|63513|63514</item>
+	</string-array><string name="smssdk_error_desc_461">Permission denied</string><string-array name="smssdk_country_group_q">
+		<item>Qatar,974,187,42701|42702</item>
+	</string-array><string name="smssdk_error_desc_462">Sending text message hits limit</string><string-array name="smssdk_country_group_t">
+		<item>Taiwan,886,173,46602|46668|46603|46688|46699|46601|46689|46656|46697|46610|46609|46606|46607|46605|46693|46692</item>
+		<item>Tajikistan,992,191,43605|43601|43602|43603|43604</item>
+		<item>Tanzania,255,88,64011|64003|64002|64005|64004|64007|64006|64009|64008</item>
+		<item>Thailand,66,38,52000|52099|52020|52003|52004|52015|52001|52023|52002|52018|52005</item>
+		<item>Togo,228,63,61501|61503</item>
+		<item>Tonga,676,156,53901</item>
+		<item>Trinidad and Tobago,1868,214,374130|37412</item>
+		<item>Tunisia,216,53,60503|60502|60501</item>
+		<item>Turkey,90,43,28602|28603|28601|28604</item>
+		<item>Turkmenistan,993,192,43801|43802</item>
+		<item>Turks and Caicos Islands,1649,206,376352|376350</item>
+	</string-array><string name="smssdk_error_desc_463">Sending text message hits limit</string><string name="smssdk_error_detail_407">The required argument missing</string><string-array name="smssdk_country_group_s">
+		<item>Saint Kitts and Nevis,1869,215,356110|356070</item>
+		<item>Saint Lucia,1758,209,358110</item>
+		<item>Saint Pierre and Miquelon,508,141,30801</item>
+		<item>Saint Vincent and The Grenadines,1784,211,360110</item>
+		<item>Samoa,685,162,54900</item>
+		<item>San Marino,378,123,29201</item>
+		<item>Sao Tome and Principe,239,74,62601</item>
+		<item>Saudi Arabia,966,180,42003|42004|42001|42006</item>
+		<item>Senegal,221,56,60801|60803|60802</item>
+		<item>Serbia,381,125,29341|22001|22003|22005</item>
+		<item>Seychelles,248,81,63310|63301|63302</item>
+		<item>Sierra Leone,232,67,61902|61903|61904|61905|61906|61909|61901</item>
+		<item>Singapore,65,37,52502|52503|52512|52501|52505</item>
+		<item>Slovakia,421,132,23199|23101|23102|23106</item>
+		<item>Slovenia,386,128,29364|29341|29340|29370</item>
+		<item>Solomon Islands,677,157,54010</item>
+		<item>Somalia,252,85,63782|63760|63730|63701|63725|63704</item>
+		<item>South Africa,27,6,65510|65512|65501|65502|65507|65519</item>
+		<item>South Korea,82,40,45006|45005|45008|45002|45004</item>
+		<item>South Sudan,211,50,65995</item>
+		<item>Spain,34,11,21402|21401|21423|21411|21422|21410|21421|21432|21420|21409|21408|21419|21407|21418|21417|21406|21405|21427|21416|21404|21415|21425|21403</item>
+		<item>Sri Lanka,94,47,41301|41305|41302|41308</item>
+		<item>Sudan,249,82,63401|63402|63407</item>
+		<item>Suriname,597,150,74604|74603|74602</item>
+		<item>Swaziland,268,100,65310|65301</item>
+		<item>Sweden,46,20,24035|24013|24036|24014|24037|24015|24038|24016|24039|24017|24018|24019|24030|24031|24010|24032|24033|24012|24034|24002|24003|24026|24027|24028|24006|24029|24007|24008|24040|24020|24043|24022|24000|24044|24023|24001|24045</item>
+		<item>Switzerland,41,15,22812|22801|22802|22803|22805|22809|22851|22853|22854</item>
+		<item>Syria,963,177,41701|41702</item>
+	</string-array><string name="smssdk_error_desc_464">Sending text message hits limit</string><string name="smssdk_error_detail_408">There are illegal arguments in the request</string><string-array name="smssdk_country_group_n">
+		<item>Namibia,264,96,64902|64901|64903</item>
+		<item>Nepal,977,190,42901|42902</item>
+		<item>Netherlands,31,8,20423|20412|20410|20465|20420|20462|20409|20408|20407|20418|20406|20417|20428|20416|20405|20415|20404|20414|20469|20403|20468|20424|20402</item>
+		<item>Netherlands Antilles,599,152,36269|36202|36201|36251|36294|36282|36281</item>
+		<item>New Caledonia,687,164,54601</item>
+		<item>New Zealand,64,36,53001|53004|53005|53024|53002|53006</item>
+		<item>Nicaragua,505,138,71021|71030</item>
+		<item>Niger,227,62,61401|61402|61403|61404</item>
+		<item>Nigeria,234,69,62150|62140|62130|62120|62125|23455-NG|62160</item>
+		<item>North Korea,850,167,46703</item>
+		<item>Norway,47,21,24208|24209|24220|24221|24222|24201|24223|24202|24224|24204|24205|24206</item>
+	</string-array><string-array name="smssdk_country_group_m">
+		<item>Macau,853,169,45501|45500|45503|45502|45505|45504</item>
+		<item>Macedonia,389,130,29402|29401|29403</item>
+		<item>Madagascar,261,93,64601|64602|64604</item>
+		<item>Malawi,265,97,65010|65001</item>
+		<item>Malaysia,60,32,50220|50211|50213|502150|50212|502151|502152|50217|50216|50219|50218</item>
+		<item>Maldives,960,174,47201|47202</item>
+		<item>Mali,223,58,61002|61001</item>
+		<item>Malta,356,111,27821|27877|27801</item>
+		<item>Martinique,596,149,34003|34002|34001|34020</item>
+		<item>Mauritania,222,57,60910|60902</item>
+		<item>Mauritius,230,65,61710|61701|61702</item>
+		<item>Mexico,52,25,33402|33403|33401|33450|33406|334090|33404|33405</item>
+		<item>Micronesia,691,166,55001</item>
+		<item>Moldova,373,118,25903|25902|25904|25901</item>
+		<item>Monaco,377,122,21201</item>
+		<item>Mongolia,976,189,42898|42888|42899|42801</item>
+		<item>Montenegro,382,126,29703|29702|29701</item>
+		<item>Montserrat,1664,207,354860</item>
+		<item>Morocco,212,51,60405|60402|60401|60400</item>
+		<item>Mozambique,258,91,64301|64304|64303</item>
+		<item>Myanmar,95,48,41401|41406|41405</item>
+	</string-array><string-array name="smssdk_country_group_p">
+		<item>Pakistan,92,45,</item>
+		<item>Palau,680,160,55201|55280</item>
+		<item>Palestinian Territory,970,183,42506-PS|42505-PS</item>
+		<item>Panama,507,140,71404|71402|71403|71401</item>
+		<item>Papua New Guinea,675,155,53701|53702|53703</item>
+		<item>Paraguay,595,148,74404|74403|74402|74401</item>
+		<item>Peru,51,24,71610|71606|71617|71607|71615</item>
+		<item>Philippines,63,35,51518|51502|51501|51503|51505</item>
+		<item>Poland,48,22,26016|26038|26004|26018|26017|26006|26009|26019|26008|26010|26032|26001|26034|26012|26011|26003|26036|26014|26002|26013|26035</item>
+		<item>Portugal,351,106,26804|26806|26801|26803</item>
+		<item>Puerto Rico,1787,212,310970</item>
+	</string-array><string-array name="smssdk_country_group_o">
+		<item>Oman,968,182,42202|42203</item>
+	</string-array><string name="smssdk_error_desc_460">Permission denied</string><string-array name="smssdk_country_group_j">
+		<item>Jamaica,1876,216,338180|338020|338110</item>
+		<item>Japan,81,39,44027|44026|44029|44028|44023|44144|44022|44143|44025|44024|44145|44140|44021|44142|44141|44020|44016|44015|44018|44017|44012|44011|44099|44014|44013|44019|44090|44096|44095|44010|44098|44097|44092|44091|44094|44093|44004|44007|44006|44001|44089|44000|44088|44003|44002|44009|44008|44087|44199|44078|44198|44077|44079|44074|44194|44073|44076|44075|44191|44070|44190|44193|44072|44192|44071|44067|44066|44069|44068|44063|44062|44065|44064|44061|44060|44056|44055|44058|44052|44051|44054|44053|44050|44170|44049|44048|44045|44044|44165|44047|44046|44041|44162|44040|44161|44043|44164|44042|44163|44038|44037|44039|44034|44033|44036|44035|44030|44032|44031</item>
+		<item>Jersey,44,17,</item>
+		<item>Jordan,962,176,41601|41677|41603</item>
+	</string-array><string name="smssdk_error_detail_401">The request token is empty</string><string-array name="smssdk_country_group_i">
+		<item>Iceland,354,109,27409|27411|27404|27401|27402|27407</item>
+		<item>India,91,44,405893|405892|405895|405894|405897|405896|405899|405898|40501|40506|40505|405891|405890|40503|405889|405882|405881|405883|405886|405885|405888|405887|405880|405879|405878|405871|405750|405870|405873|405752|405872|405751|405875|405754|405874|405753|405877|405756|405876|405755|405868|405867|405869|405860|405862|405861|405864|405863|405866|405865|405856|405859|405858|40494|40493|40492|40491|40498|40497|40496|40495|40490|40483|40482|40481|40480|40487|40486|40485|405799|40484|40489|40488|40472|40471|40470|40476|40475|40474|40473|40479|40478|40477|40460|405930|405811|40462|405810|405931|40469|40468|40467|40466|405809|405802|405923|405801|405922|405804|405925|405803|405924|405806|405927|405805|405926|405808|405929|405807|405928|40450|40570|40454|40453|40452|405800|405921|40451|405920|40458|40457|40456|40455|40459|405919|405912|405914|405913|405916|405915|405918|405917|40443|40442|40441|40567|40446|40566|40449|405901|405900|405903|405902|405905|405904|405907|405906|40553|40552|40431|40551|40430|40436|40556|40435|40555|40434|40554|40433|40438|40437|405851|405850|40421|405853|40420|405852|405855|405854|40425|40424|40422|40429|40428|40427|40419|405846|405845|405848|405847|405849|405046|405045|405840|405047|40410|405842|405841|405843|40413|40412|405040|40411|40418|405042|40417|405041|40416|405044|40415|405043|40409|405835|405834|405837|405836|405839|405838|405035|405034|405037|405036|40520|405039|405831|405038|405830|405833|405832|40524|40403|40402|40523|40522|40401|40521|40400|40407|405031|40406|405030|40405|405033|40404|405032|40519|40518|405824|405823|405825|405828|405827|405829|405026|405025|405820|405027|405822|405029|405821|40513|40512|40511|40510|40517|40515|40514|40509|40508|40507|405813|405812|405815|405814|405817|405816|405819|405818</item>
+		<item>Indonesia,62,34,51010|51021|51089|51001|51011|51027|51007|51028|51009|51008</item>
+		<item>Iran,98,49,43235|43214|43220|43200|43211|43219</item>
+		<item>Iraq,964,178,41805|41840|41820|41830|41845</item>
+		<item>Ireland,353,108,27201|27213|27202|27211|27205|27203|27209</item>
+		<item>Israel,972,185,42577|42516|42505|42506|42507|RESTRICTED-IL|42519|42508|42501|42512|42523|42502|42503|42514|42515</item>
+		<item>Italy,39,13,22206|22207|22208|22210|22243|22288|22244|22299|22233|22201|22235|22204|22248|22205|22230</item>
+		<item>Ivory Coast,225,60,61205|61204|61203|61202</item>
+	</string-array><string name="smssdk_error_detail_402">The request token does not exist</string><string-array name="smssdk_country_group_l">
+		<item>Laos,856,171,45701|45708|45703|45702</item>
+		<item>Latvia,371,116,24703|24706|24705|24708|24707|24709|24702|24701</item>
+		<item>Lebanon,961,175,41503|41501</item>
+		<item>Lesotho,266,98,65101|65102</item>
+		<item>Liberia,231,66,61804|61807|61801|61802</item>
+		<item>Libya,218,54,60603|60601|60600</item>
+		<item>Liechtenstein,423,133,29501|29577|29505|29502</item>
+		<item>Lithuania,370,115,24601|24603|24602</item>
+		<item>Luxembourg,352,107,27099|27077|27001</item>
+	</string-array><string-array name="smssdk_country_group_k">
+		<item>Kazakhstan,7,4,40102|40101|40177|40108|40107</item>
+		<item>Kenya,254,87,63905|63907|63903|63902</item>
+		<item>Kiribati,686,163,54509</item>
+		<item>Kuwait,965,179,41904|41903|41902</item>
+		<item>Kyrgyzstan,996,195,43705|43701</item>
+	</string-array><string name="smssdk_error_detail_400">The request could not be identified</string><string-array name="smssdk_country_group_f">
+		<item>Faroe Islands,298,103,28801|28802|28803</item>
+		<item>Fiji,679,159,54202|54201</item>
+		<item>Finland,358,113,24409|24432|24410|24421|24412|24411|24414|24403|24413|24405|24426|24404|24491</item>
+		<item>France,33,10,20816|20804|20826|20815|20825|20813|20802|20823|20801|20811|20822|20888|20810|20821|20831|20820|20809|20808|20817</item>
+		<item>French Guiana,594,147,74201|74220</item>
+		<item>French Polynesia,689,165,54720</item>
+	</string-array><string name="smssdk_error_detail_405">The request AppKey is empty</string><string-array name="smssdk_country_group_e">
+		<item>East Timor,670,153,51401|51402</item>
+		<item>Ecuador,593,146,74002|74001|74000</item>
+		<item>Egypt,20,5,60203|60202|60201</item>
+		<item>El Salvador,503,136,70602|70601|70604|70603|70605</item>
+		<item>Equatorial Guinea,240,75,62701|62703</item>
+		<item>Estonia,372,117,24803|24802|24801</item>
+		<item>Ethiopia,251,84,63601</item>
+	</string-array><string name="smssdk_error_detail_406">The request AppKey does not exist</string><string-array name="smssdk_country_group_h">
+		<item>Haiti,509,142,37201|37202</item>
+		<item>Honduras,504,137,70830|70840|70802|70801</item>
+		<item>Hong Kong,852,168,45413|45412|45401|45404|45403|45414|45400|45411|45409|45406|45405|45416|45408|45419|45429|45407</item>
+		<item>Hungary,36,12,21630|21670|21601</item>
+	</string-array><string name="smssdk_error_detail_403">The hash code of the request is empty</string><string-array name="smssdk_country_group_g">
+		<item>Gabon,241,76,62804|62801|62802|62803</item>
+		<item>Gambia,220,55,60702|60701|60704|60703</item>
+		<item>Georgia,995,194,28202|28201|28204|28205</item>
+		<item>Germany,49,23,26203|26202|26205|26216|26204|26207|26217|26206|26209|26208|26243|26276|26220|26242|26212|26201|26211|26277</item>
+		<item>Ghana,233,68,62001|62002|62003|62004|62006|62007</item>
+		<item>Gibraltar,350,105,26606|26609|26601</item>
+		<item>Greece,30,7,20203|20202|20201|20210|20209|20207|20205</item>
+		<item>Greenland,299,104,29001</item>
+		<item>Grenada,1473,205,352110</item>
+		<item>Guadeloupe,590,143,34008|34003|34002|34001|34020</item>
+		<item>Guam,1671,208,310400|310140|310470|310110</item>
+		<item>Guatemala,502,135,70402|70401|70403</item>
+		<item>Guinea,224,59,61105|61104|61103|61102|61101</item>
+		<item>Guinea-Bissau,245,80,63202|63203</item>
+		<item>Guyana,592,145,73802|73801</item>
+	</string-array><string name="smssdk_error_detail_404">The hash code of the request is illegal</string><string-array name="smssdk_country_group_b">
+		<item>Bahamas,1242,197,364390|36439</item>
+		<item>Bahrain,973,186,42604|42605|42601|42602</item>
+		<item>Bangladesh,880,172,47007|47005|47006|47003|47004|47001|47002</item>
+		<item>Barbados,1246,198,342600</item>
+		<item>Belarus,375,120,25704|25701|25702</item>
+		<item>Belgium,32,9,20610|20620|20640|20606|20605|20601</item>
+		<item>Belize,501,134,70267</item>
+		<item>Benin,229,64,61605|61601|61602|61603|61604</item>
+		<item>Bermuda,1441,204,350000</item>
+		<item>Bhutan,975,188,40211|40277</item>
+		<item>Bolivia,591,144,73603|73602|73601</item>
+		<item>Bosnia and Herzegovina,387,129,21890|21805|21803</item>
+		<item>Botswana,267,99,65202|65201|65204</item>
+		<item>Brazil,55,28,72416|72405|72439|72406|72403|72415|72437|72404|72434|72423|72402|72432|72410|72433|72400|72411|72430|72431|72407</item>
+		<item>Brunei,673,154,52811|52802</item>
+		<item>Bulgaria,359,114,28401|28405|28403</item>
+		<item>Burkina Faso,226,61,61301|61302|61303</item>
+		<item>Burundi,257,90,64201|64203|64202|64207|64282</item>
+	</string-array><string-array name="smssdk_country_group_a">
+		<item>Afghanistan,93,46,41220|41230|41240|41250|41201</item>
+		<item>Albania,355,110,27601|27602|27603|27604</item>
+		<item>Algeria,213,52,60303|60302|60301</item>
+		<item>Andorra,376,121,21303</item>
+		<item>Angola,244,79,63102|63104</item>
+		<item>Anguilla,1264,199,365840</item>
+		<item>Antigua and Barbuda,1268,200,338050|344030|344920</item>
+		<item>Argentina,54,27,722070|72207|72236|722020|72201|72234|72202|722320|722310|722010|722340|722330|722341</item>
+		<item>Armenia,374,119,28301|28310|28305|28304</item>
+		<item>Aruba,297,102,36301|36302</item>
+		<item>Australia,61,33,50507|50506|50519|50590|50572|50571|50530|50501|50512|50511|50503|50502|505060|50538|50516|505061|50526</item>
+		<item>Austria,43,16,23207|23209|23210|23211|23201|23212|23202|23214|23203|23204|23215|23205|23206</item>
+		<item>Azerbaijan,994,193,40002|40001|40004</item>
+	</string-array><string-array name="smssdk_country_group_d">
+		<item>Democratic Republic of the Congo,243,78,63086|63001|63089|63002|63005</item>
+		<item>Denmark,45,19,23801|23812|23802|23813|23803|23806|23828|23807|23808|23830|23820|23810|23866|23877</item>
+		<item>Djibouti,253,86,63801</item>
+		<item>Dominica,1767,210,366110</item>
+		<item>Dominican Republic,1809,213,37001|37002|37003|37004</item>
+	</string-array><string-array name="smssdk_country_group_c">
+		<item>Cambodia,855,170,45602|45601|45608|45618|45609|45604|45603|45606|45605|23455-KH</item>
+		<item>Cameroon,237,72,62401|62402|62404</item>
+		<item>Canada,1,1,302657|302656|302710|302655|302500|302610|302720|302702|302270|302490|302880|302220|302680|302360|302690|302510|302653|302861|302222|302640|302651|302530|302221|302320</item>
+		<item>Cape Verde,238,73,62501|62502</item>
+		<item>Cayman Islands,1345,203,346140</item>
+		<item>Central African Republic,236,71,62301|62302|62303|62304</item>
+		<item>Chad,235,70,62201|62203</item>
+		<item>Chile,56,29,73008|73006|73004|73002|73013|73003|73014|73011|73012|73001</item>
+		<item>China,86,42,46006|46007|46005|46002|46003|46000|46001</item>
+		<item>Colombia,57,30,732130|732020|732154|732111|732123|732101</item>
+		<item>Comoros,269,101,65401</item>
+		<item>Cook Islands,682,161,54801</item>
+		<item>Costa Rica,506,139,71204|71203|71201</item>
+		<item>Croatia,385,127,21902|21901|21912|21910</item>
+		<item>Cuba,53,26,36801</item>
+		<item>Cyprus,357,112,28022|28001|28020|28010</item>
+		<item>Czech Republic,420,131,23001|23002|23003|23004|23005|23008</item>
+	</string-array><string name="smssdk_error_desc_469">Permission denied</string><string name="smssdk_error_desc_465">Sending text message hits limit</string><string name="smssdk_error_desc_466">The verification code is empty</string><string name="smssdk_error_desc_467">Verification Code becomes invalid,Please request another one</string><string name="smssdk_error_desc_500">Internal Server Error</string><string name="smssdk_error_desc_468">Invalid validation code</string><string name="smssdk_error_desc_450">Permission denied</string><string name="smssdk_error_desc_451">User-Agent is empty</string><string name="smssdk_error_desc_452">Bad Format User-Agent</string><string name="smssdk_error_desc_453">Decrypt faield</string><string name="smssdk_error_detail_478">current phone can send 5 text messages per 12 hours in current app</string><string name="smssdk_error_detail_476">the sending messages of this appkey exceeds the limit</string><string name="smssdk_error_detail_477">the sending messages of this phone exceeds the limit</string><string name="smssdk_error_detail_470">Insufficient balance</string><string name="smssdk_error_detail_471">The IP address of the verifier server is incorrect</string><string name="smssdk_error_detail_474">Server verification option is closed</string><string name="smssdk_error_detail_475">no application information exists</string><string name="smssdk_error_detail_472">Obtaining client platform information failed</string><string name="smssdk_error_detail_473">Obtaining the platform information error bases on DUID </string><string name="smssdk_error_desc_458">Blacked phone number</string><string name="smssdk_error_desc_459">Unable to obtain data</string><string name="smssdk_error_desc_454">Bad Format data</string><string name="smssdk_error_desc_455">Invalid signature</string><string name="smssdk_error_desc_456">Wrong phone number</string><string name="smssdk_error_desc_457">Phone number is illegal</string><string name="smssdk_error_detail_467">Check validation code too frequently</string><string name="smssdk_error_detail_500">Internal Server Error</string><string name="smssdk_error_detail_468">Invalid validation code</string><string name="smssdk_error_detail_465">Sending text message to the device already hit the app\'s limit</string><string name="smssdk_error_detail_466">The submitted verification code is empty</string><string name="smssdk_error_detail_469">Please turn on the switch to sending text messages by web</string><string name="smssdk_error_detail_460">Please turn on the switch to sending text messages by clients</string><string name="smssdk_error_desc_407">Argument missing</string><string name="smssdk_error_detail_463">Sending text message to the phone number already hit its limit</string><string name="smssdk_error_desc_408">Invalid parameter</string><string name="smssdk_error_detail_464">Sending text message to the device already hit its limit</string><string name="smssdk_error_detail_461">Send text messages to the region is not supported</string><string name="smssdk_error_detail_462">Sending text message already hit its time limit</string><string name="smssdk_error_desc_403">CRC32 is empty</string><string name="smssdk_error_desc_404">CRC32 is illegal</string><string name="smssdk_error_desc_405">AppKey is empty</string><string name="smssdk_error_desc_406">AppKey is incorrect</string><string name="smssdk_error_desc_400">Invalid request</string><string name="smssdk_error_desc_401">Token is empty</string><string name="smssdk_error_desc_402">Token does not exist</string><string name="smssdk_error_desc_472">Unable to obtain data</string><string name="smssdk_error_desc_473">Obtaining the platform information error bases on DUID</string><string name="smssdk_error_desc_474">Server verification option is closed</string><string name="smssdk_error_desc_475">no application information exists</string><string name="smssdk_error_desc_470">Insufficient balance</string><string name="smssdk_error_desc_server_busy">Server is busy</string><string name="smssdk_error_desc_471">Invalid IP</string><string name="smssdk_error_detail_456">The submitted phone number or country code is empty</string><string name="smssdk_error_detail_457">The submitted phone number or country code is incorrect</string><string name="smssdk_error_detail_454">The malformed parameters can not be convert to the JSON format</string><string name="smssdk_error_detail_455">Invalid signature</string><string name="smssdk_error_detail_458">This phone number had been black</string><string name="smssdk_error_detail_459">Unable to obtain data related to the appkey</string><string name="smssdk_error_detail_452">The User-Agent in the request header is malformed</string><string name="smssdk_error_detail_453">Failed to decrypt the request data</string><string name="smssdk_error_detail_450">The application attempts to perform an action it does not have permission for</string><string name="smssdk_error_detail_451">The User-Agent header must be join in the spacified format</string><string-array name="smssdk_country_group_z">
+		<item>Zambia,260,92,64502|64501|64503</item>
+		<item>Zimbabwe,263,95,64801|64803|64804</item>
+    </string-array><string-array name="smssdk_country_group_y">
+		<item>Yemen,967,181,42101|42102|42103</item>
+	</string-array><string-array name="smssdk_country_group_v">
+		<item>Vanuatu,678,158,54101|54105</item>
+		<item>Venezuela,58,31,73406|73404|73401</item>
+		<item>Vietnam,84,41,45204|45205|45202|45201|45207</item>
+		<item>Virgin Islands, British,1340,202,348570|348170</item>
+		<item>Virgin Islands, US,1284,201,311470</item>
+	</string-array><string name="smssdk_error_desc_476">the sending messages of this appkey exceeds the limit</string><string-array name="smssdk_country_group_u">
+		<item>Uganda,256,89,64111|64133|64166|64122|64110|64101|64114</item>
+		<item>Ukraine,380,124,25507|25506|25521|25501|25503|25502|25505|25504</item>
+		<item>United Arab Emirates,971,184,42402|42403</item>
+		<item>United Kingdom,44,18,23427|23428|23407|23409|23420|23400|23401|23423|23500|23424|23402|23403|23425|23426|23416|23417|23418|23419|23430|23431|23476|23410|23433|23455|23411|23478|23434|23458|23414|23415|23450|23451</item>
+		<item>United States,1,2,311090|310080|311050|311370|310160|31150|311010|310680|310120|310560|311650|310880|310760|31190|310320|310630|310710|310090|310290|316993|310170|310050|31060|311580|310690|311020|311340|310570|311660|310450|310011|310770|316995|310012|316994|311730|310004|311610|310840|310005|310600|31100|311190|310180|31050|310060|316883|311150|310380|311030|310260|311230|310020|310340|311991|311430|316885|310660|310100|316884|310540|310023|310980|311740|310410|31016|310610|310016|31130|31011|31611|310190|311040|316011|310150|310790|310990|310870|310420|310300|310740|311710</item>
+		<item>Uruguay,598,151,74803|74802|74801|74800|74810|74807</item>
+		<item>Uzbekistan,998,196,43401|43402|43407|43403|43404|43405|43406</item>
+	</string-array><string name="smssdk_error_desc_477">the sending messages of this phone exceeds the limit</string><string-array name="smssdk_country_group_x">
+	    
+	</string-array><string name="smssdk_error_desc_478">current phone exceeds the text message limit in this App</string><string-array name="smssdk_country_group_w">
+	    
+	</string-array><string name="smssdk_error_detail_600">API is limited</string><string name="smssdk_error_detail_603">Please input the correct phone number</string><string name="smssdk_error_detail_604">Country not support, please choose another one</string><string name="smssdk_error_detail_601">SMS permission denied</string><string name="smssdk_error_detail_602">cannot send message of this country or zone</string><string name="smssdk_error_desc_418">Internal interface failure</string><string name="smssdk_error_desc_419">DUID not match</string><string name="smssdk_error_desc_601">SMS permission denied</string><string name="smssdk_error_desc_602">cannot send message of this zone</string><string name="smssdk_error_desc_603">Please input the correct phone number</string><string name="smssdk_error_desc_604">Country not support, please choose another one</string><string name="smssdk_error_desc_600">API is limited</string><string name="smssdk_error_detail_418">An error occurred when calling internal interface</string><string name="smssdk_error_detail_419">DUID does not match the token</string></file></source></dataSet><dataSet config="default" from-dependency="true" generated-set="default$Generated"><source path="D:\projects\v_telephone\xUtils\build\intermediates\bundles\default\res"/></dataSet><dataSet config="default" from-dependency="true" generated-set="default$Generated"><source path="D:\projects\v_telephone\anSmack\build\intermediates\bundles\default\res"><file name="ic_launcher" path="D:\projects\v_telephone\anSmack\build\intermediates\bundles\default\res\drawable-hdpi-v4\ic_launcher.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_launcher" path="D:\projects\v_telephone\anSmack\build\intermediates\bundles\default\res\drawable-mdpi-v4\ic_launcher.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_launcher" path="D:\projects\v_telephone\anSmack\build\intermediates\bundles\default\res\drawable-xhdpi-v4\ic_launcher.png" qualifiers="xhdpi-v4" type="drawable"/><file path="D:\projects\v_telephone\anSmack\build\intermediates\bundles\default\res\values\values.xml" qualifiers=""><string name="app_name">AnSmack</string></file></source></dataSet><dataSet config="default" from-dependency="true" generated-set="default$Generated"><source path="D:\projects\v_telephone\androidTpl\build\intermediates\bundles\default\res"/></dataSet><dataSet config="default" from-dependency="true" generated-set="default$Generated"><source path="D:\projects\v_telephone\xmpp_lib_new\build\intermediates\bundles\default\res"><file name="ic_launcher" path="D:\projects\v_telephone\xmpp_lib_new\build\intermediates\bundles\default\res\drawable-hdpi-v4\ic_launcher.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_launcher" path="D:\projects\v_telephone\xmpp_lib_new\build\intermediates\bundles\default\res\drawable-mdpi-v4\ic_launcher.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_launcher" path="D:\projects\v_telephone\xmpp_lib_new\build\intermediates\bundles\default\res\drawable-xhdpi-v4\ic_launcher.png" qualifiers="xhdpi-v4" type="drawable"/><file path="D:\projects\v_telephone\xmpp_lib_new\build\intermediates\bundles\default\res\values\values.xml" qualifiers=""><string name="app_name">xmpp_lib_tel</string></file></source></dataSet><dataSet config="default" from-dependency="true" generated-set="default$Generated"><source path="D:\projects\v_telephone\umeng\build\intermediates\bundles\default\res"><file name="umeng_fb_slide_in_from_left" path="D:\projects\v_telephone\umeng\build\intermediates\bundles\default\res\anim\umeng_fb_slide_in_from_left.xml" qualifiers="" type="anim"/><file name="umeng_fb_slide_in_from_right" path="D:\projects\v_telephone\umeng\build\intermediates\bundles\default\res\anim\umeng_fb_slide_in_from_right.xml" qualifiers="" type="anim"/><file name="umeng_fb_slide_out_from_left" path="D:\projects\v_telephone\umeng\build\intermediates\bundles\default\res\anim\umeng_fb_slide_out_from_left.xml" qualifiers="" type="anim"/><file name="umeng_fb_slide_out_from_right" path="D:\projects\v_telephone\umeng\build\intermediates\bundles\default\res\anim\umeng_fb_slide_out_from_right.xml" qualifiers="" type="anim"/><file name="umeng_fb_arrow_right" path="D:\projects\v_telephone\umeng\build\intermediates\bundles\default\res\drawable\umeng_fb_arrow_right.png" qualifiers="" type="drawable"/><file name="umeng_fb_back_normal" path="D:\projects\v_telephone\umeng\build\intermediates\bundles\default\res\drawable\umeng_fb_back_normal.png" qualifiers="" type="drawable"/><file name="umeng_fb_back_selected" path="D:\projects\v_telephone\umeng\build\intermediates\bundles\default\res\drawable\umeng_fb_back_selected.png" qualifiers="" type="drawable"/><file name="umeng_fb_back_selector" path="D:\projects\v_telephone\umeng\build\intermediates\bundles\default\res\drawable\umeng_fb_back_selector.xml" qualifiers="" type="drawable"/><file name="umeng_fb_bar_bg" path="D:\projects\v_telephone\umeng\build\intermediates\bundles\default\res\drawable\umeng_fb_bar_bg.9.png" qualifiers="" type="drawable"/><file name="umeng_fb_btn_bg_selector" path="D:\projects\v_telephone\umeng\build\intermediates\bundles\default\res\drawable\umeng_fb_btn_bg_selector.xml" qualifiers="" type="drawable"/><file name="umeng_fb_conversation_bg" path="D:\projects\v_telephone\umeng\build\intermediates\bundles\default\res\drawable\umeng_fb_conversation_bg.png" qualifiers="" type="drawable"/><file name="umeng_fb_gradient_green" path="D:\projects\v_telephone\umeng\build\intermediates\bundles\default\res\drawable\umeng_fb_gradient_green.xml" qualifiers="" type="drawable"/><file name="umeng_fb_gradient_orange" path="D:\projects\v_telephone\umeng\build\intermediates\bundles\default\res\drawable\umeng_fb_gradient_orange.xml" qualifiers="" type="drawable"/><file name="umeng_fb_gray_frame" path="D:\projects\v_telephone\umeng\build\intermediates\bundles\default\res\drawable\umeng_fb_gray_frame.xml" qualifiers="" type="drawable"/><file name="umeng_fb_list_item" path="D:\projects\v_telephone\umeng\build\intermediates\bundles\default\res\drawable\umeng_fb_list_item.9.png" qualifiers="" type="drawable"/><file name="umeng_fb_list_item_pressed" path="D:\projects\v_telephone\umeng\build\intermediates\bundles\default\res\drawable\umeng_fb_list_item_pressed.9.png" qualifiers="" type="drawable"/><file name="umeng_fb_list_item_selector" path="D:\projects\v_telephone\umeng\build\intermediates\bundles\default\res\drawable\umeng_fb_list_item_selector.xml" qualifiers="" type="drawable"/><file name="umeng_fb_logo" path="D:\projects\v_telephone\umeng\build\intermediates\bundles\default\res\drawable\umeng_fb_logo.png" qualifiers="" type="drawable"/><file name="umeng_fb_point_new" path="D:\projects\v_telephone\umeng\build\intermediates\bundles\default\res\drawable\umeng_fb_point_new.xml" qualifiers="" type="drawable"/><file name="umeng_fb_point_normal" path="D:\projects\v_telephone\umeng\build\intermediates\bundles\default\res\drawable\umeng_fb_point_normal.xml" qualifiers="" type="drawable"/><file name="umeng_fb_reply_left_bg" path="D:\projects\v_telephone\umeng\build\intermediates\bundles\default\res\drawable\umeng_fb_reply_left_bg.9.png" qualifiers="" type="drawable"/><file name="umeng_fb_reply_right_bg" path="D:\projects\v_telephone\umeng\build\intermediates\bundles\default\res\drawable\umeng_fb_reply_right_bg.9.png" qualifiers="" type="drawable"/><file name="umeng_fb_see_list_normal" path="D:\projects\v_telephone\umeng\build\intermediates\bundles\default\res\drawable\umeng_fb_see_list_normal.png" qualifiers="" type="drawable"/><file name="umeng_fb_see_list_pressed" path="D:\projects\v_telephone\umeng\build\intermediates\bundles\default\res\drawable\umeng_fb_see_list_pressed.png" qualifiers="" type="drawable"/><file name="umeng_fb_see_list_selector" path="D:\projects\v_telephone\umeng\build\intermediates\bundles\default\res\drawable\umeng_fb_see_list_selector.xml" qualifiers="" type="drawable"/><file name="umeng_fb_statusbar_icon" path="D:\projects\v_telephone\umeng\build\intermediates\bundles\default\res\drawable\umeng_fb_statusbar_icon.png" qualifiers="" type="drawable"/><file name="umeng_fb_submit_selector" path="D:\projects\v_telephone\umeng\build\intermediates\bundles\default\res\drawable\umeng_fb_submit_selector.xml" qualifiers="" type="drawable"/><file name="umeng_fb_tick_normal" path="D:\projects\v_telephone\umeng\build\intermediates\bundles\default\res\drawable\umeng_fb_tick_normal.png" qualifiers="" type="drawable"/><file name="umeng_fb_tick_selected" path="D:\projects\v_telephone\umeng\build\intermediates\bundles\default\res\drawable\umeng_fb_tick_selected.png" qualifiers="" type="drawable"/><file name="umeng_fb_tick_selector" path="D:\projects\v_telephone\umeng\build\intermediates\bundles\default\res\drawable\umeng_fb_tick_selector.xml" qualifiers="" type="drawable"/><file name="umeng_fb_top_banner" path="D:\projects\v_telephone\umeng\build\intermediates\bundles\default\res\drawable\umeng_fb_top_banner.xml" qualifiers="" type="drawable"/><file name="umeng_fb_user_bubble" path="D:\projects\v_telephone\umeng\build\intermediates\bundles\default\res\drawable\umeng_fb_user_bubble.9.png" qualifiers="" type="drawable"/><file name="umeng_fb_write_normal" path="D:\projects\v_telephone\umeng\build\intermediates\bundles\default\res\drawable\umeng_fb_write_normal.png" qualifiers="" type="drawable"/><file name="umeng_fb_write_pressed" path="D:\projects\v_telephone\umeng\build\intermediates\bundles\default\res\drawable\umeng_fb_write_pressed.png" qualifiers="" type="drawable"/><file name="umeng_fb_write_selector" path="D:\projects\v_telephone\umeng\build\intermediates\bundles\default\res\drawable\umeng_fb_write_selector.xml" qualifiers="" type="drawable"/><file name="umeng_fb_activity_contact" path="D:\projects\v_telephone\umeng\build\intermediates\bundles\default\res\layout\umeng_fb_activity_contact.xml" qualifiers="" type="layout"/><file name="umeng_fb_activity_conversation" path="D:\projects\v_telephone\umeng\build\intermediates\bundles\default\res\layout\umeng_fb_activity_conversation.xml" qualifiers="" type="layout"/><file name="umeng_fb_list_header" path="D:\projects\v_telephone\umeng\build\intermediates\bundles\default\res\layout\umeng_fb_list_header.xml" qualifiers="" type="layout"/><file name="umeng_fb_list_item" path="D:\projects\v_telephone\umeng\build\intermediates\bundles\default\res\layout\umeng_fb_list_item.xml" qualifiers="" type="layout"/><file name="umeng_fb_new_reply_alert_dialog" path="D:\projects\v_telephone\umeng\build\intermediates\bundles\default\res\layout\umeng_fb_new_reply_alert_dialog.xml" qualifiers="" type="layout"/><file path="D:\projects\v_telephone\umeng\build\intermediates\bundles\default\res\values\values.xml" qualifiers=""><string name="umeng_fb_contact_title">填写联系信息</string><string name="umeng_fb_reply_content_default">你好， 我是产品经理，欢迎您反馈使用产品的感受和建议</string><string name="umeng_fb_contact_info">联系方式</string><string name="umeng_fb_contact_info_hint">QQ, 电话等我们能联系您的联系方式</string><color name="umeng_fb_color_btn_pressed">#1495F7</color><string name="umeng_fb_back">返回</string><string name="umeng_fb_reply_date_default">2013年3月12日 13:24:00</string><string name="umeng_fb_powered_by">Powered by</string><string name="umeng_fb_contact_update_at">更新于 </string><string name="umeng_fb_notification_ticker_text">有新的回复</string><string name="umeng_fb_send">发送</string><string name="umeng_fb_reply_content_hint">我想说</string><string name="umeng_fb_title">用户反馈</string><string name="umeng_fb_notification_content_formatter_single_msg">新回复: %s</string><string name="umeng_fb_notification_content_formatter_multiple_msg">收到来自开发者的 %d 条回复。</string><color name="umeng_fb_color_btn_normal">#333333</color></file></source></dataSet><dataSet config="main" generated-set="main$Generated"><source path="D:\projects\v_telephone\telephone\src\main\res"><file name="act_alpha_in" path="D:\projects\v_telephone\telephone\src\main\res\anim\act_alpha_in.xml" qualifiers="" type="anim"/><file name="act_alpha_out" path="D:\projects\v_telephone\telephone\src\main\res\anim\act_alpha_out.xml" qualifiers="" type="anim"/><file name="act_bg_fake" path="D:\projects\v_telephone\telephone\src\main\res\anim\act_bg_fake.xml" qualifiers="" type="anim"/><file name="act_close_from_top" path="D:\projects\v_telephone\telephone\src\main\res\anim\act_close_from_top.xml" qualifiers="" type="anim"/><file name="act_open_from_bottom" path="D:\projects\v_telephone\telephone\src\main\res\anim\act_open_from_bottom.xml" qualifiers="" type="anim"/><file name="dialog_enter" path="D:\projects\v_telephone\telephone\src\main\res\anim\dialog_enter.xml" qualifiers="" type="anim"/><file name="dialog_exit" path="D:\projects\v_telephone\telephone\src\main\res\anim\dialog_exit.xml" qualifiers="" type="anim"/><file name="grow_from_topcenter" path="D:\projects\v_telephone\telephone\src\main\res\anim\grow_from_topcenter.xml" qualifiers="" type="anim"/><file name="he_voice_playing" path="D:\projects\v_telephone\telephone\src\main\res\anim\he_voice_playing.xml" qualifiers="" type="anim"/><file name="me_voice_playing" path="D:\projects\v_telephone\telephone\src\main\res\anim\me_voice_playing.xml" qualifiers="" type="anim"/><file name="progress_loading_rotate" path="D:\projects\v_telephone\telephone\src\main\res\anim\progress_loading_rotate.xml" qualifiers="" type="anim"/><file name="shrink_to_topcenter" path="D:\projects\v_telephone\telephone\src\main\res\anim\shrink_to_topcenter.xml" qualifiers="" type="anim"/><file name="selector_txt_blue_white" path="D:\projects\v_telephone\telephone\src\main\res\color\selector_txt_blue_white.xml" qualifiers="" type="color"/><file name="selector_txt_chk_blue_white" path="D:\projects\v_telephone\telephone\src\main\res\color\selector_txt_chk_blue_white.xml" qualifiers="" type="color"/><file name="selector_txt_white_blue" path="D:\projects\v_telephone\telephone\src\main\res\color\selector_txt_white_blue.xml" qualifiers="" type="color"/><file name="bg_edittext" path="D:\projects\v_telephone\telephone\src\main\res\drawable\bg_edittext.xml" qualifiers="" type="drawable"/><file name="bg_edittext_focused" path="D:\projects\v_telephone\telephone\src\main\res\drawable\bg_edittext_focused.xml" qualifiers="" type="drawable"/><file name="bg_edittext_normal" path="D:\projects\v_telephone\telephone\src\main\res\drawable\bg_edittext_normal.xml" qualifiers="" type="drawable"/><file name="bg_rect_left_round_blue" path="D:\projects\v_telephone\telephone\src\main\res\drawable\bg_rect_left_round_blue.xml" qualifiers="" type="drawable"/><file name="bg_rect_left_round_blue_full" path="D:\projects\v_telephone\telephone\src\main\res\drawable\bg_rect_left_round_blue_full.xml" qualifiers="" type="drawable"/><file name="bg_rect_right_round_blue" path="D:\projects\v_telephone\telephone\src\main\res\drawable\bg_rect_right_round_blue.xml" qualifiers="" type="drawable"/><file name="bg_rect_right_round_blue_full" path="D:\projects\v_telephone\telephone\src\main\res\drawable\bg_rect_right_round_blue_full.xml" qualifiers="" type="drawable"/><file name="layer_seekbar_bg" path="D:\projects\v_telephone\telephone\src\main\res\drawable\layer_seekbar_bg.xml" qualifiers="" type="drawable"/><file name="point_no_select" path="D:\projects\v_telephone\telephone\src\main\res\drawable\point_no_select.xml" qualifiers="" type="drawable"/><file name="point_selected" path="D:\projects\v_telephone\telephone\src\main\res\drawable\point_selected.xml" qualifiers="" type="drawable"/><file name="selector_back" path="D:\projects\v_telephone\telephone\src\main\res\drawable\selector_back.xml" qualifiers="" type="drawable"/><file name="selector_blue_btn" path="D:\projects\v_telephone\telephone\src\main\res\drawable\selector_blue_btn.xml" qualifiers="" type="drawable"/><file name="selector_cancel" path="D:\projects\v_telephone\telephone\src\main\res\drawable\selector_cancel.xml" qualifiers="" type="drawable"/><file name="selector_chat_he_bg" path="D:\projects\v_telephone\telephone\src\main\res\drawable\selector_chat_he_bg.xml" qualifiers="" type="drawable"/><file name="selector_chat_img_send" path="D:\projects\v_telephone\telephone\src\main\res\drawable\selector_chat_img_send.xml" qualifiers="" type="drawable"/><file name="selector_chat_me_bg" path="D:\projects\v_telephone\telephone\src\main\res\drawable\selector_chat_me_bg.xml" qualifiers="" type="drawable"/><file name="selector_chat_video_send" path="D:\projects\v_telephone\telephone\src\main\res\drawable\selector_chat_video_send.xml" qualifiers="" type="drawable"/><file name="selector_checkbox" path="D:\projects\v_telephone\telephone\src\main\res\drawable\selector_checkbox.xml" qualifiers="" type="drawable"/><file name="selector_clearwords_icon" path="D:\projects\v_telephone\telephone\src\main\res\drawable\selector_clearwords_icon.xml" qualifiers="" type="drawable"/><file name="selector_efence_map_icon" path="D:\projects\v_telephone\telephone\src\main\res\drawable\selector_efence_map_icon.xml" qualifiers="" type="drawable"/><file name="selector_grey_blue" path="D:\projects\v_telephone\telephone\src\main\res\drawable\selector_grey_blue.xml" qualifiers="" type="drawable"/><file name="selector_grey_btn" path="D:\projects\v_telephone\telephone\src\main\res\drawable\selector_grey_btn.xml" qualifiers="" type="drawable"/><file name="selector_load_more" path="D:\projects\v_telephone\telephone\src\main\res\drawable\selector_load_more.xml" qualifiers="" type="drawable"/><file name="selector_map_view" path="D:\projects\v_telephone\telephone\src\main\res\drawable\selector_map_view.xml" qualifiers="" type="drawable"/><file name="selector_nav_map_icon" path="D:\projects\v_telephone\telephone\src\main\res\drawable\selector_nav_map_icon.xml" qualifiers="" type="drawable"/><file name="selector_plus" path="D:\projects\v_telephone\telephone\src\main\res\drawable\selector_plus.xml" qualifiers="" type="drawable"/><file name="selector_positioning" path="D:\projects\v_telephone\telephone\src\main\res\drawable\selector_positioning.xml" qualifiers="" type="drawable"/><file name="selector_radio_blue_rect" path="D:\projects\v_telephone\telephone\src\main\res\drawable\selector_radio_blue_rect.xml" qualifiers="" type="drawable"/><file name="selector_radio_btn" path="D:\projects\v_telephone\telephone\src\main\res\drawable\selector_radio_btn.xml" qualifiers="" type="drawable"/><file name="selector_radio_rect_left_round_blue" path="D:\projects\v_telephone\telephone\src\main\res\drawable\selector_radio_rect_left_round_blue.xml" qualifiers="" type="drawable"/><file name="selector_radio_rect_right_round_blue" path="D:\projects\v_telephone\telephone\src\main\res\drawable\selector_radio_rect_right_round_blue.xml" qualifiers="" type="drawable"/><file name="selector_radio_white_blue" path="D:\projects\v_telephone\telephone\src\main\res\drawable\selector_radio_white_blue.xml" qualifiers="" type="drawable"/><file name="selector_record_voice" path="D:\projects\v_telephone\telephone\src\main\res\drawable\selector_record_voice.xml" qualifiers="" type="drawable"/><file name="selector_send_btn" path="D:\projects\v_telephone\telephone\src\main\res\drawable\selector_send_btn.xml" qualifiers="" type="drawable"/><file name="selector_set_avatar" path="D:\projects\v_telephone\telephone\src\main\res\drawable\selector_set_avatar.xml" qualifiers="" type="drawable"/><file name="selector_show_face" path="D:\projects\v_telephone\telephone\src\main\res\drawable\selector_show_face.xml" qualifiers="" type="drawable"/><file name="selector_title_btn" path="D:\projects\v_telephone\telephone\src\main\res\drawable\selector_title_btn.xml" qualifiers="" type="drawable"/><file name="selector_trace_date_back" path="D:\projects\v_telephone\telephone\src\main\res\drawable\selector_trace_date_back.xml" qualifiers="" type="drawable"/><file name="selector_trace_date_forward" path="D:\projects\v_telephone\telephone\src\main\res\drawable\selector_trace_date_forward.xml" qualifiers="" type="drawable"/><file name="selector_trace_map_icon" path="D:\projects\v_telephone\telephone\src\main\res\drawable\selector_trace_map_icon.xml" qualifiers="" type="drawable"/><file name="selector_voice_remote" path="D:\projects\v_telephone\telephone\src\main\res\drawable\selector_voice_remote.xml" qualifiers="" type="drawable"/><file name="selector_white_blue" path="D:\projects\v_telephone\telephone\src\main\res\drawable\selector_white_blue.xml" qualifiers="" type="drawable"/><file name="shape_time_bg" path="D:\projects\v_telephone\telephone\src\main\res\drawable\shape_time_bg.xml" qualifiers="" type="drawable"/><file name="shap_circle_blue" path="D:\projects\v_telephone\telephone\src\main\res\drawable\shap_circle_blue.xml" qualifiers="" type="drawable"/><file name="shap_female_rect_bg" path="D:\projects\v_telephone\telephone\src\main\res\drawable\shap_female_rect_bg.xml" qualifiers="" type="drawable"/><file name="shap_male_rect_bg" path="D:\projects\v_telephone\telephone\src\main\res\drawable\shap_male_rect_bg.xml" qualifiers="" type="drawable"/><file name="account_set" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\account_set.png" qualifiers="hdpi-v4" type="drawable"/><file name="alipay" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\alipay.png" qualifiers="hdpi-v4" type="drawable"/><file name="arrow_down" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\arrow_down.png" qualifiers="hdpi-v4" type="drawable"/><file name="arrow_up" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\arrow_up.png" qualifiers="hdpi-v4" type="drawable"/><file name="back_arrow" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\back_arrow.png" qualifiers="hdpi-v4" type="drawable"/><file name="bar" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\bar.png" qualifiers="hdpi-v4" type="drawable"/><file name="base_horization_line" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\base_horization_line.png" qualifiers="hdpi-v4" type="drawable"/><file name="bottom_bar" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\bottom_bar.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_blue" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\btn_blue.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_blue_pressed" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\btn_blue_pressed.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_cancel" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\btn_cancel.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_cancel_pressed" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\btn_cancel_pressed.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="chat_et_bg" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\chat_et_bg.png" qualifiers="hdpi-v4" type="drawable"/><file name="chat_he_bg" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\chat_he_bg.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="chat_he_bg_pressed" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\chat_he_bg_pressed.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="chat_img_send" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\chat_img_send.png" qualifiers="hdpi-v4" type="drawable"/><file name="chat_img_send_pressed" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\chat_img_send_pressed.png" qualifiers="hdpi-v4" type="drawable"/><file name="chat_me_bg" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\chat_me_bg.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="chat_me_bg_pressed" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\chat_me_bg_pressed.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="chat_video_send" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\chat_video_send.png" qualifiers="hdpi-v4" type="drawable"/><file name="chat_video_send_pressed" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\chat_video_send_pressed.png" qualifiers="hdpi-v4" type="drawable"/><file name="check_off" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\check_off.png" qualifiers="hdpi-v4" type="drawable"/><file name="check_on" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\check_on.png" qualifiers="hdpi-v4" type="drawable"/><file name="check_update_bar_bg" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\check_update_bar_bg.png" qualifiers="hdpi-v4" type="drawable"/><file name="childguard" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\childguard.png" qualifiers="hdpi-v4" type="drawable"/><file name="clearwords_icon" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\clearwords_icon.png" qualifiers="hdpi-v4" type="drawable"/><file name="clearwords_icon_pressed" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\clearwords_icon_pressed.png" qualifiers="hdpi-v4" type="drawable"/><file name="common_loading" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\common_loading.png" qualifiers="hdpi-v4" type="drawable"/><file name="contacts" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\contacts.png" qualifiers="hdpi-v4" type="drawable"/><file name="default_avatar" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\default_avatar.png" qualifiers="hdpi-v4" type="drawable"/><file name="default_avatar_online" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\default_avatar_online.png" qualifiers="hdpi-v4" type="drawable"/><file name="default_kefu_avatar" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\default_kefu_avatar.png" qualifiers="hdpi-v4" type="drawable"/><file name="disclaimer_line" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\disclaimer_line.png" qualifiers="hdpi-v4" type="drawable"/><file name="dlg_bg" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\dlg_bg.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="drop_down_to_refresh_list_arrow" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\drop_down_to_refresh_list_arrow.png" qualifiers="hdpi-v4" type="drawable"/><file name="efence" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\efence.png" qualifiers="hdpi-v4" type="drawable"/><file name="efence_et_bg" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\efence_et_bg.png" qualifiers="hdpi-v4" type="drawable"/><file name="efence_pressed" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\efence_pressed.png" qualifiers="hdpi-v4" type="drawable"/><file name="enter_bg1" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\enter_bg1.jpg" qualifiers="hdpi-v4" type="drawable"/><file name="enter_bg2" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\enter_bg2.jpg" qualifiers="hdpi-v4" type="drawable"/><file name="enter_bg3" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\enter_bg3.jpg" qualifiers="hdpi-v4" type="drawable"/><file name="enter_bg4" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\enter_bg4.jpg" qualifiers="hdpi-v4" type="drawable"/><file name="enter_icon1" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\enter_icon1.png" qualifiers="hdpi-v4" type="drawable"/><file name="enter_icon2" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\enter_icon2.png" qualifiers="hdpi-v4" type="drawable"/><file name="enter_icon3" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\enter_icon3.png" qualifiers="hdpi-v4" type="drawable"/><file name="enter_icon4" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\enter_icon4.png" qualifiers="hdpi-v4" type="drawable"/><file name="eye" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\eye.png" qualifiers="hdpi-v4" type="drawable"/><file name="eye_checked" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\eye_checked.png" qualifiers="hdpi-v4" type="drawable"/><file name="f001" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f001.png" qualifiers="hdpi-v4" type="drawable"/><file name="f002" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f002.png" qualifiers="hdpi-v4" type="drawable"/><file name="f003" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f003.png" qualifiers="hdpi-v4" type="drawable"/><file name="f004" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f004.png" qualifiers="hdpi-v4" type="drawable"/><file name="f005" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f005.png" qualifiers="hdpi-v4" type="drawable"/><file name="f006" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f006.png" qualifiers="hdpi-v4" type="drawable"/><file name="f007" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f007.png" qualifiers="hdpi-v4" type="drawable"/><file name="f008" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f008.png" qualifiers="hdpi-v4" type="drawable"/><file name="f009" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f009.png" qualifiers="hdpi-v4" type="drawable"/><file name="f010" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f010.png" qualifiers="hdpi-v4" type="drawable"/><file name="f011" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f011.png" qualifiers="hdpi-v4" type="drawable"/><file name="f012" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f012.png" qualifiers="hdpi-v4" type="drawable"/><file name="f013" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f013.png" qualifiers="hdpi-v4" type="drawable"/><file name="f014" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f014.png" qualifiers="hdpi-v4" type="drawable"/><file name="f015" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f015.png" qualifiers="hdpi-v4" type="drawable"/><file name="f016" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f016.png" qualifiers="hdpi-v4" type="drawable"/><file name="f017" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f017.png" qualifiers="hdpi-v4" type="drawable"/><file name="f018" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f018.png" qualifiers="hdpi-v4" type="drawable"/><file name="f019" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f019.png" qualifiers="hdpi-v4" type="drawable"/><file name="f020" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f020.png" qualifiers="hdpi-v4" type="drawable"/><file name="f021" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f021.png" qualifiers="hdpi-v4" type="drawable"/><file name="f022" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f022.png" qualifiers="hdpi-v4" type="drawable"/><file name="f023" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f023.png" qualifiers="hdpi-v4" type="drawable"/><file name="f024" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f024.png" qualifiers="hdpi-v4" type="drawable"/><file name="f025" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f025.png" qualifiers="hdpi-v4" type="drawable"/><file name="f026" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f026.png" qualifiers="hdpi-v4" type="drawable"/><file name="f027" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f027.png" qualifiers="hdpi-v4" type="drawable"/><file name="f028" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f028.png" qualifiers="hdpi-v4" type="drawable"/><file name="f029" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f029.png" qualifiers="hdpi-v4" type="drawable"/><file name="f030" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f030.png" qualifiers="hdpi-v4" type="drawable"/><file name="f031" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f031.png" qualifiers="hdpi-v4" type="drawable"/><file name="f032" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f032.png" qualifiers="hdpi-v4" type="drawable"/><file name="f033" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f033.png" qualifiers="hdpi-v4" type="drawable"/><file name="f034" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f034.png" qualifiers="hdpi-v4" type="drawable"/><file name="f035" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f035.png" qualifiers="hdpi-v4" type="drawable"/><file name="f036" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f036.png" qualifiers="hdpi-v4" type="drawable"/><file name="f037" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f037.png" qualifiers="hdpi-v4" type="drawable"/><file name="f038" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f038.png" qualifiers="hdpi-v4" type="drawable"/><file name="f039" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f039.png" qualifiers="hdpi-v4" type="drawable"/><file name="f040" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f040.png" qualifiers="hdpi-v4" type="drawable"/><file name="f041" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f041.png" qualifiers="hdpi-v4" type="drawable"/><file name="f042" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f042.png" qualifiers="hdpi-v4" type="drawable"/><file name="f043" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f043.png" qualifiers="hdpi-v4" type="drawable"/><file name="f044" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f044.png" qualifiers="hdpi-v4" type="drawable"/><file name="f045" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f045.png" qualifiers="hdpi-v4" type="drawable"/><file name="f046" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f046.png" qualifiers="hdpi-v4" type="drawable"/><file name="f047" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f047.png" qualifiers="hdpi-v4" type="drawable"/><file name="f048" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f048.png" qualifiers="hdpi-v4" type="drawable"/><file name="f049" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f049.png" qualifiers="hdpi-v4" type="drawable"/><file name="f050" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f050.png" qualifiers="hdpi-v4" type="drawable"/><file name="f051" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f051.png" qualifiers="hdpi-v4" type="drawable"/><file name="f052" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f052.png" qualifiers="hdpi-v4" type="drawable"/><file name="f053" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f053.png" qualifiers="hdpi-v4" type="drawable"/><file name="f054" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f054.png" qualifiers="hdpi-v4" type="drawable"/><file name="f055" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f055.png" qualifiers="hdpi-v4" type="drawable"/><file name="f056" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f056.png" qualifiers="hdpi-v4" type="drawable"/><file name="f057" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f057.png" qualifiers="hdpi-v4" type="drawable"/><file name="f058" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f058.png" qualifiers="hdpi-v4" type="drawable"/><file name="f059" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f059.png" qualifiers="hdpi-v4" type="drawable"/><file name="f060" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f060.png" qualifiers="hdpi-v4" type="drawable"/><file name="f061" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f061.png" qualifiers="hdpi-v4" type="drawable"/><file name="f062" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f062.png" qualifiers="hdpi-v4" type="drawable"/><file name="f063" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f063.png" qualifiers="hdpi-v4" type="drawable"/><file name="f064" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f064.png" qualifiers="hdpi-v4" type="drawable"/><file name="f065" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f065.png" qualifiers="hdpi-v4" type="drawable"/><file name="f066" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f066.png" qualifiers="hdpi-v4" type="drawable"/><file name="f067" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f067.png" qualifiers="hdpi-v4" type="drawable"/><file name="f068" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f068.png" qualifiers="hdpi-v4" type="drawable"/><file name="f069" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f069.png" qualifiers="hdpi-v4" type="drawable"/><file name="f070" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f070.png" qualifiers="hdpi-v4" type="drawable"/><file name="f071" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f071.png" qualifiers="hdpi-v4" type="drawable"/><file name="f072" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f072.png" qualifiers="hdpi-v4" type="drawable"/><file name="f073" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f073.png" qualifiers="hdpi-v4" type="drawable"/><file name="f074" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f074.png" qualifiers="hdpi-v4" type="drawable"/><file name="f075" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f075.png" qualifiers="hdpi-v4" type="drawable"/><file name="f076" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f076.png" qualifiers="hdpi-v4" type="drawable"/><file name="f077" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f077.png" qualifiers="hdpi-v4" type="drawable"/><file name="f078" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f078.png" qualifiers="hdpi-v4" type="drawable"/><file name="f079" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f079.png" qualifiers="hdpi-v4" type="drawable"/><file name="f080" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f080.png" qualifiers="hdpi-v4" type="drawable"/><file name="f081" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f081.png" qualifiers="hdpi-v4" type="drawable"/><file name="f082" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f082.png" qualifiers="hdpi-v4" type="drawable"/><file name="f083" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f083.png" qualifiers="hdpi-v4" type="drawable"/><file name="f084" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f084.png" qualifiers="hdpi-v4" type="drawable"/><file name="f085" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f085.png" qualifiers="hdpi-v4" type="drawable"/><file name="f086" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f086.png" qualifiers="hdpi-v4" type="drawable"/><file name="f087" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f087.png" qualifiers="hdpi-v4" type="drawable"/><file name="f088" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f088.png" qualifiers="hdpi-v4" type="drawable"/><file name="f089" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f089.png" qualifiers="hdpi-v4" type="drawable"/><file name="f090" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f090.png" qualifiers="hdpi-v4" type="drawable"/><file name="f091" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f091.png" qualifiers="hdpi-v4" type="drawable"/><file name="f092" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f092.png" qualifiers="hdpi-v4" type="drawable"/><file name="f093" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f093.png" qualifiers="hdpi-v4" type="drawable"/><file name="f094" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f094.png" qualifiers="hdpi-v4" type="drawable"/><file name="f095" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f095.png" qualifiers="hdpi-v4" type="drawable"/><file name="f096" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f096.png" qualifiers="hdpi-v4" type="drawable"/><file name="f097" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f097.png" qualifiers="hdpi-v4" type="drawable"/><file name="f098" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f098.png" qualifiers="hdpi-v4" type="drawable"/><file name="f099" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f099.png" qualifiers="hdpi-v4" type="drawable"/><file name="f100" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f100.png" qualifiers="hdpi-v4" type="drawable"/><file name="f101" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f101.png" qualifiers="hdpi-v4" type="drawable"/><file name="f102" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f102.png" qualifiers="hdpi-v4" type="drawable"/><file name="f103" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f103.png" qualifiers="hdpi-v4" type="drawable"/><file name="f104" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f104.png" qualifiers="hdpi-v4" type="drawable"/><file name="f105" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f105.png" qualifiers="hdpi-v4" type="drawable"/><file name="f106" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f106.png" qualifiers="hdpi-v4" type="drawable"/><file name="f107" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f107.png" qualifiers="hdpi-v4" type="drawable"/><file name="f108" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f108.png" qualifiers="hdpi-v4" type="drawable"/><file name="f109" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f109.png" qualifiers="hdpi-v4" type="drawable"/><file name="f110" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f110.png" qualifiers="hdpi-v4" type="drawable"/><file name="f111" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f111.png" qualifiers="hdpi-v4" type="drawable"/><file name="f112" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f112.png" qualifiers="hdpi-v4" type="drawable"/><file name="f113" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f113.png" qualifiers="hdpi-v4" type="drawable"/><file name="f114" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f114.png" qualifiers="hdpi-v4" type="drawable"/><file name="f115" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f115.png" qualifiers="hdpi-v4" type="drawable"/><file name="f116" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f116.png" qualifiers="hdpi-v4" type="drawable"/><file name="f117" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f117.png" qualifiers="hdpi-v4" type="drawable"/><file name="f118" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f118.png" qualifiers="hdpi-v4" type="drawable"/><file name="f119" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f119.png" qualifiers="hdpi-v4" type="drawable"/><file name="f120" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f120.png" qualifiers="hdpi-v4" type="drawable"/><file name="f121" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f121.png" qualifiers="hdpi-v4" type="drawable"/><file name="f122" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f122.png" qualifiers="hdpi-v4" type="drawable"/><file name="f123" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f123.png" qualifiers="hdpi-v4" type="drawable"/><file name="f124" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f124.png" qualifiers="hdpi-v4" type="drawable"/><file name="f125" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f125.png" qualifiers="hdpi-v4" type="drawable"/><file name="f126" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f126.png" qualifiers="hdpi-v4" type="drawable"/><file name="f127" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f127.png" qualifiers="hdpi-v4" type="drawable"/><file name="f128" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f128.png" qualifiers="hdpi-v4" type="drawable"/><file name="f129" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f129.png" qualifiers="hdpi-v4" type="drawable"/><file name="f130" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f130.png" qualifiers="hdpi-v4" type="drawable"/><file name="f131" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f131.png" qualifiers="hdpi-v4" type="drawable"/><file name="f132" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f132.png" qualifiers="hdpi-v4" type="drawable"/><file name="f133" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f133.png" qualifiers="hdpi-v4" type="drawable"/><file name="f134" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f134.png" qualifiers="hdpi-v4" type="drawable"/><file name="f135" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\f135.png" qualifiers="hdpi-v4" type="drawable"/><file name="face_del" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\face_del.png" qualifiers="hdpi-v4" type="drawable"/><file name="feedback" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\feedback.png" qualifiers="hdpi-v4" type="drawable"/><file name="female_icon" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\female_icon.png" qualifiers="hdpi-v4" type="drawable"/><file name="find" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\find.png" qualifiers="hdpi-v4" type="drawable"/><file name="find_checked" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\find_checked.png" qualifiers="hdpi-v4" type="drawable"/><file name="friend_pin" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\friend_pin.png" qualifiers="hdpi-v4" type="drawable"/><file name="game" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\game.png" qualifiers="hdpi-v4" type="drawable"/><file name="grey_btn" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\grey_btn.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="grey_btn_pressed" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\grey_btn_pressed.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="guest_login_txt_bg" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\guest_login_txt_bg.png" qualifiers="hdpi-v4" type="drawable"/><file name="he_voice_play1" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\he_voice_play1.png" qualifiers="hdpi-v4" type="drawable"/><file name="he_voice_play2" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\he_voice_play2.png" qualifiers="hdpi-v4" type="drawable"/><file name="he_voice_play3" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\he_voice_play3.png" qualifiers="hdpi-v4" type="drawable"/><file name="home" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\home.png" qualifiers="hdpi-v4" type="drawable"/><file name="home_checked" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\home_checked.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_launcher" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\ic_launcher.png" qualifiers="hdpi-v4" type="drawable"/><file name="img_deleted" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\img_deleted.png" qualifiers="hdpi-v4" type="drawable"/><file name="input_bg" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\input_bg.png" qualifiers="hdpi-v4" type="drawable"/><file name="load_more" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\load_more.png" qualifiers="hdpi-v4" type="drawable"/><file name="load_more_pressed" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\load_more_pressed.png" qualifiers="hdpi-v4" type="drawable"/><file name="loc_pin" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\loc_pin.png" qualifiers="hdpi-v4" type="drawable"/><file name="login_btn_bg" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\login_btn_bg.png" qualifiers="hdpi-v4" type="drawable"/><file name="login_icon_account" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\login_icon_account.png" qualifiers="hdpi-v4" type="drawable"/><file name="login_icon_password" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\login_icon_password.png" qualifiers="hdpi-v4" type="drawable"/><file name="logo_inner" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\logo_inner.png" qualifiers="hdpi-v4" type="drawable"/><file name="log_reg_et_bg" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\log_reg_et_bg.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="male_icon" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\male_icon.png" qualifiers="hdpi-v4" type="drawable"/><file name="map_checked" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\map_checked.png" qualifiers="hdpi-v4" type="drawable"/><file name="map_normal" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\map_normal.png" qualifiers="hdpi-v4" type="drawable"/><file name="me_voice_play1" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\me_voice_play1.png" qualifiers="hdpi-v4" type="drawable"/><file name="me_voice_play2" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\me_voice_play2.png" qualifiers="hdpi-v4" type="drawable"/><file name="me_voice_play3" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\me_voice_play3.png" qualifiers="hdpi-v4" type="drawable"/><file name="mic_icon" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\mic_icon.png" qualifiers="hdpi-v4" type="drawable"/><file name="msg_friend" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\msg_friend.png" qualifiers="hdpi-v4" type="drawable"/><file name="msg_friend_checked" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\msg_friend_checked.png" qualifiers="hdpi-v4" type="drawable"/><file name="my_map_avatar" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\my_map_avatar.png" qualifiers="hdpi-v4" type="drawable"/><file name="my_pin" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\my_pin.png" qualifiers="hdpi-v4" type="drawable"/><file name="nav_map_icon" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\nav_map_icon.png" qualifiers="hdpi-v4" type="drawable"/><file name="nearby" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\nearby.png" qualifiers="hdpi-v4" type="drawable"/><file name="new_friend_icon" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\new_friend_icon.png" qualifiers="hdpi-v4" type="drawable"/><file name="offline_pin" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\offline_pin.png" qualifiers="hdpi-v4" type="drawable"/><file name="phone" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\phone.png" qualifiers="hdpi-v4" type="drawable"/><file name="pin_top_bg" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\pin_top_bg.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="pin_top_bottom" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\pin_top_bottom.png" qualifiers="hdpi-v4" type="drawable"/><file name="plus" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\plus.png" qualifiers="hdpi-v4" type="drawable"/><file name="pop_bottom" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\pop_bottom.png" qualifiers="hdpi-v4" type="drawable"/><file name="pop_view" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\pop_view.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="positioning" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\positioning.png" qualifiers="hdpi-v4" type="drawable"/><file name="positioning_pressed" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\positioning_pressed.png" qualifiers="hdpi-v4" type="drawable"/><file name="qq_group" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\qq_group.png" qualifiers="hdpi-v4" type="drawable"/><file name="qq_vip_group" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\qq_vip_group.png" qualifiers="hdpi-v4" type="drawable"/><file name="radio_btn_checked" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\radio_btn_checked.png" qualifiers="hdpi-v4" type="drawable"/><file name="radio_btn_unchecked" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\radio_btn_unchecked.png" qualifiers="hdpi-v4" type="drawable"/><file name="recording_btn" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\recording_btn.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="recording_btn_pressed" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\recording_btn_pressed.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="record_voice" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\record_voice.png" qualifiers="hdpi-v4" type="drawable"/><file name="register_btn_bg" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\register_btn_bg.png" qualifiers="hdpi-v4" type="drawable"/><file name="register_icon_nick" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\register_icon_nick.png" qualifiers="hdpi-v4" type="drawable"/><file name="rich_status_female" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\rich_status_female.png" qualifiers="hdpi-v4" type="drawable"/><file name="rich_status_male" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\rich_status_male.png" qualifiers="hdpi-v4" type="drawable"/><file name="right_arrow" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\right_arrow.png" qualifiers="hdpi-v4" type="drawable"/><file name="search_icon" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\search_icon.png" qualifiers="hdpi-v4" type="drawable"/><file name="seekbar_thumb" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\seekbar_thumb.png" qualifiers="hdpi-v4" type="drawable"/><file name="send_btn" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\send_btn.png" qualifiers="hdpi-v4" type="drawable"/><file name="send_btn_pressed" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\send_btn_pressed.png" qualifiers="hdpi-v4" type="drawable"/><file name="setting" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\setting.png" qualifiers="hdpi-v4" type="drawable"/><file name="setting_checked" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\setting_checked.png" qualifiers="hdpi-v4" type="drawable"/><file name="set_avatar" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\set_avatar.png" qualifiers="hdpi-v4" type="drawable"/><file name="set_avatar_pressed" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\set_avatar_pressed.png" qualifiers="hdpi-v4" type="drawable"/><file name="share" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\share.png" qualifiers="hdpi-v4" type="drawable"/><file name="show_face" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\show_face.png" qualifiers="hdpi-v4" type="drawable"/><file name="sys_notify" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\sys_notify.png" qualifiers="hdpi-v4" type="drawable"/><file name="title_btn" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\title_btn.png" qualifiers="hdpi-v4" type="drawable"/><file name="title_btn_pressed" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\title_btn_pressed.png" qualifiers="hdpi-v4" type="drawable"/><file name="trace_date_back" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\trace_date_back.png" qualifiers="hdpi-v4" type="drawable"/><file name="trace_date_back_pressed" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\trace_date_back_pressed.png" qualifiers="hdpi-v4" type="drawable"/><file name="trace_date_forward" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\trace_date_forward.png" qualifiers="hdpi-v4" type="drawable"/><file name="trace_date_forward_pressed" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\trace_date_forward_pressed.png" qualifiers="hdpi-v4" type="drawable"/><file name="trace_end_point" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\trace_end_point.png" qualifiers="hdpi-v4" type="drawable"/><file name="trace_map_icon" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\trace_map_icon.png" qualifiers="hdpi-v4" type="drawable"/><file name="trace_start_point" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\trace_start_point.png" qualifiers="hdpi-v4" type="drawable"/><file name="trace_time_back" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\trace_time_back.png" qualifiers="hdpi-v4" type="drawable"/><file name="trace_time_back_end" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\trace_time_back_end.png" qualifiers="hdpi-v4" type="drawable"/><file name="trace_time_forward" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\trace_time_forward.png" qualifiers="hdpi-v4" type="drawable"/><file name="trace_time_forward_end" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\trace_time_forward_end.png" qualifiers="hdpi-v4" type="drawable"/><file name="unread_dot" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\unread_dot.png" qualifiers="hdpi-v4" type="drawable"/><file name="video_deleted" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\video_deleted.png" qualifiers="hdpi-v4" type="drawable"/><file name="vip" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\vip.png" qualifiers="hdpi-v4" type="drawable"/><file name="vip_avoid_disturb" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\vip_avoid_disturb.png" qualifiers="hdpi-v4" type="drawable"/><file name="vip_fast_add_friend" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\vip_fast_add_friend.png" qualifiers="hdpi-v4" type="drawable"/><file name="vip_history_trace" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\vip_history_trace.png" qualifiers="hdpi-v4" type="drawable"/><file name="vip_loc_secret" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\vip_loc_secret.png" qualifiers="hdpi-v4" type="drawable"/><file name="vip_no_ad" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\vip_no_ad.png" qualifiers="hdpi-v4" type="drawable"/><file name="vip_remote_record" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\vip_remote_record.png" qualifiers="hdpi-v4" type="drawable"/><file name="vip_temp" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\vip_temp.png" qualifiers="hdpi-v4" type="drawable"/><file name="vip_year" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\vip_year.png" qualifiers="hdpi-v4" type="drawable"/><file name="voice1" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\voice1.png" qualifiers="hdpi-v4" type="drawable"/><file name="voice10" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\voice10.png" qualifiers="hdpi-v4" type="drawable"/><file name="voice2" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\voice2.png" qualifiers="hdpi-v4" type="drawable"/><file name="voice3" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\voice3.png" qualifiers="hdpi-v4" type="drawable"/><file name="voice4" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\voice4.png" qualifiers="hdpi-v4" type="drawable"/><file name="voice5" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\voice5.png" qualifiers="hdpi-v4" type="drawable"/><file name="voice6" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\voice6.png" qualifiers="hdpi-v4" type="drawable"/><file name="voice7" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\voice7.png" qualifiers="hdpi-v4" type="drawable"/><file name="voice8" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\voice8.png" qualifiers="hdpi-v4" type="drawable"/><file name="voice9" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\voice9.png" qualifiers="hdpi-v4" type="drawable"/><file name="voice_record_window_bg" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\voice_record_window_bg.png" qualifiers="hdpi-v4" type="drawable"/><file name="voice_remote" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\voice_remote.png" qualifiers="hdpi-v4" type="drawable"/><file name="wechat" path="D:\projects\v_telephone\telephone\src\main\res\drawable-hdpi\wechat.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_launcher" path="D:\projects\v_telephone\telephone\src\main\res\drawable-mdpi\ic_launcher.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_launcher" path="D:\projects\v_telephone\telephone\src\main\res\drawable-xhdpi\ic_launcher.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_launcher" path="D:\projects\v_telephone\telephone\src\main\res\drawable-xxhdpi\ic_launcher.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="activity_account_set" path="D:\projects\v_telephone\telephone\src\main\res\layout\activity_account_set.xml" qualifiers="" type="layout"/><file name="activity_add_friend" path="D:\projects\v_telephone\telephone\src\main\res\layout\activity_add_friend.xml" qualifiers="" type="layout"/><file name="activity_alarm" path="D:\projects\v_telephone\telephone\src\main\res\layout\activity_alarm.xml" qualifiers="" type="layout"/><file name="activity_chat" path="D:\projects\v_telephone\telephone\src\main\res\layout\activity_chat.xml" qualifiers="" type="layout"/><file name="activity_contacts" path="D:\projects\v_telephone\telephone\src\main\res\layout\activity_contacts.xml" qualifiers="" type="layout"/><file name="activity_disclaimer" path="D:\projects\v_telephone\telephone\src\main\res\layout\activity_disclaimer.xml" qualifiers="" type="layout"/><file name="activity_filter_nearby" path="D:\projects\v_telephone\telephone\src\main\res\layout\activity_filter_nearby.xml" qualifiers="" type="layout"/><file name="activity_find_pwd" path="D:\projects\v_telephone\telephone\src\main\res\layout\activity_find_pwd.xml" qualifiers="" type="layout"/><file name="activity_friends_request" path="D:\projects\v_telephone\telephone\src\main\res\layout\activity_friends_request.xml" qualifiers="" type="layout"/><file name="activity_login" path="D:\projects\v_telephone\telephone\src\main\res\layout\activity_login.xml" qualifiers="" type="layout"/><file name="activity_main" path="D:\projects\v_telephone\telephone\src\main\res\layout\activity_main.xml" qualifiers="" type="layout"/><file name="activity_map" path="D:\projects\v_telephone\telephone\src\main\res\layout\activity_map.xml" qualifiers="" type="layout"/><file name="activity_nearby" path="D:\projects\v_telephone\telephone\src\main\res\layout\activity_nearby.xml" qualifiers="" type="layout"/><file name="activity_pay" path="D:\projects\v_telephone\telephone\src\main\res\layout\activity_pay.xml" qualifiers="" type="layout"/><file name="activity_personinfo" path="D:\projects\v_telephone\telephone\src\main\res\layout\activity_personinfo.xml" qualifiers="" type="layout"/><file name="activity_register" path="D:\projects\v_telephone\telephone\src\main\res\layout\activity_register.xml" qualifiers="" type="layout"/><file name="activity_search" path="D:\projects\v_telephone\telephone\src\main\res\layout\activity_search.xml" qualifiers="" type="layout"/><file name="activity_setting" path="D:\projects\v_telephone\telephone\src\main\res\layout\activity_setting.xml" qualifiers="" type="layout"/><file name="activity_sms_verify" path="D:\projects\v_telephone\telephone\src\main\res\layout\activity_sms_verify.xml" qualifiers="" type="layout"/><file name="activity_splash" path="D:\projects\v_telephone\telephone\src\main\res\layout\activity_splash.xml" qualifiers="" type="layout"/><file name="activity_vip_center" path="D:\projects\v_telephone\telephone\src\main\res\layout\activity_vip_center.xml" qualifiers="" type="layout"/><file name="activity_vip_info" path="D:\projects\v_telephone\telephone\src\main\res\layout\activity_vip_info.xml" qualifiers="" type="layout"/><file name="activity_wx_pay_result" path="D:\projects\v_telephone\telephone\src\main\res\layout\activity_wx_pay_result.xml" qualifiers="" type="layout"/><file name="age_set_list_item" path="D:\projects\v_telephone\telephone\src\main\res\layout\age_set_list_item.xml" qualifiers="" type="layout"/><file name="chat_he_item" path="D:\projects\v_telephone\telephone\src\main\res\layout\chat_he_item.xml" qualifiers="" type="layout"/><file name="chat_me_item" path="D:\projects\v_telephone\telephone\src\main\res\layout\chat_me_item.xml" qualifiers="" type="layout"/><file name="chat_plus_widgets" path="D:\projects\v_telephone\telephone\src\main\res\layout\chat_plus_widgets.xml" qualifiers="" type="layout"/><file name="common_search_layout" path="D:\projects\v_telephone\telephone\src\main\res\layout\common_search_layout.xml" qualifiers="" type="layout"/><file name="contacts_list_item" path="D:\projects\v_telephone\telephone\src\main\res\layout\contacts_list_item.xml" qualifiers="" type="layout"/><file name="country_list_item" path="D:\projects\v_telephone\telephone\src\main\res\layout\country_list_item.xml" qualifiers="" type="layout"/><file name="dialog_choose_pic" path="D:\projects\v_telephone\telephone\src\main\res\layout\dialog_choose_pic.xml" qualifiers="" type="layout"/><file name="dialog_logout" path="D:\projects\v_telephone\telephone\src\main\res\layout\dialog_logout.xml" qualifiers="" type="layout"/><file name="dlg_age_set" path="D:\projects\v_telephone\telephone\src\main\res\layout\dlg_age_set.xml" qualifiers="" type="layout"/><file name="dlg_country_list" path="D:\projects\v_telephone\telephone\src\main\res\layout\dlg_country_list.xml" qualifiers="" type="layout"/><file name="dlg_filter_age" path="D:\projects\v_telephone\telephone\src\main\res\layout\dlg_filter_age.xml" qualifiers="" type="layout"/><file name="dlg_gender_set" path="D:\projects\v_telephone\telephone\src\main\res\layout\dlg_gender_set.xml" qualifiers="" type="layout"/><file name="dlg_input" path="D:\projects\v_telephone\telephone\src\main\res\layout\dlg_input.xml" qualifiers="" type="layout"/><file name="dlg_loading" path="D:\projects\v_telephone\telephone\src\main\res\layout\dlg_loading.xml" qualifiers="" type="layout"/><file name="dlg_msg" path="D:\projects\v_telephone\telephone\src\main\res\layout\dlg_msg.xml" qualifiers="" type="layout"/><file name="dlg_remote_time" path="D:\projects\v_telephone\telephone\src\main\res\layout\dlg_remote_time.xml" qualifiers="" type="layout"/><file name="download_item" path="D:\projects\v_telephone\telephone\src\main\res\layout\download_item.xml" qualifiers="" type="layout"/><file name="download_list" path="D:\projects\v_telephone\telephone\src\main\res\layout\download_list.xml" qualifiers="" type="layout"/><file name="drop_down_to_refresh_list_header" path="D:\projects\v_telephone\telephone\src\main\res\layout\drop_down_to_refresh_list_header.xml" qualifiers="" type="layout"/><file name="efence_show_bar" path="D:\projects\v_telephone\telephone\src\main\res\layout\efence_show_bar.xml" qualifiers="" type="layout"/><file name="efence_top_view" path="D:\projects\v_telephone\telephone\src\main\res\layout\efence_top_view.xml" qualifiers="" type="layout"/><file name="footerview_load_more" path="D:\projects\v_telephone\telephone\src\main\res\layout\footerview_load_more.xml" qualifiers="" type="layout"/><file name="frag_find" path="D:\projects\v_telephone\telephone\src\main\res\layout\frag_find.xml" qualifiers="" type="layout"/><file name="frag_friends" path="D:\projects\v_telephone\telephone\src\main\res\layout\frag_friends.xml" qualifiers="" type="layout"/><file name="frag_home" path="D:\projects\v_telephone\telephone\src\main\res\layout\frag_home.xml" qualifiers="" type="layout"/><file name="frag_msgs" path="D:\projects\v_telephone\telephone\src\main\res\layout\frag_msgs.xml" qualifiers="" type="layout"/><file name="frag_msg_friend" path="D:\projects\v_telephone\telephone\src\main\res\layout\frag_msg_friend.xml" qualifiers="" type="layout"/><file name="frag_setting" path="D:\projects\v_telephone\telephone\src\main\res\layout\frag_setting.xml" qualifiers="" type="layout"/><file name="friends_request_item" path="D:\projects\v_telephone\telephone\src\main\res\layout\friends_request_item.xml" qualifiers="" type="layout"/><file name="friend_item_popview" path="D:\projects\v_telephone\telephone\src\main\res\layout\friend_item_popview.xml" qualifiers="" type="layout"/><file name="friend_list_item" path="D:\projects\v_telephone\telephone\src\main\res\layout\friend_list_item.xml" qualifiers="" type="layout"/><file name="friend_pin_view" path="D:\projects\v_telephone\telephone\src\main\res\layout\friend_pin_view.xml" qualifiers="" type="layout"/><file name="img_viewer" path="D:\projects\v_telephone\telephone\src\main\res\layout\img_viewer.xml" qualifiers="" type="layout"/><file name="introduce_enter" path="D:\projects\v_telephone\telephone\src\main\res\layout\introduce_enter.xml" qualifiers="" type="layout"/><file name="introduce_page1" path="D:\projects\v_telephone\telephone\src\main\res\layout\introduce_page1.xml" qualifiers="" type="layout"/><file name="introduce_page2" path="D:\projects\v_telephone\telephone\src\main\res\layout\introduce_page2.xml" qualifiers="" type="layout"/><file name="introduce_page3" path="D:\projects\v_telephone\telephone\src\main\res\layout\introduce_page3.xml" qualifiers="" type="layout"/><file name="introduce_page4" path="D:\projects\v_telephone\telephone\src\main\res\layout\introduce_page4.xml" qualifiers="" type="layout"/><file name="locate_friend_list_item" path="D:\projects\v_telephone\telephone\src\main\res\layout\locate_friend_list_item.xml" qualifiers="" type="layout"/><file name="main_bottom_bar" path="D:\projects\v_telephone\telephone\src\main\res\layout\main_bottom_bar.xml" qualifiers="" type="layout"/><file name="map_bottom_widgets" path="D:\projects\v_telephone\telephone\src\main\res\layout\map_bottom_widgets.xml" qualifiers="" type="layout"/><file name="map_top_widgets" path="D:\projects\v_telephone\telephone\src\main\res\layout\map_top_widgets.xml" qualifiers="" type="layout"/><file name="msg_header_view" path="D:\projects\v_telephone\telephone\src\main\res\layout\msg_header_view.xml" qualifiers="" type="layout"/><file name="msg_list_item" path="D:\projects\v_telephone\telephone\src\main\res\layout\msg_list_item.xml" qualifiers="" type="layout"/><file name="my_pin_view" path="D:\projects\v_telephone\telephone\src\main\res\layout\my_pin_view.xml" qualifiers="" type="layout"/><file name="nearby_list_item" path="D:\projects\v_telephone\telephone\src\main\res\layout\nearby_list_item.xml" qualifiers="" type="layout"/><file name="notification_msg" path="D:\projects\v_telephone\telephone\src\main\res\layout\notification_msg.xml" qualifiers="" type="layout"/><file name="search_list_item" path="D:\projects\v_telephone\telephone\src\main\res\layout\search_list_item.xml" qualifiers="" type="layout"/><file name="title_bar_back" path="D:\projects\v_telephone\telephone\src\main\res\layout\title_bar_back.xml" qualifiers="" type="layout"/><file name="title_bar_back_right" path="D:\projects\v_telephone\telephone\src\main\res\layout\title_bar_back_right.xml" qualifiers="" type="layout"/><file name="title_bar_none" path="D:\projects\v_telephone\telephone\src\main\res\layout\title_bar_none.xml" qualifiers="" type="layout"/><file name="title_bar_page_find" path="D:\projects\v_telephone\telephone\src\main\res\layout\title_bar_page_find.xml" qualifiers="" type="layout"/><file name="title_bar_page_home" path="D:\projects\v_telephone\telephone\src\main\res\layout\title_bar_page_home.xml" qualifiers="" type="layout"/><file name="title_bar_page_msg" path="D:\projects\v_telephone\telephone\src\main\res\layout\title_bar_page_msg.xml" qualifiers="" type="layout"/><file name="title_bar_page_setting" path="D:\projects\v_telephone\telephone\src\main\res\layout\title_bar_page_setting.xml" qualifiers="" type="layout"/><file name="trace_show_bar" path="D:\projects\v_telephone\telephone\src\main\res\layout\trace_show_bar.xml" qualifiers="" type="layout"/><file name="view_first_enter" path="D:\projects\v_telephone\telephone\src\main\res\layout\view_first_enter.xml" qualifiers="" type="layout"/><file name="view_loading" path="D:\projects\v_telephone\telephone\src\main\res\layout\view_loading.xml" qualifiers="" type="layout"/><file name="view_reconnect" path="D:\projects\v_telephone\telephone\src\main\res\layout\view_reconnect.xml" qualifiers="" type="layout"/><file name="vip_info_gv_item" path="D:\projects\v_telephone\telephone\src\main\res\layout\vip_info_gv_item.xml" qualifiers="" type="layout"/><file name="voice_record_window" path="D:\projects\v_telephone\telephone\src\main\res\layout\voice_record_window.xml" qualifiers="" type="layout"/><file name="beep" path="D:\projects\v_telephone\telephone\src\main\res\raw\beep.wav" qualifiers="" type="raw"/><file name="conf" path="D:\projects\v_telephone\telephone\src\main\res\raw\conf.properties" qualifiers="" type="raw"/><file name="mus" path="D:\projects\v_telephone\telephone\src\main\res\raw\mus.mp3" qualifiers="" type="raw"/><file path="D:\projects\v_telephone\telephone\src\main\res\values\arrays.xml" qualifiers=""><array name="face_res_ids">
+        <item>@drawable/f001</item>
+        <item>@drawable/f002</item>
+        <item>@drawable/f003</item>
+        <item>@drawable/f004</item>
+        <item>@drawable/f005</item>
+        <item>@drawable/f006</item>
+        <item>@drawable/f007</item>
+        <item>@drawable/f008</item>
+        <item>@drawable/f009</item>
+        <item>@drawable/f010</item>
+        <item>@drawable/f011</item>
+        <item>@drawable/f012</item>
+        <item>@drawable/f013</item>
+        <item>@drawable/f014</item>
+        <item>@drawable/f015</item>
+        <item>@drawable/f016</item>
+        <item>@drawable/f017</item>
+        <item>@drawable/f018</item>
+        <item>@drawable/f019</item>
+        <item>@drawable/f020</item>
+        <item>@drawable/f021</item>
+        <item>@drawable/f022</item>
+        <item>@drawable/f023</item>
+        <item>@drawable/f024</item>
+        <item>@drawable/f025</item>
+        <item>@drawable/f026</item>
+        <item>@drawable/f027</item>
+        <item>@drawable/f028</item>
+        <item>@drawable/f029</item>
+        <item>@drawable/f030</item>
+        <item>@drawable/f031</item>
+        <item>@drawable/f032</item>
+        <item>@drawable/f033</item>
+        <item>@drawable/f034</item>
+        <item>@drawable/f035</item>
+        <item>@drawable/f036</item>
+        <item>@drawable/f037</item>
+        <item>@drawable/f038</item>
+        <item>@drawable/f039</item>
+        <item>@drawable/f040</item>
+        <item>@drawable/f041</item>
+        <item>@drawable/f042</item>
+        <item>@drawable/f043</item>
+        <item>@drawable/f044</item>
+        <item>@drawable/f045</item>
+        <item>@drawable/f046</item>
+        <item>@drawable/f047</item>
+        <item>@drawable/f048</item>
+        <item>@drawable/f049</item>
+        <item>@drawable/f050</item>
+        <item>@drawable/f051</item>
+        <item>@drawable/f052</item>
+        <item>@drawable/f053</item>
+        <item>@drawable/f054</item>
+        <item>@drawable/f055</item>
+        <item>@drawable/f056</item>
+        <item>@drawable/f057</item>
+        <item>@drawable/f058</item>
+        <item>@drawable/f059</item>
+        <item>@drawable/f060</item>
+        <item>@drawable/f061</item>
+        <item>@drawable/f062</item>
+        <item>@drawable/f063</item>
+        <item>@drawable/f064</item>
+        <item>@drawable/f065</item>
+        <item>@drawable/f066</item>
+        <item>@drawable/f067</item>
+        <item>@drawable/f068</item>
+        <item>@drawable/f069</item>
+        <item>@drawable/f070</item>
+        <item>@drawable/f071</item>
+        <item>@drawable/f072</item>
+        <item>@drawable/f073</item>
+        <item>@drawable/f074</item>
+        <item>@drawable/f075</item>
+        <item>@drawable/f076</item>
+        <item>@drawable/f077</item>
+        <item>@drawable/f078</item>
+        <item>@drawable/f079</item>
+        <item>@drawable/f080</item>
+        <item>@drawable/f081</item>
+        <item>@drawable/f082</item>
+        <item>@drawable/f083</item>
+        <item>@drawable/f084</item>
+        <item>@drawable/f085</item>
+        <item>@drawable/f086</item>
+        <item>@drawable/f087</item>
+        <item>@drawable/f088</item>
+        <item>@drawable/f089</item>
+        <item>@drawable/f090</item>
+        <item>@drawable/f091</item>
+        <item>@drawable/f092</item>
+        <item>@drawable/f093</item>
+        <item>@drawable/f094</item>
+        <item>@drawable/f095</item>
+        <item>@drawable/f096</item>
+        <item>@drawable/f097</item>
+        <item>@drawable/f098</item>
+        <item>@drawable/f099</item>
+        <item>@drawable/f100</item>
+        <item>@drawable/f101</item>
+        <item>@drawable/f102</item>
+        <item>@drawable/f103</item>
+        <item>@drawable/f104</item>
+        <item>@drawable/f105</item>
+        <item>@drawable/f106</item>
+        <item>@drawable/f107</item>
+        <item>@drawable/f108</item>
+        <item>@drawable/f109</item>
+        <item>@drawable/f110</item>
+        <item>@drawable/f111</item>
+        <item>@drawable/f112</item>
+        <item>@drawable/f113</item>
+        <item>@drawable/f114</item>
+        <item>@drawable/f115</item>
+        <item>@drawable/f116</item>
+        <item>@drawable/f117</item>
+        <item>@drawable/f118</item>
+        <item>@drawable/f119</item>
+        <item>@drawable/f120</item>
+        <item>@drawable/f121</item>
+        <item>@drawable/f122</item>
+        <item>@drawable/f123</item>
+        <item>@drawable/f124</item>
+        <item>@drawable/f125</item>
+        <item>@drawable/f126</item>
+        <item>@drawable/f127</item>
+        <item>@drawable/f128</item>
+        <item>@drawable/f129</item>
+        <item>@drawable/f130</item>
+        <item>@drawable/f131</item>
+        <item>@drawable/f132</item>
+        <item>@drawable/f133</item>
+        <item>@drawable/f134</item>
+        <item>@drawable/f135</item>
+    </array><string-array name="face_strs">
+        <item>[喜欢]</item>
+        <item>[衰]</item>
+        <item>[酷]</item>
+        <item>[哭]</item>
+        <item>[愤怒]</item>
+        <item>[吐舌]</item>
+        <item>[吐长舌]</item>
+        <item>[疑问]</item>
+        <item>[流汗]</item>
+        <item>[惊恐]</item>
+        <item>[大笑]</item>
+        <item>[惊讶]</item>
+        <item>[不屑]</item>
+        <item>[累]</item>
+        <item>[脸红]</item>
+        <item>[高兴]</item>
+        <item>[出丑]</item>
+        <item>[流口水]</item>
+        <item>[叹气]</item>
+        <item>[坏笑]</item>
+        <item>[瞌睡]</item>
+        <item>[难受]</item>
+        <item>[难过]</item>
+        <item>[生病]</item>
+        <item>[高兴]</item>
+        <item>[嘟嘴]</item>
+        <item>[亲吻]</item>
+        <item>[嘟嘴脸红]</item>
+        <item>[撅嘴]</item>
+        <item>[天使]</item>
+        <item>[讶异]</item>
+        <item>[龇牙]</item>
+        <item>[疑惑]</item>
+        <item>[惊奇]</item>
+        <item>[不情愿]</item>
+        <item>[懊恼]</item>
+        <item>[流泪]</item>
+        <item>[瞧不起]</item>
+        <item>[流汗]</item>
+        <item>[微笑]</item>
+        <item>[惊讶]</item>
+        <item>[笑脸]</item>
+        <item>[无嘴]</item>
+        <item>[张开嘴巴]</item>
+        <item>[不舒服]</item>
+        <item>[放松]</item>
+        <item>[释怀]</item>
+        <item>[开口大笑]</item>
+        <item>[流泪]</item>
+        <item>[吐舌]</item>
+        <item>[吐舌眨眼]</item>
+        <item>[流汗]</item>
+        <item>[笑着流汗]</item>
+        <item>[累]</item>
+        <item>[不高兴]</item>
+        <item>[眨眼]</item>
+        <item>[担心]</item>
+        <item>[好吃]</item>
+        <item>[手势ok]</item>
+        <item>[鼓掌]</item>
+        <item>[踩]</item>
+        <item>[赞]</item>
+        <item>[肌肉]</item>
+        <item>[云]</item>
+        <item>[排气]</item>
+        <item>[太阳]</item>
+        <item>[多云]</item>
+        <item>[彩虹]</item>
+        <item>[雪花]</item>
+        <item>[雪人]</item>
+        <item>[下雨]</item>
+        <item>[闪电]</item>
+        <item>[棒球]</item>
+        <item>[篮球]</item>
+        <item>[足球]</item>
+        <item>[麦克风]</item>
+        <item>[棒棒糖]</item>
+        <item>[啤酒]</item>
+        <item>[冰淇淋]</item>
+        <item>[鸡腿]</item>
+        <item>[沙冰]</item>
+        <item>[苹果]</item>
+        <item>[草莓]</item>
+        <item>[栗子]</item>
+        <item>[团子]</item>
+        <item>[花束]</item>
+        <item>[桃花]</item>
+        <item>[外星人]</item>
+        <item>[天使]</item>
+        <item>[小鸡]</item>
+        <item>[熊]</item>
+        <item>[蜜蜂]</item>
+        <item>[鸟]</item>
+        <item>[小丑]</item>
+        <item>[野猪]</item>
+        <item>[虫子]</item>
+        <item>[龙]</item>
+        <item>[孵化的小鸡]</item>
+        <item>[小猴子]</item>
+        <item>[日本小妖]</item>
+        <item>[日本食人魔]</item>
+        <item>[络腮胡子]</item>
+        <item>[熊猫脸]</item>
+        <item>[耗子先生]</item>
+        <item>[粪便]</item>
+        <item>[狼]</item>
+        <item>[新娘]</item>
+        <item>[男孩]</item>
+        <item>[夫妻]</item>
+        <item>[舞者]</item>
+        <item>[娃娃]</item>
+        <item>[一家人]</item>
+        <item>[两男]</item>
+        <item>[两女]</item>
+        <item>[心碎]</item>
+        <item>[心]</item>
+        <item>[嘴唇]</item>
+        <item>[情书]</item>
+        <item>[相爱]</item>
+        <item>[吻]</item>
+        <item>[一箭穿心]</item>
+        <item>[自动取款机]</item>
+        <item>[宝石]</item>
+        <item>[戒指]</item>
+        <item>[人民币]</item>
+        <item>[洗浴]</item>
+        <item>[爆炸]</item>
+        <item>[皇冠]</item>
+        <item>[吸烟]</item>
+        <item>[笔记本]</item>
+        <item>[电话]</item>
+        <item>[猪头]</item>
+        <item>[猪鼻子]</item>
+        <item>[祝福]</item>
+        <item>[游戏结束]</item>
+    </string-array></file><file path="D:\projects\v_telephone\telephone\src\main\res\values\colors.xml" qualifiers=""><color name="light_green">#00dd00</color><color name="light_blue">#4C75EB</color><color name="female_bg">#ff9999</color><color name="red">#ff0000</color><color name="darker_grey">#bbbbbb</color><color name="light_grey">#f0f0f0</color><color name="theme_blue">#4b74f0</color><color name="dark_grey">#c8c7c7</color><color name="black">#000000</color><color name="dark_blue">#426def</color><color name="male_bg">#18b4ed</color><color name="semi_dark_black">#D6000000</color><color name="green">#00ff00</color><color name="translucent_background_color">#77000000</color><color name="blue">#0000ff</color><color name="light_yellow">#ffefcf</color><color name="black_grey">#4F5050</color><color name="semi_light_black">#88000000</color><color name="pink">#fa7eb2</color><color name="purple">#6b059a</color><color name="theme_grey">#868686</color><color name="white">#ffffff</color><color name="grey">#dcdcdc</color></file><file path="D:\projects\v_telephone\telephone\src\main\res\values\strings.xml" qualifiers=""><string name="no_permission">您没有权限进行此操作，请到会员中心充值升级！</string><string name="request_to_be_friends">%s 请求加为好友</string><string name="mile">公里</string><string name="vip_no_ad">无广告</string><string name="add_success">已添加成功</string><string name="alipay_pay">支付宝安全支付</string><string name="record_time_too_short">录音时长太短，至少%s秒！</string><string name="input_nick">请输入昵称</string><string name="connection_crack_off">连接已断开！</string><string name="renewal">续费</string><string name="update">更新</string><string name="vip_expired">已过期</string><string name="left">剩余</string><string name="software_update">软件更新</string><string name="stop">停止</string><string name="address">地址</string><string name="male">男</string><string name="shutdown">退出程序</string><string name="vip_center">会员中心</string><string name="will_receive_remote_record">秒后，您将收到家人/好友的紧急录音</string><string name="login_app">登录手机号定位</string><string name="guest_login">游客登录</string><string name="pwd_format_err">有特殊字符或长度（6到12位）不对</string><string name="already_newest_version">已是最新版本！</string><string name="age">年龄</string><string name="year">年</string><string name="already_added">已添加</string><string name="map_avatar_loading">加载中\n请稍等\n...</string><string name="take_pic">拍照</string><string name="set_gender">设置-性别</string><string name="vip_year">年会员</string><string name="be_vip_to_enter_vip_group">您好，申请为会员后可以进入VIP群寻求支持，是否申请？</string><string name="already_send_friend_request">已发出好友请求</string><string name="hava_rejected_your_friend_request">已拒绝您的好友请求</string><string name="account_format_error">账号格式不正确</string><string name="nearby">附近</string><string name="_age">%s岁</string><string name="choose_from_album">从相册中选择</string><string name="locating">定位中...</string><string name="fence_already_exists_please_rename">此围栏已存在，请重新命名！</string><string name="short_video">小视频</string><string name="be_vip_to_use_function_avoid_disturb">您好！您还不是会员，只有会员才能使用防骚扰功能，是否申请成为会员？</string><string name="refreshing">正在刷新…</string><string name="hava_agreed_your_friend_request">已同意您的好友请求</string><string name="vip_remove_ads">去广告</string><string name="request_to_add_friend">请求添加您为好友</string><string name="be_vip">立即成为会员</string><string name="online">[在线]</string><string name="set_efence">设置围栏</string><string name="error_unknown">与服务器连接已断开，请检查网络。</string><string name="check_update">检查更新</string><string name="set_nick">设置-昵称</string><string name="start_time">开始时间：</string><string name="second_pwd_not_equal">两次输入密码不一致</string><string name="resetting_pwd">正在重置密码...</string><string name="gender">性别</string><string name="occurred_in_the_time">在以下时间出现过</string><string name="vip_fast_add_friend_detail">会员可以快速添加好友，尽享Vip服务。</string><string name="resend_verify_code">重发验证码</string><string name="app_name">手机号定位</string><string name="reg_agree_disclaimer">注册即同意免责声明</string><string name="register_no_code">请点击下面“注册”按钮</string><string name="phone_format_wrong">手机号格式不正确！</string><string name="retry">重试</string><string name="end_time">结束时间：</string><string name="hour">小时</string><string name="side_open_avoid_disturb">抱歉，对方是会员，已开启防骚扰功能，无法添加对方为好友！</string><string name="input_account_to_find_pwd">请输入要找回密码的账号(手机号)</string><string name="vip_remove_ads_notify">广告将不再出现了</string><string name="no_permission_for_more_fence">您没有权限创建更多围栏，要想创建更多围栏，请到会员中心充值升级！</string><string name="friend_apply_for">好友申请</string><string name="signature">个性签名</string><string name="download_failure">下载失败</string><string name="recharge">充值</string><string name="game">游戏</string><string name="be_vip_to_use_function_loc_secret">您好！您还不是会员，只有会员才能使用位置保密功能，是否申请成为会员？</string><string name="first_enter_txt10">分享位置</string><string name="download_error">下载出错</string><string name="disclaimer_context_1_6">1.6任何由于黑客攻击、计算机病毒侵入或发作、因政府管制而造成的暂时性关闭等影响网络正常经营的不可抗力而造成的个人资料泄露、丢失、被盗用或被窜改等，维艾德均得免责。 </string><string name="first_enter_txt11">随时随地</string><string name="disclaimer_context_1_4">1.4当政府司法机关依照法定程序要求维艾德披露个人资料时，维艾德将根据执法单位之要求或为公共安全之目的提供个人资料。在此情况下之任何披露，维艾德均得免责；</string><string name="logout_account">切换帐号</string><string name="disclaimer_context_1_5">1.5若因线路及维艾德控制范围外的硬件故障或其它不可抗力而导致暂停服务，于暂停服务期间造成的一切不便与损失，维艾德不负任何责任；</string><string name="all">全部</string><string name="please_set_avatar">请设置头像</string><string name="reconnect_success">重连成功！</string><string name="warn">警告</string><string name="side_is_vip_wait_for_agree_apply_for_vip">已发起请求，请等待对方同意，申请为会员后可快速添加好友，是否申请？</string><string name="messages">消息</string><string name="not_login">未登录！</string><string name="disclaimer_context_1_2">1.2用户明确同意其使用维艾德服务所存在的风险将完全由其自己承担。因其使用这些服务而产生的一切后果也由其自己承担，维艾德对此不承担任何责任；</string><string name="disclaimer_context_1_3">1.3本软件为免费产品，用户若通过移动设备及其他设备访问产生的相关费用，维艾德不负任何责任；</string><string name="disclaimer_context_1_1">1.1由于用户（指最终用户）将个人密码告知他人或与他人共享注册帐户，由此导致的任何个人资料泄露，北京维艾德科技有限公司（以下简称：维艾德）不负任何责任；</string><string name="filter_nearby">筛选附近的人</string><string name="yesterday">昨天</string><string name="first_enter_txt20">实时信息</string><string name="vip_fast_add_friend">快速加好友</string><string name="first_enter_txt21">便捷沟通</string><string name="today">今天</string><string name="trace">足迹</string><string name="vip_upgrade">升级</string><string name="getting_prepay_order">正在获取预支付订单...</string><string name="submit">提交</string><string name="rmb">元</string><string name="vip_info">会员信息</string><string name="welcome">欢迎</string><string name="exit_but_receive_msg">退出后仍接收消息吗？</string><string name="day">天</string><string name="two_km">2千米</string><string name="downloading">下载中...</string><string name="verify_code_have_sent">验证码已经发送</string><string name="no_account_to_register">您还没有账号?请先注册</string><string name="choose_country_area_code">选择国家和地区代码</string><string name="vip_alarm">启动警报</string><string name="will_open_network">网络连接不可用，是否打开网络连接？</string><string name="exit_toast">再按一次返回键关闭程序</string><string name="press_and_say">按住说话</string><string name="move_to_this_to_cancel_voice">移动到此处可取消此语音</string><string name="vip_fence">围栏</string><string name="beyond_efence">离开了围栏</string><string name="navigate_to">导航到</string><string name="disclaimer">手机号定位免责声明</string><string name="seconds_later_reconnect">秒后开始重连</string><string name="input_pwd">请输入密码</string><string name="please_open_permission_for_record">请在【设置】中开启软件的录音权限！</string><string name="friend_no_location">此好友暂没有上传过位置，无法定位到此好友！</string><string name="reconnect_failed">重连失败！</string><string name="signature_too_long">签名太长</string><string name="next_step">下一步</string><string name="invite">邀请</string><string name="disclaimer_context_4">4 关于法律责任</string><string name="disclaimer_context_2">2 关于GPS，Wifi，基站定位服务</string><string name="disclaimer_context_3">3 关于第三方提供的内容</string><string name="disclaimer_context_1">1 联网服务</string><string name="drop_down_to_refresh_list_pull_tips">下拉可以更新</string><string name="open">打开</string><string name="search_contacts">搜索联系人</string><string name="vip_loc_secret_detail">会员可以设置自己位置不对外共享。</string><string name="setting">设置</string><string name="input_received_verify_code">输入接收到的短信验证码</string><string name="person_info">个人信息</string><string name="set_address">设置-地址</string><string name="vip_history_trace">历史轨迹</string><string name="account_error">用户名或密码错误</string><string name="input_efence_name">请输入围栏名称</string><string name="no_efence_name">您还没有输入围栏名称!</string><string name="no_nearby_friends">附近暂没有人</string><string name="nation_and_area">国家和地区</string><string name="nick_too_long">昵称太长</string><string name="searching">搜索中...</string><string name="nick_format_err">昵称含有特殊字符</string><string name="feedback">反馈</string><string name="account_not_exist">用户不存在</string><string name="no_messages">暂无聊天消息~_~</string><string name="vip_history_trace_detail">会员可以查看好友7天内的历史轨迹。</string><string name="be_vip_to_use_function_navigate">您好！您还不是会员，只有会员才能导航到自己的好友，是否申请成为会员？</string><string name="friends">好友</string><string name="left_days">剩余[%s]天</string><string name="confirm_pay">确认付款</string><string name="set_age">设置-年龄</string><string name="will_update">发现新版本，是否立即更新?</string><string name="not_updated_yet">暂未更新过</string><string name="my_location">我的位置</string><string name="no_more_hist_record">没有更多历史记录了</string><string name="resume">继续</string><string name="time_error">时间有问题</string><string name="exit">退出</string><string name="phone_contacts">手机联系人</string><string name="fence_num_limited">您创建的围栏已达上限！</string><string name="vip_avoid_disturb_detail">会员可以设置此选项防止被他人打扰。</string><string name="download_started">准备...</string><string name="new_friends">新朋友</string><string name="image">图片</string><string name="disclaimer_context_3_1">本软件发布的地图和反馈均由第三方提供。对由这些第三方提供的资料的准确性、真实性、完整性或质量，维艾德不作任何声明或保证。对于因使用任何第三方的资料或网址而引起的或与之有关的任何直接或间接的损害赔偿, 维艾德概不承担责任。</string><string name="please_confirm_cur_phone_no">请确认当前手机号</string><string name="login">登录</string><string name="something_wrong">出错了!</string><string name="phone_pay">话费支付</string><string name="empty_input">输入为空</string><string name="search_result">搜索结果</string><string name="none">无</string><string name="address_format_err">地址含有特殊字符</string><string name="get_verification_code">获取验证码</string><string name="phone_no_not_exists">您好！此号码不存在，请输入正确的手机号码。</string><string name="cancel">取消</string><string name="register_app">注册手机号定位</string><string name="choose_pay_type">请选择支付方式</string><string name="remote_server_error">远程服务器繁忙，请稍等</string><string name="share">分享给好友</string><string name="vip">会员</string><string name="add_to_friend">添加为好友</string><string name="open_loc_info">公开位置信息</string><string name="startup">启动</string><string name="updated_just_now">刚刚更新</string><string name="four_km">4千米</string><string name="first_enter_txt31">走过回忆</string><string name="minute">分钟</string><string name="first_enter_txt30">足迹</string><string name="verify_code_cant_empty">验证码不能为空</string><string name="disclaimer_context_2_3">2.3 注册本软件即表示同意开放自己位置。</string><string name="be_vip_to_use_function_trace">您好！您还不是会员，只有会员才能查看自己和好友的历史轨迹，是否申请成为会员？</string><string name="input_new_pwd">请输入新密码</string><string name="current_choose">当前选择：</string><string name="pulltorefresh">提示...</string><string name="verification_code_have_sent_to_phone">验证码已发送到手机</string><string name="app_download_url">软件下载地址:</string><string name="loading">加载中...</string><string name="op_canceled">操作取消！</string><string name="disclaimer_context_2_1">2.1 用户位于定位盲区或全球定位卫星系统无效时, 由此造成的一切不便与损失，维艾德不负任何责任；</string><string name="disclaimer_context_2_2">2.2 本软件提供的定位服务有一定偏差，由此造成的一切不便与损失，维艾德不负任何责任；</string><string name="share_app_msg">您好,我在使用软件 - 手机号定位，感觉非常棒，邀请您一起来使用。软件下载地址：</string><string name="pause">暂停</string><string name="release_to_delete_this_voice">松手删除此条语音消息</string><string name="no_friends_go_to_add">您还没有好友，添加一个吧！</string><string name="enter_efence">进入围栏</string><string name="voice_deleted">此录音文件已删</string><string name="wechat_pay">微信支付</string><string name="first_enter_txt40">电子围栏</string><string name="register">注册</string><string name="female">女</string><string name="first_enter_txt41">邂逅美丽</string><string name="download_success">下载完成</string><string name="invite_to_use">如需关注并获取此号码位置，请向这位朋友发起邀请。</string><string name="timeout">连接超时</string><string name="update_force">必须升级版本，给以更佳体验！</string><string name="release_to_end">松开结束</string><string name="download_waiting">等待...</string><string name="expired">您会员已过期，请到会员中心充值续费！</string><string name="no_trace_data">还没有足迹数据！</string><string name="signature_format_err">签名含有特殊字符</string><string name="same_account_logined">同一账号已在另一地方登录，自动下线！</string><string name="input_re_pwd">请再次输入密码</string><string name="pwd_len_err">密码长度最少6位</string><string name="input_account">请输入手机号</string><string name="vip_remote_record_detail">可以从家人那获取一段10s录音。</string><string name="be_vip_for_more_services">申请为会员后可以享受精确定位，快速加好友等多种VIP服务，是否申请？</string><string name="agree">同意</string><string name="add_friend_request">添加好友请求</string><string name="pay">购买</string><string name="please_change_filter_and_try">请修改筛选条件后重试^~^</string><string name="vip_temp">临时会员</string><string name="drop_down_to_refresh_list_release_tips">松开即可更新</string><string name="call_friend_online">您好！您可以通过短信方式喊此好友上线，是否发送短信通知上线？</string><string name="main_page">主页</string><string name="add">添加</string><string name="load_more">加载更多</string><string name="load_error">加载出错^~^</string><string name="not_vip">您还不是会员，无法进行此项操作，请先充值成会员！</string><string name="send_msg">发消息</string><string name="vip_avoid_disturb">防骚扰</string><string name="nearby_no_more_friends">附近没有更多的人了^~^</string><string name="send">发送</string><string name="set_signature">设置-个性签名</string><string name="add_friend_request_have_sent_please_wait">已发起请求，服务器会快速通知对方，请耐心等待。</string><string name="release_to_refresh">释放立即刷新</string><string name="please_check_record_permission_wether_opened">请检查[录音权限]是否打开</string><string name="filter">筛选</string><string name="delete">删除</string><string name="vip_fence_notify">可建#个电子围栏</string><string name="age_above">%s岁以上</string><string name="join_vip_group">VIP群支持</string><string name="please_input_content">请输入内容</string><string name="three_km">3千米</string><string name="pull_to_refresh">下拉可以刷新</string><string name="reconnecting">正在重连...</string><string name="install_app">安装</string><string name="verification_code_wrong">验证码输入不正确</string><string name="will_start_remote_record">您确定要对家人/好友紧急录音吗？</string><string name="self_is_vip_wait_for_agree">已发起请求，请等待对方同意。</string><string name="please_add_qq_group">请添加手机号定位QQ群:%s</string><string name="lastupdate">最近更新</string><string name="apply">申请</string><string name="no_friends_request">暂无新朋友的加好友请求</string><string name="one_km">1千米</string><string name="self_not_located">自己还未定位成功^~^</string><string name="vip_hide_child_icon">流量保护</string><string name="vip_remote_record">紧急录音</string><string name="china">中国</string><string name="find">发现</string><string name="verify_code_have_sent_to">验证码已经发送到</string><string name="reject">拒绝</string><string name="system_notify">系统通知</string><string name="be_vip_to_use_function_remote_record">您好！您还不是会员，只有会员才能对家人/好友进行紧急录音，是否申请成为会员？</string><string name="drop_down_to_refresh_list_refreshing_tips">正在更新中...</string><string name="vip_loc_secret">位置保密</string><string name="app_name_en">telephone</string><string name="disclaimer_context_4_3">4.3本声明未涉及的问题参见国家有关法律法规，当本声明与国家法律法规冲突时，以国家法律法规为准。 </string><string name="find_pwd">找回密码</string><string name="input_sms_verification_code">请输入短信验证码</string><string name="download_cancelled">下载暂停</string><string name="disclaimer_context_4_1">4.1本软件用户因为违反本声明的规定而触犯中华人民共和国法律的，一切后果自己负责，维艾德不承担任何责任；</string><string name="no_vip_cannot_add_vip_for_friend">抱歉，非会员无法添加会员对象，是否申请成为会员？</string><string name="disclaimer_context_4_2">4.2凡以任何方式登陆本软件或直接、间接使用本软件资料者，视为自愿接受本声明的约束；</string><string name="choose_friend_for_trace">选择要查看足迹的好友</string><string name="confirm">确定</string><string name="updated_at">上次更新于%1$s前</string><string name="net_error">网络错误</string><string name="find_people">找人(通过手机号)：</string><string name="join_qq_group">QQ群支持</string><string name="no_contacts">您没有联系人注册！</string><string name="friend_not_online_cannot_op">好友不在线,无法进行此操作！</string><string name="baidu_app_not_support">您尚未安装百度地图app或app版本过低，点击确认安装？</string><string name="vip_no_ad_detail">会员享受不展示任何广告服务。</string><string name="reconnect_fail_and_reconnecting">尝试重连...</string><string name="avatar">头像</string><string name="drop_down_to_refresh_list_refresh_view_tips">查看更多消息</string><string name="net_go_wrong_please_check">网络出问题了，检查一下吧~_~</string><string name="delete_efence">删除围栏</string><string name="phone_format_err">请输入正确的手机号</string><string name="address_too_long">地址太长</string><string name="download_app">下载</string><string name="account_set">账户设置</string><string name="unauthorized_app_notify">您安装的"手机号定位"软件是盗版的，请下载正式版！</string><string name="offline">[离线]</string><string name="phone_no_belong_to">您好！此号码属于:%s。</string><string name="connect_error">连接错误</string><string name="account_exist">此账号已经注册</string><string name="nick">昵称</string><string name="unlimitted">不限</string><string name="have_deleted_you">已和您解除了好友关系</string><string name="verify_phone">验证手机</string><string name="will_cancel_voice">您要取消此段录音吗？</string><string name="pwd_reset_success">密码重置成功！</string><string name="side_is_vip_wait_for_agree">对方是会员，已发起请求，请等待对方同意。</string><string name="search">搜索</string><string name="before_y">前天</string><string name="home_page">主页</string><string name="add_efence">添加围栏</string><string name="warm_prompt">温馨提示</string><string name="pay_success">支付成功！</string><string name="month">月</string><string name="five_km">5千米</string><string name="wechat_not_installed">请先安装/升级微信！</string></file><file path="D:\projects\v_telephone\telephone\src\main\res\values\styles.xml" qualifiers=""><style name="CustomDialog" parent="@android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/dlg_bg</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style><style name="MenuDialogAnimation" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/dialog_enter</item>
+        <item name="android:windowExitAnimation">@anim/dialog_exit</item>
+    </style><style name="Animations_PopUpMenu_Center">
+     <item name="@android:windowEnterAnimation">@anim/grow_from_topcenter</item>
+     <item name="@android:windowExitAnimation">@anim/shrink_to_topcenter</item>
+    </style><style name="LoadingProgressBarStyle">
+　　        <item name="android:indeterminateDrawable">@anim/progress_loading_rotate</item>
+　　        <item name="android:minWidth">15dp</item>
+　　        <item name="android:maxWidth">25dp</item>
+　　        <item name="android:minHeight">15dp</item>
+　　        <item name="android:maxHeight">25dp</item>
+    </style><style name="MenuDialogStyle">
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowIsFloating">true</item>
+    </style></file></source><source path="D:\projects\v_telephone\telephone\build\generated\res\rs\jifeng\release"/><source path="D:\projects\v_telephone\telephone\build\generated\res\resValues\jifeng\release"/></dataSet><dataSet config="jifeng" generated-set="jifeng$Generated"><source path="D:\projects\v_telephone\telephone\src\jifeng\res"/></dataSet><dataSet config="release" generated-set="release$Generated"><source path="D:\projects\v_telephone\telephone\src\release\res"/></dataSet><dataSet config="jifengRelease" generated-set="jifengRelease$Generated"><source path="D:\projects\v_telephone\telephone\src\jifengRelease\res"/></dataSet><mergedItems/></merger>

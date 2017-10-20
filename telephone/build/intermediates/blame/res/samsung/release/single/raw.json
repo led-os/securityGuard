@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\samsung\\release\\raw\\beep.wav",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\raw\\beep.wav"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\samsung\\release\\raw\\mus.mp3",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\raw\\mus.mp3"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\samsung\\release\\raw\\libs",
+        "source": "D:\\projects\\v_telephone\\sMSSDK2001\\build\\intermediates\\bundles\\default\\res\\raw\\libs"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\samsung\\release\\raw\\conf.properties",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\raw\\conf.properties"
+    }
+]

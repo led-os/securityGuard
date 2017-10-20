@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <View
+        android:id="@+id/top_space"
+        android:layout_width="0dp"
+        android:layout_height="200dp" />
+
+    <View
+        android:id="@+id/bottom_space"
+        android:layout_width="0dp"
+        android:layout_height="20dp"
+        android:layout_alignParentBottom="true" />
+
+    <LinearLayout
+        android:id="@+id/avatar_btn_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bottom_space"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/loading_friends"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:textSize="12sp"
+            android:textColor="@color/theme_blue"
+            android:text="@string/map_avatar_loading" />
+
+        <Button
+            android:id="@+id/hide_friends"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/arrow_up" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/fiends_sv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/avatar_btn_layout"
+        android:layout_below="@id/top_space" >
+
+        <RelativeLayout
+            android:id="@+id/fiends_rl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:id="@+id/avatars_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:gravity="bottom"
+                android:orientation="vertical" >
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/title_bar_page_home"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/title_bar_page_home" />
+    
+    <include
+        android:id="@+id/title_bar_page_msg_friend"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/title_bar_page_msg"
+        android:visibility="gone" />
+    
+    <include
+        android:id="@+id/title_bar_page_find"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/title_bar_page_find"
+        android:visibility="gone" />
+    
+    <include
+        android:id="@+id/title_bar_page_setting"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/title_bar_page_setting"
+        android:visibility="gone" />
+
+    <com.vidmt.telephone.ui.views.CustomViewPager
+        android:id="@+id/id_viewpager"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+    </com.vidmt.telephone.ui.views.CustomViewPager>
+
+    <include layout="@layout/main_bottom_bar" />
+
+</LinearLayout>

@@ -1,0 +1,310 @@
+[
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\bg_edittext_normal.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\drawable\\bg_edittext_normal.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\selector_radio_rect_left_round_blue.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\drawable\\selector_radio_rect_left_round_blue.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\selector_cancel.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\drawable\\selector_cancel.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\selector_show_face.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\drawable\\selector_show_face.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\shap_circle_blue.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\drawable\\shap_circle_blue.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\umeng_fb_gradient_orange.xml",
+        "source": "D:\\projects\\v_telephone\\umeng\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_fb_gradient_orange.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\umeng_fb_back_selected.png",
+        "source": "D:\\projects\\v_telephone\\umeng\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_fb_back_selected.png"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\selector_positioning.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\drawable\\selector_positioning.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\selector_white_blue.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\drawable\\selector_white_blue.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\selector_back.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\drawable\\selector_back.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\bg_rect_right_round_blue_full.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\drawable\\bg_rect_right_round_blue_full.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\umeng_fb_list_item.9.png",
+        "source": "D:\\projects\\v_telephone\\umeng\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_fb_list_item.9.png"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\umeng_fb_gradient_green.xml",
+        "source": "D:\\projects\\v_telephone\\umeng\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_fb_gradient_green.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\umeng_fb_btn_bg_selector.xml",
+        "source": "D:\\projects\\v_telephone\\umeng\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_fb_btn_bg_selector.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\selector_chat_he_bg.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\drawable\\selector_chat_he_bg.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\umeng_fb_top_banner.xml",
+        "source": "D:\\projects\\v_telephone\\umeng\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_fb_top_banner.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\selector_chat_me_bg.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\drawable\\selector_chat_me_bg.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\selector_plus.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\drawable\\selector_plus.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\umeng_fb_arrow_right.png",
+        "source": "D:\\projects\\v_telephone\\umeng\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_fb_arrow_right.png"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\selector_chat_video_send.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\drawable\\selector_chat_video_send.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\umeng_fb_see_list_normal.png",
+        "source": "D:\\projects\\v_telephone\\umeng\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_fb_see_list_normal.png"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\umeng_fb_write_pressed.png",
+        "source": "D:\\projects\\v_telephone\\umeng\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_fb_write_pressed.png"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\umeng_fb_list_item_selector.xml",
+        "source": "D:\\projects\\v_telephone\\umeng\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_fb_list_item_selector.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\selector_checkbox.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\drawable\\selector_checkbox.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\selector_blue_btn.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\drawable\\selector_blue_btn.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\umeng_fb_point_new.xml",
+        "source": "D:\\projects\\v_telephone\\umeng\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_fb_point_new.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\bg_rect_left_round_blue_full.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\drawable\\bg_rect_left_round_blue_full.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\selector_send_btn.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\drawable\\selector_send_btn.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\umeng_fb_bar_bg.9.png",
+        "source": "D:\\projects\\v_telephone\\umeng\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_fb_bar_bg.9.png"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\selector_radio_blue_rect.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\drawable\\selector_radio_blue_rect.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\selector_radio_rect_right_round_blue.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\drawable\\selector_radio_rect_right_round_blue.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\selector_voice_remote.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\drawable\\selector_voice_remote.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\selector_map_view.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\drawable\\selector_map_view.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\umeng_fb_tick_selector.xml",
+        "source": "D:\\projects\\v_telephone\\umeng\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_fb_tick_selector.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\selector_chat_img_send.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\drawable\\selector_chat_img_send.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\layer_seekbar_bg.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\drawable\\layer_seekbar_bg.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\selector_trace_date_back.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\drawable\\selector_trace_date_back.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\shape_time_bg.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\drawable\\shape_time_bg.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\selector_radio_btn.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\drawable\\selector_radio_btn.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\selector_grey_btn.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\drawable\\selector_grey_btn.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\selector_efence_map_icon.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\drawable\\selector_efence_map_icon.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\shap_female_rect_bg.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\drawable\\shap_female_rect_bg.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\umeng_fb_gray_frame.xml",
+        "source": "D:\\projects\\v_telephone\\umeng\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_fb_gray_frame.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\umeng_fb_statusbar_icon.png",
+        "source": "D:\\projects\\v_telephone\\umeng\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_fb_statusbar_icon.png"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\umeng_fb_tick_selected.png",
+        "source": "D:\\projects\\v_telephone\\umeng\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_fb_tick_selected.png"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\selector_nav_map_icon.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\drawable\\selector_nav_map_icon.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\selector_grey_blue.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\drawable\\selector_grey_blue.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\umeng_fb_point_normal.xml",
+        "source": "D:\\projects\\v_telephone\\umeng\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_fb_point_normal.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\umeng_fb_user_bubble.9.png",
+        "source": "D:\\projects\\v_telephone\\umeng\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_fb_user_bubble.9.png"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\bg_rect_right_round_blue.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\drawable\\bg_rect_right_round_blue.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\umeng_fb_back_normal.png",
+        "source": "D:\\projects\\v_telephone\\umeng\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_fb_back_normal.png"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\selector_title_btn.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\drawable\\selector_title_btn.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\umeng_fb_write_selector.xml",
+        "source": "D:\\projects\\v_telephone\\umeng\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_fb_write_selector.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\umeng_fb_see_list_pressed.png",
+        "source": "D:\\projects\\v_telephone\\umeng\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_fb_see_list_pressed.png"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\umeng_fb_reply_left_bg.9.png",
+        "source": "D:\\projects\\v_telephone\\umeng\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_fb_reply_left_bg.9.png"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\point_selected.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\drawable\\point_selected.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\selector_trace_map_icon.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\drawable\\selector_trace_map_icon.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\shap_male_rect_bg.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\drawable\\shap_male_rect_bg.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\point_no_select.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\drawable\\point_no_select.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\bg_rect_left_round_blue.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\drawable\\bg_rect_left_round_blue.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\umeng_fb_logo.png",
+        "source": "D:\\projects\\v_telephone\\umeng\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_fb_logo.png"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\umeng_fb_submit_selector.xml",
+        "source": "D:\\projects\\v_telephone\\umeng\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_fb_submit_selector.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\selector_clearwords_icon.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\drawable\\selector_clearwords_icon.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\umeng_fb_see_list_selector.xml",
+        "source": "D:\\projects\\v_telephone\\umeng\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_fb_see_list_selector.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\umeng_fb_conversation_bg.png",
+        "source": "D:\\projects\\v_telephone\\umeng\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_fb_conversation_bg.png"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\bg_edittext_focused.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\drawable\\bg_edittext_focused.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\umeng_fb_tick_normal.png",
+        "source": "D:\\projects\\v_telephone\\umeng\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_fb_tick_normal.png"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\umeng_fb_write_normal.png",
+        "source": "D:\\projects\\v_telephone\\umeng\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_fb_write_normal.png"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\selector_load_more.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\drawable\\selector_load_more.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\selector_record_voice.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\drawable\\selector_record_voice.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\umeng_fb_list_item_pressed.9.png",
+        "source": "D:\\projects\\v_telephone\\umeng\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_fb_list_item_pressed.9.png"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\umeng_fb_reply_right_bg.9.png",
+        "source": "D:\\projects\\v_telephone\\umeng\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_fb_reply_right_bg.9.png"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\bg_edittext.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\drawable\\bg_edittext.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\selector_radio_white_blue.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\drawable\\selector_radio_white_blue.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\selector_set_avatar.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\drawable\\selector_set_avatar.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\selector_trace_date_forward.xml",
+        "source": "D:\\projects\\v_telephone\\telephone\\src\\main\\res\\drawable\\selector_trace_date_forward.xml"
+    },
+    {
+        "merged": "D:\\projects\\v_telephone\\telephone\\build\\intermediates\\res\\merged\\jifeng\\release\\drawable\\umeng_fb_back_selector.xml",
+        "source": "D:\\projects\\v_telephone\\umeng\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_fb_back_selector.xml"
+    }
+]
