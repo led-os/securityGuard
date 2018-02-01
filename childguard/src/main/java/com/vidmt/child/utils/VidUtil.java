@@ -88,8 +88,8 @@ public class VidUtil {
 	private static MediaRecorder mRecorder;
 
 	public static boolean isPhoneNO(String mobile) {
-		// Pattern p = Pattern.compile("^1\\d{10}$");
-		Pattern p = Pattern.compile("^((13[0-9])|(15[^4,\\D])|(18[0-9]))\\d{8}$");
+		 Pattern p = Pattern.compile("^1\\d{10}$");
+//		Pattern p = Pattern.compile("^((13[0-9])|(15[^4,\\D])|(18[0-9]))\\d{8}$");
 		Matcher m = p.matcher(mobile);
 		return m.matches();
 	}

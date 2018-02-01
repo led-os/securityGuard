@@ -1,9 +1,18 @@
 package com.vidmt.child.utils;
 
+import android.content.Context;
+
 import com.alibaba.fastjson.JSONException;
+import com.umeng.analytics.MobclickAgent;
 import com.vidmt.acmn.utils.andr.FLog;
 import com.vidmt.acmn.utils.andr.VLog;
+import com.vidmt.child.App;
 import com.vidmt.child.exceptions.VidException;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import static com.umeng.analytics.MobclickAgent.reportError;
 
 public class JsonUtil {
 
@@ -38,7 +47,13 @@ public class JsonUtil {
 		}
 		int start = rawJson.indexOf("{");
 		int end = rawJson.lastIndexOf("}");
-		String json = rawJson.substring(start, end + 1);
+		String json;
+		try {
+			json = rawJson.substring(start, end + 1);
+		} catch (StringIndexOutOfBoundsException e) {
+			reportError(App.get(),rawJson);
+			throw new RuntimeException("getCorrectJsonResult：" + e + "," + rawJson);
+		}
 		try {
 			JsonResult<String> result = new JsonResult<String>(json);
 			if (result.getCode() > 0) {

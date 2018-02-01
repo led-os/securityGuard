@@ -65,7 +65,6 @@ public class HttpUtil {
 			@Override
 			public void onSuccess(ResponseInfo<String> responseInfo) {
 				String avatarUri = responseInfo.result;
-				VidUtil.clearOldAvatar(uid);
 				avatarFile.renameTo(new File(VLib.getSdcardDir(), avatarUri));
 				if (forParent) {
 					UserUtil.getParentInfo().avatarUri = avatarUri;

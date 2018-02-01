@@ -66,6 +66,11 @@ public class EfenceView {
 		public void onMapStatusChangeStart(MapStatus status) {
 			// TODO Auto-generated method stub
 		}
+
+		@Override
+		public void onMapStatusChangeStart(MapStatus mapStatus, int i) {
+
+		}
 	};
 
 	public EfenceView(MapActivity mapActivity) {

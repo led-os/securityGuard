@@ -66,6 +66,7 @@ public class SplashActivity extends AbsVidActivity {
 		}
 	}
 
+
 	private void startMain() {
 		boolean isBabyClient = SysUtil.getBooleanPref(PrefKeyConst.PREF_IS_BABY_CLIENT);
 		Intent i = new Intent(this, MainActivity.class);
@@ -81,5 +82,6 @@ public class SplashActivity extends AbsVidActivity {
 		XmppManager.get().removeXmppListener(mOnConnectionListener);
 		super.onDestroy();
 	}
+
 
 }

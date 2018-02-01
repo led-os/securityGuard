@@ -32,6 +32,7 @@ import com.vidmt.child.activities.main.ChatController;
 import com.vidmt.child.dlgs.BaseDialog.DialogClickListener;
 import com.vidmt.child.dlgs.CancelVoiceDlg;
 import com.vidmt.child.entities.ChatRecord;
+import com.vidmt.child.listeners.AvatarChangedListener;
 import com.vidmt.child.listeners.ChatPhotoSendListener;
 import com.vidmt.child.listeners.ChatPhotoSendListener.OnChatPhotoSendListener;
 import com.vidmt.child.listeners.ShowMsgNotifListener;
@@ -98,7 +99,7 @@ public class ChattingActivity extends AbsVidActivity implements OnClickListener 
 						int touchY = SysUtil.getDisplayMetrics().heightPixels - recordBtnHeight - (int) Math.abs(y);
 						int[] winPositions = VidUtil.getWindowPosition(mRecordWindow.getContentView());
 						float x = event.getX();
-						if (x > winPositions[0] && x < winPositions[1] && touchY > winPositions[2]
+						if (x > winPositions[0] && x < winPositions[2] && touchY > winPositions[1]
 								&& touchY < winPositions[3]) {
 							mRecordWindow.getContentView().findViewById(R.id.voice_notify).setVisibility(View.GONE);
 							mRecordWindow.getContentView().findViewById(R.id.voice_del).setVisibility(View.VISIBLE);

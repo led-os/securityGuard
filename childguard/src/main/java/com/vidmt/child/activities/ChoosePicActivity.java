@@ -7,8 +7,10 @@ import android.content.DialogInterface.OnCancelListener;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.provider.MediaStore;
+import android.support.v4.content.FileProvider;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.LinearLayout;
@@ -73,7 +75,13 @@ public class ChoosePicActivity extends AbsVidActivity implements OnClickListener
 				Intent takePicIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
 				String photoName = "tmp" + String.valueOf(System.currentTimeMillis()) + ".jpg";
 				mTakePicFile = new File(VLib.getSdcardDir(), FileStorage.buildCachePath(photoName));
-				takePicIntent.putExtra(MediaStore.EXTRA_OUTPUT, Uri.fromFile(mTakePicFile));
+				if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+					takePicIntent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
+					Uri photoUri = FileProvider.getUriForFile(this, getPackageName() + ".provider", mTakePicFile);
+					takePicIntent.putExtra(MediaStore.EXTRA_OUTPUT, photoUri);
+				}else {
+					takePicIntent.putExtra(MediaStore.EXTRA_OUTPUT, Uri.fromFile(mTakePicFile));
+				}
 				startActivityForResult(takePicIntent, 0);
 			} catch (Throwable e) {
 				VLog.e("test", e);
@@ -84,6 +92,15 @@ public class ChoosePicActivity extends AbsVidActivity implements OnClickListener
 			Intent chooseIntent = new Intent();
 			chooseIntent.setType("image/*");
 			chooseIntent.setAction(Intent.ACTION_GET_CONTENT);
+			chooseIntent.addCategory(Intent.CATEGORY_OPENABLE);
+			if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {//如果大于等于7.0使用FileProvider
+				String photoName = "tmp" + String.valueOf(System.currentTimeMillis()) + ".jpg";
+				mTakePicFile = new File(VLib.getSdcardDir(), FileStorage.buildCachePath(photoName));
+				Uri uriForFile = FileProvider.getUriForFile(ChoosePicActivity.this, getPackageName() + ".provider", mTakePicFile);
+				chooseIntent.putExtra(MediaStore.EXTRA_OUTPUT, uriForFile);
+				chooseIntent.addFlags(Intent.FLAG_GRANT_WRITE_URI_PERMISSION);
+				chooseIntent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
+			}
 			startActivityForResult(chooseIntent, 0);
 			break;
 		case R.id.cancel:
@@ -110,7 +127,13 @@ public class ChoosePicActivity extends AbsVidActivity implements OnClickListener
 				tmpFile.delete();
 				finish();
 			} else {
-				startPhotoZoom(Uri.fromFile(mTakePicFile));
+				Uri photoUri;
+				if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.N){
+					photoUri = FileProvider.getUriForFile(this, getPackageName() + ".provider", mTakePicFile);
+				}else {
+					photoUri=Uri.fromFile(mTakePicFile);
+				}
+				startPhotoZoom(photoUri);
 			}
 		} else if (data != null && data.getData() != null) {// 从相册获取
 			String filePath = VidUtil.getFilePath(this, data.getData());
@@ -121,7 +144,13 @@ public class ChoosePicActivity extends AbsVidActivity implements OnClickListener
 				tmpFile.delete();
 				finish();
 			} else {
-				startPhotoZoom(Uri.fromFile(new File(filePath)));
+				Uri photoUri;
+				if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.N){
+					photoUri = FileProvider.getUriForFile(this, getPackageName() + ".provider", new File(filePath));
+				}else {
+					photoUri=Uri.fromFile(new File(filePath));
+				}
+				startPhotoZoom(photoUri);
 			}
 		}
 		if (requestCode == PHOTO_ZOOM_RESULT_CODE) {
@@ -164,6 +193,14 @@ public class ChoosePicActivity extends AbsVidActivity implements OnClickListener
 		intent.putExtra("outputY", PHOTO_ZOOM_DIMENSITION);
 		intent.putExtra("return-data", true);
 
+		if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.N){
+			//适配7.0之后Uri问题导致图片裁剪失败
+			Uri outPutUri = Uri.fromFile(mTakePicFile);
+			intent.putExtra(MediaStore.EXTRA_OUTPUT, outPutUri);
+			intent.putExtra("noFaceDetection", false);//去除默认的人脸识别，否则和剪裁匡重叠
+			intent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
+			intent.addFlags(Intent.FLAG_GRANT_WRITE_URI_PERMISSION);
+		}
 		startActivityForResult(intent, PHOTO_ZOOM_RESULT_CODE);
 	}
 	

@@ -9,13 +9,13 @@
     </style>
 
     <style name="Animations_PopUpMenu_Center">
-        <item name="@android:windowEnterAnimation">@anim/grow_from_topcenter</item>
-        <item name="@android:windowExitAnimation">@anim/shrink_to_topcenter</item>
+        <item name="android:windowEnterAnimation">@anim/grow_from_topcenter</item>
+        <item name="android:windowExitAnimation">@anim/shrink_to_topcenter</item>
     </style>
 
     <style name="Animations_PopUpMenu_Right">
-        <item name="@android:windowEnterAnimation">@anim/grow_from_topright_to_bottomleft</item>
-        <item name="@android:windowExitAnimation">@anim/shrink_from_bottomleft_to_topright</item>
+        <item name="android:windowEnterAnimation">@anim/grow_from_topright_to_bottomleft</item>
+        <item name="android:windowExitAnimation">@anim/shrink_from_bottomleft_to_topright</item>
     </style>
 
     <style name="MenuDialogStyle">

@@ -32,8 +32,8 @@
     </style>
     
     <style name="Animations_PopUpMenu_Center">
-     <item name="@android:windowEnterAnimation">@anim/grow_from_topcenter</item>
-     <item name="@android:windowExitAnimation">@anim/shrink_to_topcenter</item>
+     <item name="android:windowEnterAnimation">@anim/grow_from_topcenter</item>
+     <item name="android:windowExitAnimation">@anim/shrink_to_topcenter</item>
     </style>
 
 </resources>

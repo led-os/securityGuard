@@ -140,23 +140,6 @@ public class LoginLocateService extends Service {
 
 	@Override
 	public int onStartCommand(Intent intent, int flags, int startId) {
-		// 已登录 或 未记住密码不可自启 ：do nothing
-
-		//huawei change;
-//		if (intent != null && intent.getBooleanExtra(ExtraConst.EXTRA_ALREADY_LOGINED, false)
-//				|| SysUtil.getPref(PrefKeyConst.PREF_PASSWORD) == null) {
-//			unregisterReceiver();
-//			return START_STICKY;
-//		}
-		// 还未登录
-		// if (!MapManager.isInstantiated()) {//
-		// 还未启动MainActivity,在后台（手动带选项退出/开机自启动）
-		// int frequency = SysUtil.getIntPref(PrefKeyConst.PREF_LOC_FREQUENCY);
-		// if (frequency == -1 || frequency == Const.DEFAUL_LOC_FREQUENCY) {
-		// LocationManager.get().setLocationInterval(5 * 60 * 1000);//
-		// 后台且定位频率默认-->5分/次
-		// }
-		// }
 		login();
 		return START_STICKY;
 	}
@@ -280,21 +263,19 @@ public class LoginLocateService extends Service {
 			ThreadPool.execute(new Runnable() {
 				@Override
 				public void run() {
-					if (XmppManager.get().isAuthenticated()) {
-						try {
-							if (lastLoc == null) {
-								HttpUtil.uploadLocation(UserUtil.getBabyInfo().uid, location);
-								lastLoc = location;
-								return;
-							}
-							double distance = GeoUtil.getDistance(location, lastLoc);
-							if (distance >= Const.PUB_LOC_RANGE) {
-								HttpUtil.uploadLocation(UserUtil.getBabyInfo().uid, location);
-								lastLoc = location;
-							}
-						} catch (VidException e) {
-							VLog.e("test", e);
+					try {
+						if (lastLoc == null) {
+							HttpUtil.uploadLocation(UserUtil.getBabyInfo().uid, location);
+							lastLoc = location;
+							return;
 						}
+						double distance = GeoUtil.getDistance(location, lastLoc);
+						if (distance >= Const.PUB_LOC_RANGE) {
+							HttpUtil.uploadLocation(UserUtil.getBabyInfo().uid, location);
+							lastLoc = location;
+						}
+					} catch (VidException e) {
+						VLog.e("test", e);
 					}
 				}
 			});
