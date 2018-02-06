@@ -16,19 +16,23 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import cn.smssdk.SMSSDK;
 
 import com.vidmt.acmn.utils.andr.NetUtil;
+import com.vidmt.acmn.utils.andr.SysUtil;
 import com.vidmt.acmn.utils.andr.async.MainThreadHandler;
 import com.vidmt.telephone.Config;
 import com.vidmt.telephone.ExtraConst;
+import com.vidmt.telephone.PrefKeyConst;
 import com.vidmt.telephone.R;
 import com.vidmt.telephone.dlgs.BaseDialog.DialogClickListener;
 import com.vidmt.telephone.dlgs.CountryListDlg;
 import com.vidmt.telephone.dlgs.LoadingDlg;
 import com.vidmt.telephone.dlgs.NetWarnDlg;
 import com.vidmt.telephone.dlgs.PhoneNODlg;
+import com.vidmt.telephone.tasks.LogRegTask;
 import com.vidmt.telephone.ui.adapters.CountryListAdapter;
 import com.vidmt.telephone.utils.AvatarUtil;
 import com.vidmt.telephone.utils.VidUtil;
@@ -126,29 +130,40 @@ public class RegisterActivity extends AbsVidActivity implements OnClickListener 
 					new NetWarnDlg(this).show();
 					return;
 				}
-				PhoneNODlg dlg = new PhoneNODlg(this, account);
-				dlg.setOnClickListener(new DialogClickListener() {
-					@Override
-					public void onOK() {
-						super.onOK();
-						if (TextUtils.isEmpty(mCountryNO)) {
-							mCountryNO = "86";
-						}
-						SMSSDK.getVerificationCode(mCountryNO, account);// 请求获取短信验证码
-						VidUtil.openSmsPermissionDlgIfNeed(RegisterActivity.this);
-						Intent intent = new Intent(RegisterActivity.this, SmsVerifyActivity.class);
-						if (mPhotoParcel != null) {
-							intent.putExtra(ExtraConst.EXTRA_PHOTO_PARCEL, mPhotoParcel);
-						}
-						intent.putExtra(ExtraConst.EXTRA_NICKNAME, nick);
-						intent.putExtra(ExtraConst.EXTRA_PHONE_NO, account);
-						intent.putExtra(ExtraConst.EXTRA_PWD, pwd);
-						intent.putExtra(ExtraConst.EXTRA_COUNTRY_AREA_NO, mCountryNO);
-						RegisterActivity.this.startActivity(intent);
-						RegisterActivity.this.finish();
+				Boolean booleanPref = SysUtil.getBooleanPref(PrefKeyConst.NEED_SMS_VERTIFY, true);
+				if(!booleanPref){
+					Bundle bundle = new Bundle();
+					if (mPhotoParcel != null) {
+						bundle.putParcelable(ExtraConst.EXTRA_PHOTO_PARCEL, mPhotoParcel);
 					}
-				});
-				dlg.show();
+					bundle.putString(ExtraConst.EXTRA_NICKNAME, nick);
+					new LogRegTask(RegisterActivity.this, account, pwd, bundle).execute();
+				}else {
+					PhoneNODlg dlg = new PhoneNODlg(this, account);
+					dlg.setOnClickListener(new DialogClickListener() {
+						@Override
+						public void onOK() {
+							super.onOK();
+							if (TextUtils.isEmpty(mCountryNO)) {
+								mCountryNO = "86";
+							}
+							SMSSDK.getVerificationCode(mCountryNO, account);// 请求获取短信验证码
+							VidUtil.openSmsPermissionDlgIfNeed(RegisterActivity.this);
+							Intent intent = new Intent(RegisterActivity.this, SmsVerifyActivity.class);
+							if (mPhotoParcel != null) {
+								intent.putExtra(ExtraConst.EXTRA_PHOTO_PARCEL, mPhotoParcel);
+							}
+							intent.putExtra(ExtraConst.EXTRA_NICKNAME, nick);
+							intent.putExtra(ExtraConst.EXTRA_PHONE_NO, account);
+							intent.putExtra(ExtraConst.EXTRA_PWD, pwd);
+							intent.putExtra(ExtraConst.EXTRA_COUNTRY_AREA_NO, mCountryNO);
+							RegisterActivity.this.startActivity(intent);
+							RegisterActivity.this.finish();
+						}
+					});
+					dlg.show();
+				}
+
 			}
 			break;
 		case R.id.back:

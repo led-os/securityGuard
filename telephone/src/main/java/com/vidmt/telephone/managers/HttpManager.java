@@ -8,8 +8,10 @@ import java.util.List;
 import android.graphics.Bitmap;
 
 import com.vidmt.acmn.utils.andr.SysUtil;
+import com.vidmt.acmn.utils.andr.async.MainThreadHandler;
 import com.vidmt.acmn.utils.optional.java.DynProxyUtil;
 import com.vidmt.telephone.PrefKeyConst;
+import com.vidmt.telephone.R;
 import com.vidmt.telephone.entities.User;
 import com.vidmt.telephone.exceptions.VHttpException;
 import com.vidmt.telephone.exceptions.VidException;
@@ -21,6 +23,8 @@ import com.vidmt.telephone.vos.LocVo;
 import com.vidmt.telephone.vos.LvlVo;
 import com.vidmt.telephone.vos.TraceVo;
 import com.vidmt.telephone.vos.WxpayInfoVo;
+
+import static com.vidmt.acmn.utils.andr.SysUtil.getString;
 
 public class HttpManager {
 	private static IHttpManager sInstance;
@@ -43,6 +47,7 @@ public class HttpManager {
 						}
 						if (e instanceof VHttpException) {
 							VHttpException httpE = (VHttpException) e;
+
 							if (VHttpException.ERR_CODE_USER_NOT_LOGIN == httpE.getCode()) {// 未登录
 								User curUser = AccManager.get().getCurUser();
 								if (curUser == null) {// 从未登录过

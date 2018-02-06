@@ -85,6 +85,7 @@
     <string name="net_error">网络错误</string>
     <string name="connect_error">连接错误</string>
     <string name="error_unknown">与服务器连接已断开，请检查网络。</string>
+    <string name="unknown_error">未知错误！</string>
     <string name="remote_server_error">远程服务器繁忙，请稍等</string>
     <string name="account_exist">此账号已经注册</string>
     <string name="timeout">连接超时</string>
@@ -94,6 +95,7 @@
     <string name="china">中国</string>
     <string name="avatar">头像</string>
     <string name="please_set_avatar">请设置头像</string>
+    <string name="invalid_params">无效的请求参数</string>
 
     <!-- DropDownToRefreshListView -->
     <string name="pulltorefresh">提示...</string>

@@ -14,6 +14,7 @@ import com.vidmt.acmn.utils.andr.SysUtil;
 import com.vidmt.acmn.utils.andr.VLog;
 import com.vidmt.acmn.utils.andr.async.MainThreadHandler;
 import com.vidmt.telephone.ExtraConst;
+import com.vidmt.telephone.PrefKeyConst;
 import com.vidmt.telephone.R;
 import com.vidmt.telephone.activities.UpdateActivity;
 import com.vidmt.telephone.dlgs.BaseDialog.DialogClickListener;
@@ -39,6 +40,8 @@ public class UpdateTask {
 						}
 						int latestVer = Integer.parseInt(resultMap.get("ver"));
 						int force = Integer.parseInt(resultMap.get("force"));
+						boolean needSmsVertify = Boolean.parseBoolean(resultMap.get("need_sms_verify"));
+						SysUtil.savePref(PrefKeyConst.NEED_SMS_VERTIFY,needSmsVertify);
 						final String updateUrl = resultMap.get("url");
 						VLog.i("test", "最新版本:" + latestVer + ",强制版本:" + force + ",url=" + updateUrl);
 						final int curVer = SysUtil.getPkgInfo().versionCode;

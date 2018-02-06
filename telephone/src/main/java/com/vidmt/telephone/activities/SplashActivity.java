@@ -6,6 +6,7 @@ import android.text.TextUtils;
 
 import com.vidmt.acmn.utils.andr.NetUtil;
 import com.vidmt.acmn.utils.andr.SysUtil;
+import com.vidmt.acmn.utils.andr.async.ThreadPool;
 import com.vidmt.telephone.ExtraConst;
 import com.vidmt.telephone.PrefKeyConst;
 import com.vidmt.telephone.R;
@@ -13,7 +14,9 @@ import com.vidmt.telephone.dlgs.NetWarnDlg;
 import com.vidmt.telephone.dlgs.UnauthAppDlg;
 import com.vidmt.telephone.managers.AdManager;
 import com.vidmt.telephone.managers.ServiceManager;
+import com.vidmt.telephone.tasks.UpdateTask;
 import com.vidmt.telephone.utils.VidUtil;
+import com.vidmt.telephone.utils.VipInfoUtil;
 import com.vidmt.xmpp.inner.XmppManager;
 import com.vidmt.xmpp.listeners.OnConnectionListener.AbsOnConnectionListener;
 
@@ -27,6 +30,13 @@ public class SplashActivity extends AbsVidActivity {
 			new UnauthAppDlg(this).show();
 			return;
 		}
+		ThreadPool.execute(new Runnable() {
+			@Override
+			public void run() {
+				VipInfoUtil.init();
+				UpdateTask.launchUpdateTask(SplashActivity.this, false);
+			}
+		});
 		mIsRestartFromCrash = getIntent().getBooleanExtra(ExtraConst.EXTRA_RESTART_FROM_CRASH, false);
 		if (mIsRestartFromCrash) {// 崩溃后重启
 			moveTaskToBack(false);

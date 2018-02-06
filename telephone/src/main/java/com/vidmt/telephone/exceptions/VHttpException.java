@@ -15,6 +15,7 @@ public class VHttpException extends VidException {
 	public static final String ERR_MSG_USER_NOT_EXISTS = "user not exists";
 	public static final int ERR_CODE_HTTP_SERVER_ERROR = 104;
 	public static final String ERR_MSG_HTTP_SERVER_ERROR = "http server error";
+	public static final int ERR_CODE_PARAMS_ERROR = 201;
 
 	public VHttpException(String msg) {
 		super(ERR_CODE_UNKNOWN, msg);

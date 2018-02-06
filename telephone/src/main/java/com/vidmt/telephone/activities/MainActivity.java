@@ -73,13 +73,7 @@ public class MainActivity extends AbsFragmentActivity implements OnClickListener
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		ThreadPool.execute(new Runnable() {
-			@Override
-			public void run() {
-				VipInfoUtil.init();
-				UpdateTask.launchUpdateTask(MainActivity.this, false);
-			}
-		});
+
 
 		boolean isRestartFromCrash = getIntent().getBooleanExtra(ExtraConst.EXTRA_RESTART_FROM_CRASH, false);
 		if (isRestartFromCrash) {// 崩溃后后台重启

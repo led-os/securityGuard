@@ -19,4 +19,5 @@ public class PrefKeyConst {
 	public static final String PREF_SELF_START = PREFIX + "SELF_START";
 
 	public static final String PREF_KEFU_ACCOUNT = PREFIX + "KEFU_ACCOUNT";
+	public static final String NEED_SMS_VERTIFY = "NEED_SMS_VERTIFY";
 }
