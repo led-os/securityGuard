@@ -1,8 +1,7 @@
 apply plugin: 'com.android.application'
-
 android {
-    compileSdkVersion 21
-    buildToolsVersion '25.0.0'
+    compileSdkVersion 26
+    flavorDimensions "10200"
 
     productFlavors {
         official {
@@ -58,36 +57,14 @@ android {
             manifestPlaceholders = [CHANNEL_NAME: "JIFENG"]
         }
     }
-
-    android.applicationVariants.all { variant ->
-        variant.outputs.each { output ->
-            def file = output.outputFile
-            output.outputFile = new File(file.parent, file.name.replace("childguard-ali-debug.apk", "childguard-debug.apk"))
-        }
+    android {
+        useLibrary 'org.apache.http.legacy'
     }
-
-    packagingOptions {
-        exclude 'META-INF/LICENSE.txt'
-        exclude 'META-INF/NOTICE.txt'
-    }
-
-    lintOptions {
-        checkReleaseBuilds false
-        // Or, if you prefer, you can continue to check for errors in release builds,
-        // but continue the build even when errors are found:
-        abortOnError false
-    }
-
     defaultConfig {
         applicationId "com.vidmt.child"
-        minSdkVersion 11
-        targetSdkVersion 22
-        //targetSdkVersion 14
+        minSdkVersion 14
+        targetSdkVersion 26
         manifestPlaceholders = [CHANNEL_NAME: "OFFICIAL"]
-        compileOptions {
-            sourceCompatibility JavaVersion.VERSION_1_7
-            targetCompatibility JavaVersion.VERSION_1_7
-        }
     }
 
     buildTypes {
@@ -102,20 +79,20 @@ android {
 }
 
 dependencies {
-    compile project(':umeng')
     compile project(':xmpp_lib_new')
-    //豌豆荚
-    compile project(':wdj_sdk')
     compile project(':xUtils')
     compile files('libs/alipaySdk-20151112.jar')
-    //compile files('libs/baidumapapi_v3_5_0.jar')
     compile files('libs/fastjson-1.1.32.jar')
     //微信支付
     compile files('libs/libammsdk.jar')
-    // compile files('libs/locSDK_6.03.jar')
     //个推推送
     compile files('libs/GetuiSDK2.8.1.0.jar')
     compile files('libs/GetuiExt-2.0.3.jar')
-    compile project(':sMSSDK2001')
+    compile project(':sMSSDK')
     compile files('libs/BaiduLBS_Android.jar')
+    compile 'com.android.support:support-v4:26.1.0'
+    //友盟
+    compile 'com.umeng.sdk:common:latest.integration'
+    compile 'com.umeng.sdk:analytics:latest.integration'
+
 }

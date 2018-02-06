@@ -32,7 +32,6 @@ import com.vidmt.child.exceptions.VidException;
 import com.vidmt.child.listeners.AvatarChangedListener;
 import com.vidmt.child.listeners.AvatarChangedListener.OnAvatarChangedListener;
 import com.vidmt.child.managers.AccManager;
-import com.vidmt.child.managers.AdManager;
 import com.vidmt.child.managers.LocationManager;
 import com.vidmt.child.managers.LocationManager.AbsLocationListener;
 import com.vidmt.child.managers.MapManager;
@@ -121,6 +120,7 @@ public class MainActivity extends AbsVidActivity {
 			}
 		}
 	};
+	//自己上线下线监听，刷新位置
 	private AbsOnRosterListener mAbsOnRosterListener = new AbsOnRosterListener() {
 		@Override
 		public void presenceChanged(Presence presence) {
@@ -227,7 +227,6 @@ public class MainActivity extends AbsVidActivity {
 		ThreadPool.execute(new Runnable() {
 			@Override
 			public void run() {
-				AdManager.get().init(MainActivity.this);// 初始化广告
 				UpdateTask.launchUpdateTask(MainActivity.this, false);
 			}
 		});

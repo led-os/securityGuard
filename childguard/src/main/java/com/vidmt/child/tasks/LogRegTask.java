@@ -48,6 +48,12 @@ public class LogRegTask extends AsyncTask<String, Integer, VidException> {
 	private boolean mForRegister;
 	private LoadingDlg mLoadingDlg;
 
+	/**
+	 * @param act 上下文环境
+	 * @param account 号码
+	 * @param pwd 密码
+	 * @param forRegister 登录或者注册
+	 */
 	public LogRegTask(Activity act, String account, String pwd, boolean forRegister) {
 		mActivity = act;
 		mAccount = account;
@@ -93,13 +99,16 @@ public class LogRegTask extends AsyncTask<String, Integer, VidException> {
 			SysUtil.savePref(PrefKeyConst.PREF_ACCOUNT, mAccount);
 			SysUtil.savePref(PrefKeyConst.PREF_PASSWORD, EncryptUtil.encryptLocalPwd(mPwd));
 
+			//服务器获取用户信息
 			CgUserIQ selfInfoIq = accMgr.getUserInfo(null);// 得到自己所有资料
 			CgUserIQ sideInfoIq = accMgr.getUserInfo(VidUtil.getSideName());// 得到对方资料
 			LvlIQ lvlInfoIq = null;
 			if (isBabyClient) {
+				//用户信息更新到本地
 				UserUtil.initBabyInfo(selfInfoIq);
 				UserUtil.initParentInfo(sideInfoIq);
-				lvlInfoIq = accMgr.getLvlInfo(sideInfoIq.code == null ? LvlType.NONE : sideInfoIq.code);// 得到等级信息
+				//可提取部分，无需区分父母端
+				lvlInfoIq = accMgr.getLvlInfo(sideInfoIq.code == null ? LvlType.NONE : sideInfoIq.code);
 			} else {
 				UserUtil.initParentInfo(selfInfoIq);
 				UserUtil.initBabyInfo(sideInfoIq);

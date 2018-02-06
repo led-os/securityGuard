@@ -6,6 +6,7 @@ import android.os.Environment;
 
 import com.baidu.mapapi.SDKInitializer;
 import com.umeng.analytics.MobclickAgent;
+import com.umeng.commonsdk.UMConfigure;
 import com.vidmt.acmn.abs.VLib;
 import com.vidmt.acmn.utils.andr.FLog;
 import com.vidmt.acmn.utils.andr.VLog;
@@ -57,7 +58,8 @@ public class App extends Application implements UncaughtExceptionHandler {
 		File sdcadDir = new File(Environment.getExternalStorageDirectory(), Config.SDCARD_DIR);
 		VLib.init(this, Config.DEBUG, sdcadDir);
 		SDKInitializer.initialize(this);
-		MobclickAgent.setDebugMode(Config.DEBUG);
+		UMConfigure.init(this, UMConfigure.DEVICE_TYPE_PHONE, null);
+//		MobclickAgent.setDebugMode(Config.DEBUG);
 		FileStorage.init();
 		mDefaultExceptionHandler = Thread.getDefaultUncaughtExceptionHandler();
 		Thread.setDefaultUncaughtExceptionHandler(this);

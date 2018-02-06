@@ -65,11 +65,11 @@ public class MainController {
 				MainThreadHandler.makeToast(VLib.app().getString(R.string.baby_enter_efence) + "【" + fenceName + "】");
 				VidUtil.stopSound();// 只要在围栏内就不报警
 				mAlarmingEfenceName = null;
-			} else if (distance > circleOverlay.getRadius() && mInEfenceList.contains(fenceName)) {// 进入后又离开围栏
+			} else if (distance > circleOverlay.getRadius() && mInEfenceList.contains(fenceName)) {// 离开围栏
 				mInEfenceList.remove(fenceName);
 				final String toastStr = App.get().getString(R.string.baby_beyond_efence) + "【" + fenceName + "】";
 				MainThreadHandler.makeToast(toastStr);
-				if (mInEfenceList.size() != 0) {// 还在其他围栏里面
+				if (mInEfenceList.size() != 0) {// 还在其他围栏里面，不报警，return
 					return;
 				}
 				mAlarmingEfenceName = fenceName;

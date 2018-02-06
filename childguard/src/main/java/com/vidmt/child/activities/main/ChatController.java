@@ -169,6 +169,10 @@ public class ChatController {
 		remoteDlg.show();
 	}
 
+	/**
+	 * @param facePager 表情页
+	 * @param contentEt 输入框
+	 */
 	public void initFaceView(ViewPager facePager, final EditText contentEt) {
 		int screenHeight = SysUtil.getDisplayMetrics().heightPixels;
 		LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(LayoutParams.MATCH_PARENT,
@@ -267,8 +271,11 @@ public class ChatController {
 			stopRecord();
 			return null;
 		}
-		mRecorder.setOutputFormat(MediaRecorder.OutputFormat.THREE_GPP);
+
+		mRecorder.setOutputFormat(MediaRecorder.OutputFormat.RAW_AMR);
+//		mRecorder.setOutputFormat(MediaRecorder.OutputFormat.THREE_GPP);
 		mRecorder.setAudioEncoder(MediaRecorder.AudioEncoder.AMR_NB);
+
 		File file = null;
 		try {
 			file = setRecorderOutput();

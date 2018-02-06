@@ -7,13 +7,10 @@ import android.widget.GridView;
 import android.widget.TextView;
 
 import com.vidmt.acmn.utils.andr.async.MainThreadHandler;
-import com.vidmt.child.Config;
 import com.vidmt.child.R;
 import com.vidmt.child.dlgs.LoadingDlg;
 import com.vidmt.child.managers.AccManager;
-import com.vidmt.child.managers.AdManager;
 import com.vidmt.child.ui.adapters.EfenceGridViewAdapter;
-import com.vidmt.child.utils.UserUtil;
 import com.vidmt.child.vos.FenceVo;
 import com.vidmt.xmpp.exts.FenceIQ;
 
@@ -31,10 +28,6 @@ public class EfenceActivity extends AbsVidActivity implements OnClickListener {
 		setContentView(R.layout.activity_efence);
 		initTitle();
 		findViewById(R.id.back).setOnClickListener(this);
-
-		if (!UserUtil.getLvl().noAd && !Config.DEBUG) {
-			AdManager.get().showInterstitialAd(this);
-		}
 
 		mEfenceGv = (GridView) findViewById(R.id.efence_gridview);
 

@@ -30,10 +30,6 @@ public class HttpManager {
 	public void getConf(RequestCallBack<String> callback) {
 		mHttp.send(HttpRequest.HttpMethod.GET, Config.URL_CONF, callback);
 	}
-	
-	public void getResponse(String url, RequestCallBack<String> callback) {
-		mHttp.send(HttpRequest.HttpMethod.GET, url, callback);
-	}
 
 	public void uploadFile(String url, File file, RequestCallBack<String> callback) {
 		RequestParams params = new RequestParams(); // 默认编码UTF-8

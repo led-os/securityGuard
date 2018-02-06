@@ -13,6 +13,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 
+import com.mob.MobSDK;
 import com.vidmt.acmn.utils.andr.VLog;
 import com.vidmt.acmn.utils.andr.async.MainThreadHandler;
 import com.vidmt.child.App;
@@ -79,7 +80,8 @@ public class RegVercodeFragment extends Fragment implements OnClickListener {
 	@Override
 	public void onActivityCreated(Bundle savedInstanceState) {
 		super.onActivityCreated(savedInstanceState);
-		SMSSDK.initSDK(getActivity(), Config.SMS_APPKEY, Config.SMS_APPSECRET);// 初始化SMS—SDK
+		MobSDK.init(getActivity(),Config.SMS_APPKEY, Config.SMS_APPSECRET);
+//		SMSSDK.initSDK(getActivity(), Config.SMS_APPKEY, Config.SMS_APPSECRET);// 初始化SMS—SDK
 		SMSSDK.registerEventHandler(mEventHandler);
 		mTimeCount = new TimeCount(60 * 1000, 1000);// 构造CountDownTimer对象
 		mLoadingDlg = new LoadingDlg(getActivity(), R.string.loading);

@@ -67,15 +67,10 @@ public class LocationManager {
 				listener.onLocationChanged(curLoc);
 			}
 		}
-
-		@Override
-		public void onConnectHotSpotMessage(String s, int i) {
-
-		}
 	};
 
 	private LocationManager() {
-		LocationClientOption option = new LocationClientOption();
+		final LocationClientOption option = new LocationClientOption();
 		option.setOpenGps(true);// 打开gps
 		option.setCoorType("bd09ll");// 返回的定位结果是百度经纬度
 		option.setLocationMode(LocationMode.Hight_Accuracy);// 设置定位模式
@@ -89,9 +84,9 @@ public class LocationManager {
 			@Override
 			public void run() {
 				mLocationClient = new LocationClient(VLib.app().getApplicationContext());// 须在主线程中声明
+				mLocationClient.setLocOption(option);
 			}
 		});
-		mLocationClient.setLocOption(option);
 	}
 
 	public static LocationManager get() {

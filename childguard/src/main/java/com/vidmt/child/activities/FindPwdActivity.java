@@ -14,6 +14,7 @@ import com.lidroid.xutils.ViewUtils;
 import com.lidroid.xutils.view.annotation.ContentView;
 import com.lidroid.xutils.view.annotation.ViewInject;
 import com.lidroid.xutils.view.annotation.event.OnClick;
+import com.mob.MobSDK;
 import com.vidmt.acmn.utils.andr.VLog;
 import com.vidmt.acmn.utils.andr.async.MainThreadHandler;
 import com.vidmt.acmn.utils.andr.async.ThreadPool;
@@ -91,7 +92,7 @@ public class FindPwdActivity extends AbsVidActivity {
 		super.onCreate(savedInstanceState);
 		ViewUtils.inject(this);
 		initTitle();
-		SMSSDK.initSDK(this, Config.SMS_APPKEY, Config.SMS_APPSECRET);// 初始化SMS—SDK
+		MobSDK.init(this, Config.SMS_APPKEY, Config.SMS_APPSECRET);// 初始化SMS—SDK
 		SMSSDK.registerEventHandler(mEventHandler);
 		mTimeCount = new TimeCount(60 * 1000, 1000);// 构造CountDownTimer对象
 	}
